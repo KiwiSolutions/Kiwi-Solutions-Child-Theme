@@ -1,534 +1,778 @@
-/*---------------------------------------------------------------------------------
-
- Theme Name:   Kiwi Solutions Child Theme
- Theme URI:    https://modern-websites.de
- Description:  
- Author:       Kiwi Solutions
- Author URI:   https://modern-websites.de
- Template:     Divi
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
-
------------------------------- ADDITIONAL CSS HERE ------------------------------*/
-
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* *                 AR FORMS SUPPORT                */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-
-.arf_confirmation_summary_inner_wrapper .con_dis_none {
-  display: none;
-}
-
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* *                 AR PRICE SUPPORT                */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-
-.arptemplate_105 .ArpPricingTableColumnWrapper {
-  width: 240px !important;
-}
-
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* *                     GENERAL                     */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-
-/*? ************************************************ */
-/*?                     MAIN MENU                    */
-/*? ************************************************ */
-
-/* Menu Large Desktops */
-@media all and (min-width: 1435px) {
-  #menu_section_large_desktop {
-    display: flex;
-  }
-
-  #menu_section_sd-tablet {
-    display: none;
-  }
-
-  /* make menu translucient if the user scrolls*/
-  #menu_section_large_desktop.menu_scrolled {
-    background-color: rgba(255, 255, 255, 0.8) !important;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-  }
-
-  #menu_section_large_desktop:hover {
-    background-color: rgba(255, 255, 255) !important;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
-  }
-
-  /* make transitons of menu smoother */
-  #menu_section_large_desktop {
-    transition: all 0.3s ease-in-out;
-  }
-
-  /* display menu and button in one row */
-  #menu_section_large_desktop #menu_column_ld_menu {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  /* clear margain bottom of menu */
-  #menu_module {
-    margin-bottom: 0px;
-  }
-
-  #menu_section_large_desktop .et_pb_button,
-  #menu_section_large_desktop #menu_column_ld_social_media {
-    display: none;
-  }
-
-  #menu_section_large_desktop:hover .et_pb_button,
-  #menu_section_large_desktop.menu_scrolled .et_pb_button {
-    display: inline-block;
-  }
-
-  #menu_section_large_desktop.menu_scrolled #menu_column_ld_social_media,
-  #menu_section_large_desktop:hover #menu_column_ld_social_media {
-    display: flex;
-  }
-}
-
-@media all and (max-width: 1434px) {
-  #menu_section_large_desktop {
-    display: none;
-  }
-
-  #menu_section_sd-tablet {
-    display: flex;
-  }
-
-  #menu_section_sd-tablet .et_pb_row {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  #menu_section_sd-tablet .et_pb_menu__menu {
-    display: none;
-  }
-
-  #menu_section_sd-tablet .et_mobile_nav_menu {
-    display: flex;
-  }
-}
-
-/*? ************************************************ */
-/*?                   NEW FONT SETUP                 */
-/*? ************************************************ */
-
-/* lato-100 - latin */
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 100;
-  src: local("Lato Hairline"), local("Lato-Hairline"),
-    url("../fonts/lato-v15-latin-100.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/lato-v15-latin-100.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* lato-300 - latin */
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato Light"), local("Lato-Light"),
-    url("../fonts/lato-v15-latin-300.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/lato-v15-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* lato-regular - latin */
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"),
-    url("../fonts/lato-v15-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/lato-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* lato-700 - latin */
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Lato Bold"), local("Lato-Bold"),
-    url("../fonts/lato-v15-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/lato-v15-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* lato-900 - latin */
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 900;
-  src: local("Lato Black"), local("Lato-Black"),
-    url("../fonts/lato-v15-latin-900.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/lato-v15-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* poppins-200 - latin */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 200;
-  src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"),
-    url("../fonts/poppins-v6-latin-200.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/poppins-v6-latin-200.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-300 - latin */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Poppins Light"), local("Poppins-Light"),
-    url("../fonts/poppins-v6-latin-300.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/poppins-v6-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-regular - latin */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Poppins Regular"), local("Poppins-Regular"),
-    url("../fonts/poppins-v6-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/poppins-v6-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-500 - latin */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  src: local("Poppins Medium"), local("Poppins-Medium"),
-    url("../fonts/poppins-v6-latin-500.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/poppins-v6-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-600 - latin */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
-    url("../fonts/poppins-v6-latin-600.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/poppins-v6-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-700 - latin */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Poppins Bold"), local("Poppins-Bold"),
-    url("../fonts/poppins-v6-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/poppins-v6-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-800 - latin */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 800;
-  src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
-    url("../fonts/poppins-v6-latin-800.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/poppins-v6-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-900 - latin */
-@font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 900;
-  src: local("Poppins Black"), local("Poppins-Black"),
-    url("../fonts/poppins-v6-latin-900.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/poppins-v6-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/*? *********************************************** */
-/*?                 FONT ADJUSMENT                  */
-/*? *********************************************** */
-
-@media all and (min-width: 1405px) {
-  h1 {
-    font-size: 58px !important;
-  }
-
-  .sub_headline {
-    font-size: 45px !important;
-  }
-}
-
-/*? *********************************************** */
-/*?                 BUTTON ALIGNMENT                */
-/*? *********************************************** */
-
-/* =========BUTTON INLINE LEFT========*/
-
-@media all and (min-width: 768px) {
-  #btn_align_left_row .et_pb_column {
-    display: flex;
-  }
-}
-
-/* =========BUTTON INLINE CENTER========*/
-@media all and (min-width: 768px) {
-  #btn_align_center_row .et_pb_column {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-/*==========BUTTON CORRECTION==========
-  @media all and (min-width: 768px and max-width: 980px){
-   #btn_align_left_row .et_pb_column .et_pb_button_module_wrapper {
-     margin-bottom: 0px !important;
-     margin-right: 20px !important;
-  }
-  }*/
-
-/* =========BUTTON INLINE RIGHT========*/
-#btn_fix_right
-  #design_logo_standard_btn_active
-  #design_logo_standard_btn_inactive
-  #design_logo_pro_btn_active
-  #design_logo_pro_btn_inactive
-  .et_pb_column
-  .et_pb_button_module_wrapper {
-  float: left;
-}
-#btn_fix_right .et_pb_column {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.hosting_button_active .et_pb_column {
-  border-bottom: 4px solid #2372f5 !important;
-}
-
-/*? *********************************************** */
-/*?                     IMG INLINE                  */
-/*? *********************************************** */
-
-/* =========IMG INLINE========*/
-.img_inline {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-/* =========IMG INLINE CENTER========*/
-.img_inline_center_row .et_pb_column {
-  display: flex;
-  justify-content: center;
-}
-.img_inline_center {
-  display: inline-block;
-  margin-right: 40px;
-}
-
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* *                      HOME                       */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-
-/*? *********************************************** */
-/*?        CUSTOMER REVIEW SLLDER PREFERENCES       */
-/*? *********************************************** */
-
-/*remove text shadow*/
-.page-id-28567 .et_pb_bg_layout_dark .et_pb_slide_description {
-  text-shadow: none;
-}
-
-/*style fonts for customer name and job*/
-.page-id-28567 .home_customer-review_slider_name {
-  font-weight: 500;
-  font-size: 24px;
-}
-
-.page-id-28567 .home_customer-review_slider_job {
-  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-  color: #6b6b6b;
-}
-
-/* font size correction to 16px*/
-.page-id-28567 .et_pb_slide_content,
-.et_pb_best_value {
-  font-size: 16px;
-}
-
-/*? *********************************************** */
-/*?    SECTION SERVICE SHOW HIDE @MEDIA 1365px      */
-/*? *********************************************** */
-
-/*TODO Replace .et_pb_row.et_pb_row_10 with id/class
-  /*Show Row for mobile view*/
-@media all and (max-width: 1365px) {
-  .page-id-28567 #home_weitere-leistungen_tablet-mobile {
-    display: block;
-  }
-  .page-id-28567 #home_weitere-leistungen_desktop {
-    display: none;
-  }
-}
-
-/*Show Row for Desktop view*/
-@media all and (min-width: 1366px) {
-  .page-id-28567 #home_weitere-leistungen_tablet-mobile {
-    display: none;
-  }
-  .page-id-28567 #home_weitere-leistungen_desktop {
-    display: block;
-  }
-}
-
-/*? *********************************************** */
-/*?     SEO TEXT RESPONSIVE VIEWS CORRECTION        */
-/*? *********************************************** */
-
-@media all and (min-width: 1366px) {
-  /*=================== SEO Text 1 ===================*/
-  .page-id-28567 .home_seo-text1_row-text-button {
-    overflow: hidden;
-    left: -20%;
-    right: auto;
-    width: 40%;
-    background-color: transparent;
-    padding: 0px !important;
-  }
-  /*==================================================*/
-
-  /*=================== SEO Text 2 ===================*/
-  .page-id-28567 .home_seo-text2_row-text-button {
-    overflow: hidden;
-    left: auto;
-    right: -20%;
-    width: 40%;
-    background-color: transparent;
-    padding: 0px !important;
-  }
-  /*==================================================*/
-}
-
-@media all and (min-width: 1800px) {
-  /*=================== SEO Text 1 ===================*/
-  .page-id-28567 .home_seo-text1_row-text-button {
-    overflow: hidden;
-    left: -15%;
-    right: auto;
-    width: 35%;
-    background-color: transparent;
-    padding: 5% !important;
-  }
-  /*==================================================*/
-
-  /*=================== SEO Text 2 ===================*/
-  .page-id-28567 .home_seo-text2_row-text-button {
-    overflow: hidden;
-    left: auto;
-    right: -15%;
-    width: 35%;
-    background-color: transparent;
-    padding: 5% !important;
-  }
-  /*==================================================*/
-}
-
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* *                   HOSTING                       */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-
-/*? *********************************************** */
-/*?         INTEGRATION OF PLUGIN WHOIS             */
-/*? *********************************************** */
-
-/*========HOSTING=========*/
-#whois #domain {
-  display: inline-block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 40%;
-  height: 40px;
-  cursor: pointer;
-  padding: 10px 20px;
-  border: 1px solid #b7b7b7;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  font: normal 16px / normal "lato", Helvetica, sans-serif;
-  color: #4f4f4f;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: rgba(255, 255, 255, 1);
-}
-
-#whois #tld {
-  display: inline-block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  /* width: 40%; */
-  height: 40px;
-  cursor: pointer;
-  padding: 10px 20px;
-  border: 1px solid #b7b7b7;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  font: normal 16px / normal "lato", Helvetica, sans-serif;
-  color: #4f4f4f;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: rgba(255, 255, 255, 1);
-}
-
-#whois #whoissubmit {
-  display: inline-block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 40px;
-  cursor: pointer;
-  padding: 10px 40px;
-  border: none;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  font: normal 16px / normal "lato", Helvetica, sans-serif;
-  color: rgba(255, 255, 255, 1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: #2372f5;
-}
+/*---------------------------------------------------------------------------------
+
+
+
+ Theme Name:   Kiwi Solutions Child Theme
+
+ Theme URI:    https://modern-websites.de
+
+ Description:  
+
+ Author:       Kiwi Solutions
+
+ Author URI:   https://modern-websites.de
+
+ Template:     Divi
+
+ Version:      1.0.0
+
+ License:      GNU General Public License v2 or later
+
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+------------------------------ ADDITIONAL CSS HERE ------------------------------*/
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* *                 AR FORMS SUPPORT                */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+.arf_confirmation_summary_inner_wrapper .con_dis_none {
+  display: none;
+}
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* *                 AR PRICE SUPPORT                */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+.arptemplate_105 .ArpPricingTableColumnWrapper {
+  width: 240px !important;
+}
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* *                     GENERAL                     */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/*? ************************************************ */
+
+/*?                     MAIN MENU                    */
+
+/*? ************************************************ */
+
+/* Menu Large Desktops */
+
+@media all and (min-width: 1435px) {
+  #menu_section_large_desktop {
+    display: flex;
+  }
+
+  #menu_section_sd-tablet {
+    display: none;
+  }
+
+  /* make menu translucient if the user scrolls*/
+
+  #menu_section_large_desktop.menu_scrolled {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  }
+
+  #menu_section_large_desktop:hover {
+    background-color: rgba(255, 255, 255) !important;
+
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  }
+
+  /* make transitons of menu smoother */
+
+  #menu_section_large_desktop {
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* display menu and button in one row */
+
+  #menu_section_large_desktop #menu_column_ld_menu {
+    display: flex;
+
+    flex-flow: row nowrap;
+
+    justify-content: flex-start;
+
+    align-items: center;
+  }
+
+  /* clear margain bottom of menu */
+
+  #menu_module {
+    margin-bottom: 0px;
+  }
+
+  #menu_section_large_desktop .et_pb_button,
+  #menu_section_large_desktop #menu_column_ld_social_media {
+    display: none;
+  }
+
+  #menu_section_large_desktop:hover .et_pb_button,
+  #menu_section_large_desktop.menu_scrolled .et_pb_button {
+    display: inline-block;
+  }
+
+  #menu_section_large_desktop.menu_scrolled #menu_column_ld_social_media,
+  #menu_section_large_desktop:hover #menu_column_ld_social_media {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 1434px) {
+  #menu_section_large_desktop {
+    display: none;
+  }
+
+  #menu_section_sd-tablet {
+    display: flex;
+  }
+
+  #menu_section_sd-tablet .et_pb_row {
+    display: flex;
+
+    flex-wrap: nowrap;
+  }
+
+  #menu_section_sd-tablet .et_pb_menu__menu {
+    display: none;
+  }
+
+  #menu_section_sd-tablet .et_mobile_nav_menu {
+    display: flex;
+  }
+}
+
+/*? ************************************************ */
+
+/*?                   NEW FONT SETUP                 */
+
+/*? ************************************************ */
+
+/* lato-100 - latin */
+
+@font-face {
+  font-family: "Lato";
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  src: local("Lato Hairline"), local("Lato-Hairline"),
+    url("../fonts/lato-v15-latin-100.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/lato-v15-latin-100.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-300 - latin */
+
+@font-face {
+  font-family: "Lato";
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  src: local("Lato Light"), local("Lato-Light"),
+    url("../fonts/lato-v15-latin-300.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/lato-v15-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-regular - latin */
+
+@font-face {
+  font-family: "Lato";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url("../fonts/lato-v15-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/lato-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-700 - latin */
+
+@font-face {
+  font-family: "Lato";
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  src: local("Lato Bold"), local("Lato-Bold"),
+    url("../fonts/lato-v15-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/lato-v15-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lato-900 - latin */
+
+@font-face {
+  font-family: "Lato";
+
+  font-style: normal;
+
+  font-weight: 900;
+
+  src: local("Lato Black"), local("Lato-Black"),
+    url("../fonts/lato-v15-latin-900.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/lato-v15-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-200 - latin */
+
+@font-face {
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 200;
+
+  src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"),
+    url("../fonts/poppins-v6-latin-200.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v6-latin-200.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-300 - latin */
+
+@font-face {
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  src: local("Poppins Light"), local("Poppins-Light"),
+    url("../fonts/poppins-v6-latin-300.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v6-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-regular - latin */
+
+@font-face {
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("../fonts/poppins-v6-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v6-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-500 - latin */
+
+@font-face {
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("../fonts/poppins-v6-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v6-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-600 - latin */
+
+@font-face {
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 600;
+
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url("../fonts/poppins-v6-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v6-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-700 - latin */
+
+@font-face {
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url("../fonts/poppins-v6-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v6-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-800 - latin */
+
+@font-face {
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 800;
+
+  src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
+    url("../fonts/poppins-v6-latin-800.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v6-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* poppins-900 - latin */
+
+@font-face {
+  font-family: "Poppins";
+
+  font-style: normal;
+
+  font-weight: 900;
+
+  src: local("Poppins Black"), local("Poppins-Black"),
+    url("../fonts/poppins-v6-latin-900.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v6-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*? *********************************************** */
+
+/*?                 FONT ADJUSMENT                  */
+
+/*? *********************************************** */
+
+@media all and (min-width: 1405px) {
+  h1 {
+    font-size: 58px !important;
+  }
+
+  .sub_headline {
+    font-size: 45px !important;
+  }
+}
+
+/*? *********************************************** */
+
+/*?                 BUTTON ALIGNMENT                */
+
+/*? *********************************************** */
+
+/* =========BUTTON INLINE LEFT========*/
+
+@media all and (min-width: 768px) {
+  #btn_align_left_row .et_pb_column {
+    display: flex;
+  }
+}
+
+/* =========BUTTON INLINE CENTER========*/
+
+@media all and (min-width: 768px) {
+  #btn_align_center_row .et_pb_column {
+    display: flex;
+
+    justify-content: center;
+  }
+}
+
+/*==========BUTTON CORRECTION==========
+
+  @media all and (min-width: 768px and max-width: 980px){
+
+   #btn_align_left_row .et_pb_column .et_pb_button_module_wrapper {
+
+     margin-bottom: 0px !important;
+
+     margin-right: 20px !important;
+
+  }
+
+  }*/
+
+/* =========BUTTON INLINE RIGHT========*/
+
+#btn_fix_right
+  #design_logo_standard_btn_active
+  #design_logo_standard_btn_inactive
+  #design_logo_pro_btn_active
+  #design_logo_pro_btn_inactive
+  .et_pb_column
+  .et_pb_button_module_wrapper {
+  float: left;
+}
+
+#btn_fix_right .et_pb_column {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.hosting_button_active .et_pb_column {
+  border-bottom: 4px solid #2372f5 !important;
+}
+
+/*? *********************************************** */
+
+/*?                     IMG INLINE                  */
+
+/*? *********************************************** */
+
+/* =========IMG INLINE========*/
+
+.img_inline {
+  display: inline-block;
+
+  margin-right: 10px;
+}
+
+/* =========IMG INLINE CENTER========*/
+
+.img_inline_center_row .et_pb_column {
+  display: flex;
+
+  justify-content: center;
+}
+
+.img_inline_center {
+  display: inline-block;
+
+  margin-right: 40px;
+}
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* *                      HOME                       */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/*? *********************************************** */
+
+/*?        CUSTOMER REVIEW SLLDER PREFERENCES       */
+
+/*? *********************************************** */
+
+/*remove text shadow*/
+
+.page-id-28567 .et_pb_bg_layout_dark .et_pb_slide_description {
+  text-shadow: none;
+}
+
+/*style fonts for customer name and job*/
+
+.page-id-28567 .home_customer-review_slider_name {
+  font-weight: 500;
+
+  font-size: 24px;
+}
+
+.page-id-28567 .home_customer-review_slider_job {
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
+
+  color: #6b6b6b;
+}
+
+/* font size correction to 16px*/
+
+.page-id-28567 .et_pb_slide_content,
+.et_pb_best_value {
+  font-size: 16px;
+}
+
+/*? *********************************************** */
+
+/*?    SECTION SERVICE SHOW HIDE @MEDIA 1365px      */
+
+/*? *********************************************** */
+
+/*TODO Replace .et_pb_row.et_pb_row_10 with id/class
+
+  /*Show Row for mobile view*/
+
+@media all and (max-width: 1365px) {
+  .page-id-28567 #home_weitere-leistungen_tablet-mobile {
+    display: block;
+  }
+
+  .page-id-28567 #home_weitere-leistungen_desktop {
+    display: none;
+  }
+}
+
+/*Show Row for Desktop view*/
+
+@media all and (min-width: 1366px) {
+  .page-id-28567 #home_weitere-leistungen_tablet-mobile {
+    display: none;
+  }
+
+  .page-id-28567 #home_weitere-leistungen_desktop {
+    display: block;
+  }
+}
+
+/*? *********************************************** */
+
+/*?     SEO TEXT RESPONSIVE VIEWS CORRECTION        */
+
+/*? *********************************************** */
+
+@media all and (min-width: 1366px) {
+  /*=================== SEO Text 1 ===================*/
+
+  .page-id-28567 .home_seo-text1_row-text-button {
+    overflow: hidden;
+
+    left: -20%;
+
+    right: auto;
+
+    width: 40%;
+
+    background-color: transparent;
+
+    padding: 0px !important;
+  }
+
+  /*==================================================*/
+
+  /*=================== SEO Text 2 ===================*/
+
+  .page-id-28567 .home_seo-text2_row-text-button {
+    overflow: hidden;
+
+    left: auto;
+
+    right: -20%;
+
+    width: 40%;
+
+    background-color: transparent;
+
+    padding: 0px !important;
+  }
+
+  /*==================================================*/
+}
+
+@media all and (min-width: 1800px) {
+  /*=================== SEO Text 1 ===================*/
+
+  .page-id-28567 .home_seo-text1_row-text-button {
+    overflow: hidden;
+
+    left: -15%;
+
+    right: auto;
+
+    width: 35%;
+
+    background-color: transparent;
+
+    padding: 5% !important;
+  }
+
+  /*==================================================*/
+
+  /*=================== SEO Text 2 ===================*/
+
+  .page-id-28567 .home_seo-text2_row-text-button {
+    overflow: hidden;
+
+    left: auto;
+
+    right: -15%;
+
+    width: 35%;
+
+    background-color: transparent;
+
+    padding: 5% !important;
+  }
+
+  /*==================================================*/
+}
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* *                   HOSTING                       */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/* ************************************************* */
+
+/*? *********************************************** */
+
+/*?         INTEGRATION OF PLUGIN WHOIS             */
+
+/*? *********************************************** */
+
+/*========HOSTING=========*/
+
+#whois #domain {
+  display: inline-block;
+
+  -webkit-box-sizing: content-box;
+
+  -moz-box-sizing: content-box;
+
+  box-sizing: content-box;
+
+  width: 40%;
+
+  height: 40px;
+
+  cursor: pointer;
+
+  padding: 10px 20px;
+
+  border: 1px solid #b7b7b7;
+
+  -webkit-border-radius: 3px;
+
+  border-radius: 3px;
+
+  font: normal 16px / normal "lato", Helvetica, sans-serif;
+
+  color: #4f4f4f;
+
+  -o-text-overflow: clip;
+
+  text-overflow: clip;
+
+  background: rgba(255, 255, 255, 1);
+}
+
+#whois #tld {
+  display: inline-block;
+
+  -webkit-box-sizing: content-box;
+
+  -moz-box-sizing: content-box;
+
+  box-sizing: content-box;
+
+  /* width: 40%; */
+
+  height: 40px;
+
+  cursor: pointer;
+
+  padding: 10px 20px;
+
+  border: 1px solid #b7b7b7;
+
+  -webkit-border-radius: 3px;
+
+  border-radius: 3px;
+
+  font: normal 16px / normal "lato", Helvetica, sans-serif;
+
+  color: #4f4f4f;
+
+  -o-text-overflow: clip;
+
+  text-overflow: clip;
+
+  background: rgba(255, 255, 255, 1);
+}
+
+#whois #whoissubmit {
+  display: inline-block;
+
+  -webkit-box-sizing: content-box;
+
+  -moz-box-sizing: content-box;
+
+  box-sizing: content-box;
+
+  height: 40px;
+
+  cursor: pointer;
+
+  padding: 10px 40px;
+
+  border: none;
+
+  -webkit-border-radius: 3px;
+
+  border-radius: 3px;
+
+  font: normal 16px / normal "lato", Helvetica, sans-serif;
+
+  color: rgba(255, 255, 255, 1);
+
+  -o-text-overflow: clip;
+
+  text-overflow: clip;
+
+  background: #2372f5;
+}
