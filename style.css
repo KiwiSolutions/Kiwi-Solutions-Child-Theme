@@ -70,11 +70,8 @@
 
 @font-face {
   font-family: "Lato";
-
   font-style: normal;
-
   font-weight: 100;
-
   src: local("Lato Hairline"), local("Lato-Hairline"),
     url("../fonts/lato-v15-latin-100.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -85,11 +82,8 @@
 
 @font-face {
   font-family: "Lato";
-
   font-style: normal;
-  
   font-weight: 300;
-
   src: local("Lato Light"), local("Lato-Light"),
     url("../fonts/lato-v15-latin-300.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -102,7 +96,6 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-
   src: local("Lato Regular"), local("Lato-Regular"),
     url("../fonts/lato-v15-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -115,7 +108,6 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-
   src: local("Lato Bold"), local("Lato-Bold"),
     url("../fonts/lato-v15-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -128,7 +120,6 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 900;
-
   src: local("Lato Black"), local("Lato-Black"),
     url("../fonts/lato-v15-latin-900.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -141,7 +132,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 200;
-
   src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"),
     url("../fonts/poppins-v6-latin-200.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -154,7 +144,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-
   src: local("Poppins Light"), local("Poppins-Light"),
     url("../fonts/poppins-v6-latin-300.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -167,7 +156,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-
   src: local("Poppins Regular"), local("Poppins-Regular"),
     url("../fonts/poppins-v6-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -180,7 +168,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-
   src: local("Poppins Medium"), local("Poppins-Medium"),
     url("../fonts/poppins-v6-latin-500.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -193,7 +180,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-
   src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
     url("../fonts/poppins-v6-latin-600.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -206,7 +192,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-
   src: local("Poppins Bold"), local("Poppins-Bold"),
     url("../fonts/poppins-v6-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -219,7 +204,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
-
   src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
     url("../fonts/poppins-v6-latin-800.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -232,7 +216,6 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 900;
-
   src: local("Poppins Black"), local("Poppins-Black"),
     url("../fonts/poppins-v6-latin-900.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
