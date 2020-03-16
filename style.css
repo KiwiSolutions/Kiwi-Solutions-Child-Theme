@@ -228,9 +228,7 @@
 
 @font-face {
   font-family: "Poppins";
-
   font-style: normal;
-
   font-weight: 200;
 
   src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"),
@@ -243,9 +241,7 @@
 
 @font-face {
   font-family: "Poppins";
-
   font-style: normal;
-
   font-weight: 300;
 
   src: local("Poppins Light"), local("Poppins-Light"),
@@ -258,9 +254,7 @@
 
 @font-face {
   font-family: "Poppins";
-
   font-style: normal;
-
   font-weight: 400;
 
   src: local("Poppins Regular"), local("Poppins-Regular"),
@@ -273,9 +267,7 @@
 
 @font-face {
   font-family: "Poppins";
-
   font-style: normal;
-
   font-weight: 500;
 
   src: local("Poppins Medium"), local("Poppins-Medium"),
@@ -288,9 +280,7 @@
 
 @font-face {
   font-family: "Poppins";
-
   font-style: normal;
-
   font-weight: 600;
 
   src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
@@ -303,9 +293,7 @@
 
 @font-face {
   font-family: "Poppins";
-
   font-style: normal;
-
   font-weight: 700;
 
   src: local("Poppins Bold"), local("Poppins-Bold"),
@@ -318,9 +306,7 @@
 
 @font-face {
   font-family: "Poppins";
-
   font-style: normal;
-
   font-weight: 800;
 
   src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
@@ -333,9 +319,7 @@
 
 @font-face {
   font-family: "Poppins";
-
   font-style: normal;
-
   font-weight: 900;
 
   src: local("Poppins Black"), local("Poppins-Black"),
