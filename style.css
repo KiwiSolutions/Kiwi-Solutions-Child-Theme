@@ -325,11 +325,29 @@
 
 }
 
-@media all and (max-width: 1434px) {
+@media all and (max-width: 767px) {
   /* remove the contact button after display size 768px */
   #menu_section_sd-tablet .et_pb_button {
     display: none;
   }
+}
+
+@media all and (max-width: 980px) {
+  /* Display the "fake" button */
+  .et_mobile_nav_menu:before {
+    display: flex;
+    content:'JETZT BERATEN LASSEN';
+    font-size: 14px;
+    position: absolute !important;
+    right: 35px;
+    color: #ffffff;
+    background: #17381b;
+    padding-top: 10px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    max-height: 40px;
+    min-width: 198px;
+}
 }
 
 /*? *********************************************** */
