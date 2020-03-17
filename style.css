@@ -259,7 +259,7 @@
 
   /* display menu and button in one row */
 
-  #menu_section_large_desktop #menu_column_ld_menu {
+  #menu_column_ld_menu {
     display: flex;
 
     flex-flow: row nowrap;
@@ -275,8 +275,12 @@
     margin-bottom: 0px;
   }
 
+  #menu_column_ld_social_media {
+    justify-content: flex-end;
+  }
+
   #menu_section_large_desktop .et_pb_button,
-  #menu_section_large_desktop #menu_column_ld_social_media {
+  #menu_column_ld_social_media {
     display: none;
   }
 
