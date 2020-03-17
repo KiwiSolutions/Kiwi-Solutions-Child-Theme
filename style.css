@@ -348,6 +348,10 @@
     max-height: 40px;
     min-width: 198px;
 }
+
+#menu_column_sd-tablet_social_media{
+  margin-right: 25.5vw!important;
+}
 }
 
 /*? *********************************************** */
