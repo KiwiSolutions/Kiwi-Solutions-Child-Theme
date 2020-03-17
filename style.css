@@ -345,10 +345,10 @@
     padding-top: 10px;
     padding: 10px 20px;
     border-radius: 3px;
-    max-height: 40px;
     min-width: 198px;
 }
 
+/* display Social media icons in the center of the screen */
 #menu_column_sd-tablet_social_media{
   margin-right: 25.5vw!important;
 }
