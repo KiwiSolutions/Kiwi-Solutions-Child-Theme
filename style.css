@@ -277,6 +277,7 @@
   /* align social media icons */
   #menu_column_ld_social_media {
     justify-content: flex-end;
+    margin-top: 20px;
   }
 
   #menu_section_large_desktop .et_pb_button,
@@ -355,6 +356,7 @@
   .et_mobile_nav_menu:before {
     display: none;
   }
+  /* remove margin */
   #menu_column_sd-tablet_social_media {
     margin-right: 0px !important;
   }
