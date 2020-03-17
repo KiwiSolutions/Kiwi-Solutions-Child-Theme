@@ -355,6 +355,9 @@
   .et_mobile_nav_menu:before {
     display: none;
   }
+  #menu_column_sd-tablet_social_media {
+    margin-right: 0px !important;
+  }
 }
 
 /*? *********************************************** */
