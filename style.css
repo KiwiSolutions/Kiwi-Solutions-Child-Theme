@@ -270,11 +270,11 @@
   }
 
   /* clear margain bottom of menu */
-
   #menu_module {
     margin-bottom: 0px;
   }
 
+  /* align social media icons */
   #menu_column_ld_social_media {
     justify-content: flex-end;
   }
@@ -317,6 +317,12 @@
   #menu_section_sd-tablet .et_mobile_nav_menu {
     display: flex;
   }
+
+  #menu_column_sd-tablet {
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
 
 
