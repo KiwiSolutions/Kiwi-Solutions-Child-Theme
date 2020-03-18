@@ -325,34 +325,6 @@
   }
 }
 
-@media all and (max-width: 980px) {
-  /* remove the contact button after display size 980px */
-  #menu_section_sd-tablet .et_pb_button {
-    display: none;
-  }
-
-  /* Display the "fake" button */
-  .et_mobile_nav_menu:before {
-    content: "JETZT BERATEN LASSEN";
-    font-size: 14px;
-    position: absolute !important;
-    right: 35px;
-    color: #ffffff;
-    background: #17381b;
-    padding-top: 10px;
-    padding: 10px 20px;
-    border-radius: 3px;
-    min-width: 198px;
-    line-height: 1.7em;
-  }
-
-  /* display Social media icons in the center of the screen */
-  #menu_column_sd-tablet_social_media {
-    margin-right: 25.5vw !important;
-  }
-
-}
-
 @media all and (max-width: 767px) {
   .et_mobile_nav_menu:before {
     display: none;
