@@ -228,7 +228,7 @@
 
 /* Menu Large Desktops */
 
-@media all and (min-width: 1435px) {
+@media all and (min-width: 1501px) {
   #menu_section_large_desktop {
     display: flex;
   }
@@ -296,7 +296,7 @@
   }
 }
 
-@media all and (max-width: 1434px) {
+@media all and (max-width: 1500px) {
   #menu_section_large_desktop {
     display: none;
   }
@@ -313,16 +313,6 @@
     display: flex;
   }
 
-}
-
-@media all and (max-width: 767px) {
-  .et_mobile_nav_menu:before {
-    display: none;
-  }
-  /* remove margin */
-  #menu_column_sd-tablet_social_media {
-    margin-right: 0px !important;
-  }
 }
 
 /*? *********************************************** */
