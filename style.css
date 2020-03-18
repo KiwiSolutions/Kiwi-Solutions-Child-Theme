@@ -312,6 +312,9 @@
     display: flex;
   }
 
+  #menu_column_sd-tablet_menu {
+    display: flex;
+  }
 }
 
 /*? *********************************************** */
