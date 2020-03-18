@@ -305,12 +305,6 @@
     display: flex;
   }
 
-  #menu_section_sd-tablet .et_pb_row {
-    display: flex;
-
-    flex-wrap: nowrap;
-  }
-
   #menu_section_sd-tablet .et_pb_menu__menu {
     display: none;
   }
@@ -319,10 +313,6 @@
     display: flex;
   }
 
-  #menu_column_sd-tablet {
-    display: flex;
-    justify-content: space-between;
-  }
 }
 
 @media all and (max-width: 767px) {
