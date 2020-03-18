@@ -227,7 +227,6 @@
 /*? ************************************************ */
 
 /* Menu Large Desktops */
-
 @media all and (min-width: 1501px) {
   #menu_section_large_desktop {
     display: flex;
