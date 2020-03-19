@@ -314,6 +314,11 @@
 
   #menu_column_sd-tablet_menu {
     display: flex;
+    justify-content: flex-end;
+  }
+
+  #menu_column_sd-tablet_menu {
+    min-width: 256px;
   }
 }
 
