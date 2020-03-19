@@ -227,7 +227,7 @@
 /*? ************************************************ */
 
 /* Menu Large Desktops */
-@media all and (min-width: 1501px) {
+@media all and (min-width: 1521px) {
   #menu_section_large_desktop {
     display: flex;
   }
@@ -295,7 +295,7 @@
   }
 }
 
-@media all and (max-width: 1500px) {
+@media all and (max-width: 1520px) {
   #menu_section_large_desktop {
     display: none;
   }
