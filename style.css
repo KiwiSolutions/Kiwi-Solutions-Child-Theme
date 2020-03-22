@@ -24,8 +24,6 @@
 
 ------------------------------ ADDITIONAL CSS HERE ------------------------------*/
 
-
-
 /* ************************************************* */
 
 /* ************************************************* */
@@ -44,15 +42,9 @@
 
 /* ************************************************* */
 
-
-
 .arf_confirmation_summary_inner_wrapper .con_dis_none {
-
   display: none;
-
 }
-
-
 
 /* ************************************************* */
 
@@ -72,15 +64,9 @@
 
 /* ************************************************* */
 
-
-
 .arptemplate_105 .ArpPricingTableColumnWrapper {
-
   width: 240px !important;
-
 }
-
-
 
 /* ************************************************* */
 
@@ -156,120 +142,148 @@
 }
 /* poppins-100 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 100;
-  src: url('../fonts/poppins-v9-latin-100.eot'); /* IE9 Compat Modes */
-  src: local('Poppins Thin'), local('Poppins-Thin'),
-       url('../fonts/poppins-v9-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-100.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-100.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-100.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Thin"), local("Poppins-Thin"),
+    url("../fonts/poppins-v9-latin-100.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-100.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-100.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-100.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v9-latin-100.svg#Poppins")
+      format("svg"); /* Legacy iOS */
 }
 /* poppins-200 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 200;
-  src: url('../fonts/poppins-v9-latin-200.eot'); /* IE9 Compat Modes */
-  src: local('Poppins ExtraLight'), local('Poppins-ExtraLight'),
-       url('../fonts/poppins-v9-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-200.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-200.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-200.eot"); /* IE9 Compat Modes */
+  src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"),
+    url("../fonts/poppins-v9-latin-200.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-200.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-200.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-200.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v9-latin-200.svg#Poppins")
+      format("svg"); /* Legacy iOS */
 }
 /* poppins-300 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  src: url('../fonts/poppins-v9-latin-300.eot'); /* IE9 Compat Modes */
-  src: local('Poppins Light'), local('Poppins-Light'),
-       url('../fonts/poppins-v9-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-300.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Light"), local("Poppins-Light"),
+    url("../fonts/poppins-v9-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v9-latin-300.svg#Poppins")
+      format("svg"); /* Legacy iOS */
 }
 /* poppins-regular - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/poppins-v9-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Poppins Regular'), local('Poppins-Regular'),
-       url('../fonts/poppins-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("../fonts/poppins-v9-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/poppins-v9-latin-regular.svg#Poppins") format("svg"); /* Legacy iOS */
 }
 /* poppins-500 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/poppins-v9-latin-500.eot'); /* IE9 Compat Modes */
-  src: local('Poppins Medium'), local('Poppins-Medium'),
-       url('../fonts/poppins-v9-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-500.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-500.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("../fonts/poppins-v9-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v9-latin-500.svg#Poppins")
+      format("svg"); /* Legacy iOS */
 }
 /* poppins-600 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/poppins-v9-latin-600.eot'); /* IE9 Compat Modes */
-  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
-       url('../fonts/poppins-v9-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-600.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-600.eot"); /* IE9 Compat Modes */
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url("../fonts/poppins-v9-latin-600.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v9-latin-600.svg#Poppins")
+      format("svg"); /* Legacy iOS */
 }
 /* poppins-700 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/poppins-v9-latin-700.eot'); /* IE9 Compat Modes */
-  src: local('Poppins Bold'), local('Poppins-Bold'),
-       url('../fonts/poppins-v9-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-700.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url("../fonts/poppins-v9-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v9-latin-700.svg#Poppins")
+      format("svg"); /* Legacy iOS */
 }
 /* poppins-800 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
-  src: url('../fonts/poppins-v9-latin-800.eot'); /* IE9 Compat Modes */
-  src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'),
-       url('../fonts/poppins-v9-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-800.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-800.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-800.eot"); /* IE9 Compat Modes */
+  src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"),
+    url("../fonts/poppins-v9-latin-800.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v9-latin-800.svg#Poppins")
+      format("svg"); /* Legacy iOS */
 }
 /* poppins-900 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 900;
-  src: url('../fonts/poppins-v9-latin-900.eot'); /* IE9 Compat Modes */
-  src: local('Poppins Black'), local('Poppins-Black'),
-       url('../fonts/poppins-v9-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v9-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v9-latin-900.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v9-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v9-latin-900.svg#Poppins') format('svg'); /* Legacy iOS */
+  src: url("../fonts/poppins-v9-latin-900.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Black"), local("Poppins-Black"),
+    url("../fonts/poppins-v9-latin-900.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v9-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v9-latin-900.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins-v9-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/poppins-v9-latin-900.svg#Poppins")
+      format("svg"); /* Legacy iOS */
 }
 
 /*? ************************************************ */
@@ -278,43 +292,27 @@
 
 /*? ************************************************ */
 
-
- /* make menu translucient if the user scrolls*/
-
- #menu_section_large_desktop.menu_scrolled {
-
+/* make menu translucient if the user scrolls*/
+#menu_section_large_desktop.menu_scrolled {
   background-color: rgba(255, 255, 255, 0.8) !important;
 
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-
 }
 
-
-
+/* make menu solid if the user hovers */
 #menu_section_large_desktop:hover {
-
   background-color: rgba(255, 255, 255) !important;
 
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
-
 }
-
-
 
 /* make transitons of menu smoother */
-
 #menu_section_large_desktop {
-
   transition: all 0.3s ease-in-out;
-
 }
 
-
-
 /* display menu and button in one row */
-
 #menu_section_large_desktop #menu_column_ld_menu {
-
   display: flex;
 
   flex-flow: row nowrap;
@@ -322,49 +320,30 @@
   justify-content: flex-start;
 
   align-items: center;
-
 }
-
-
 
 /* clear margain bottom of menu */
-
 #menu_module {
-
   margin-bottom: 0px;
-
 }
 
-
-
+/* make contact button and social media dissappear on the large Desktop if the menu is at the top of the page and no one hovers above it */
 #menu_section_large_desktop .menu_contact_button,
-
 #menu_section_large_desktop #menu_column_ld_social_media {
-
   display: none;
-
 }
 
-
-
+/* make the contact button appear on large desktops if the page is scrolled or the hover-funktion is aktivated */
 #menu_section_large_desktop:hover .menu_contact_button,
-
 #menu_section_large_desktop.menu_scrolled .menu_contact_button {
-
   display: inline-block;
-
 }
 
-
-
+/* make the social media icons appear on large desktops if the page is scrolled or the hover-funktion is aktivated */
 #menu_section_large_desktop.menu_scrolled #menu_column_ld_social_media,
-
 #menu_section_large_desktop:hover #menu_column_ld_social_media {
-
   display: flex;
-
 }
-
 
 /*? *********************************************** */
 
@@ -372,27 +351,15 @@
 
 /*? *********************************************** */
 
-
-
 @media all and (min-width: 1405px) {
-
   h1 {
-
     font-size: 58px !important;
-
   }
-
-
 
   .sub_headline {
-
     font-size: 45px !important;
-
   }
-
 }
-
-
 
 /*? *********************************************** */
 
@@ -400,39 +367,23 @@
 
 /*? *********************************************** */
 
-
-
 /* =========BUTTON INLINE LEFT========*/
 
-
-
 @media all and (min-width: 768px) {
-
   #btn_align_left_row .et_pb_column {
-
     display: flex;
-
   }
-
 }
-
-
 
 /* =========BUTTON INLINE CENTER========*/
 
 @media all and (min-width: 768px) {
-
   #btn_align_center_row .et_pb_column {
-
     display: flex;
 
     justify-content: center;
-
   }
-
 }
-
-
 
 /*==========BUTTON CORRECTION==========
 
@@ -448,45 +399,27 @@
 
   }*/
 
-
-
 /* =========BUTTON INLINE RIGHT========*/
 
 #btn_fix_right
-
   #design_logo_standard_btn_active
-
   #design_logo_standard_btn_inactive
-
   #design_logo_pro_btn_active
-
   #design_logo_pro_btn_inactive
-
   .et_pb_column
-
   .et_pb_button_module_wrapper {
-
   float: left;
-
 }
 
 #btn_fix_right .et_pb_column {
-
   display: flex;
 
   justify-content: flex-end;
-
 }
-
-
 
 .hosting_button_active .et_pb_column {
-
   border-bottom: 4px solid #2372f5 !important;
-
 }
-
-
 
 /*? *********************************************** */
 
@@ -494,39 +427,27 @@
 
 /*? *********************************************** */
 
-
-
 /* =========IMG INLINE========*/
 
 .img_inline {
-
   display: inline-block;
 
   margin-right: 10px;
-
 }
-
-
 
 /* =========IMG INLINE CENTER========*/
 
 .img_inline_center_row .et_pb_column {
-
   display: flex;
 
   justify-content: center;
-
 }
 
 .img_inline_center {
-
   display: inline-block;
 
   margin-right: 40px;
-
 }
-
-
 
 /* ************************************************* */
 
@@ -546,59 +467,38 @@
 
 /* ************************************************* */
 
-
-
 /*? *********************************************** */
 
 /*?        CUSTOMER REVIEW SLLDER PREFERENCES       */
 
 /*? *********************************************** */
 
-
-
 /*remove text shadow*/
 
 .page-id-28567 .et_pb_bg_layout_dark .et_pb_slide_description {
-
   text-shadow: none;
-
 }
-
-
 
 /*style fonts for customer name and job*/
 
 .page-id-28567 .home_customer-review_slider_name {
-
   font-weight: 500;
 
   font-size: 24px;
-
 }
 
-
-
 .page-id-28567 .home_customer-review_slider_job {
-
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
 
   color: #6b6b6b;
-
 }
-
-
 
 /* font size correction to 16px*/
 
 .page-id-28567 .et_pb_slide_content,
-
 .et_pb_best_value {
-
   font-size: 16px;
-
 }
-
-
 
 /*? *********************************************** */
 
@@ -606,49 +506,31 @@
 
 /*? *********************************************** */
 
-
-
 /*TODO Replace .et_pb_row.et_pb_row_10 with id/class
 
   /*Show Row for mobile view*/
 
 @media all and (max-width: 1365px) {
-
   .page-id-28567 #home_weitere-leistungen_tablet-mobile {
-
     display: block;
-
   }
 
   .page-id-28567 #home_weitere-leistungen_desktop {
-
     display: none;
-
   }
-
 }
-
-
 
 /*Show Row for Desktop view*/
 
 @media all and (min-width: 1366px) {
-
   .page-id-28567 #home_weitere-leistungen_tablet-mobile {
-
     display: none;
-
   }
 
   .page-id-28567 #home_weitere-leistungen_desktop {
-
     display: block;
-
   }
-
 }
-
-
 
 /*? *********************************************** */
 
@@ -656,14 +538,10 @@
 
 /*? *********************************************** */
 
-
-
 @media all and (min-width: 1366px) {
-
   /*=================== SEO Text 1 ===================*/
 
   .page-id-28567 .home_seo-text1_row-text-button {
-
     overflow: hidden;
 
     left: -20%;
@@ -675,17 +553,13 @@
     background-color: transparent;
 
     padding: 0px !important;
-
   }
 
   /*==================================================*/
 
-
-
   /*=================== SEO Text 2 ===================*/
 
   .page-id-28567 .home_seo-text2_row-text-button {
-
     overflow: hidden;
 
     left: auto;
@@ -697,21 +571,15 @@
     background-color: transparent;
 
     padding: 0px !important;
-
   }
 
   /*==================================================*/
-
 }
 
-
-
 @media all and (min-width: 1800px) {
-
   /*=================== SEO Text 1 ===================*/
 
   .page-id-28567 .home_seo-text1_row-text-button {
-
     overflow: hidden;
 
     left: -15%;
@@ -723,17 +591,13 @@
     background-color: transparent;
 
     padding: 5% !important;
-
   }
 
   /*==================================================*/
 
-
-
   /*=================== SEO Text 2 ===================*/
 
   .page-id-28567 .home_seo-text2_row-text-button {
-
     overflow: hidden;
 
     left: auto;
@@ -745,14 +609,10 @@
     background-color: transparent;
 
     padding: 5% !important;
-
   }
 
   /*==================================================*/
-
 }
-
-
 
 /* ************************************************* */
 
@@ -772,20 +632,15 @@
 
 /* ************************************************* */
 
-
-
 /*? *********************************************** */
 
 /*?         INTEGRATION OF PLUGIN WHOIS             */
 
 /*? *********************************************** */
 
-
-
 /*========HOSTING=========*/
 
 #whois #domain {
-
   display: inline-block;
 
   -webkit-box-sizing: content-box;
@@ -817,13 +672,9 @@
   text-overflow: clip;
 
   background: rgba(255, 255, 255, 1);
-
 }
 
-
-
 #whois #tld {
-
   display: inline-block;
 
   -webkit-box-sizing: content-box;
@@ -855,13 +706,9 @@
   text-overflow: clip;
 
   background: rgba(255, 255, 255, 1);
-
 }
 
-
-
 #whois #whoissubmit {
-
   display: inline-block;
 
   -webkit-box-sizing: content-box;
@@ -891,6 +738,4 @@
   text-overflow: clip;
 
   background: #2372f5;
-
 }
-
