@@ -346,6 +346,10 @@
   #menu_section_small_desktop .menu_module .mobile_nav .mobile_menu_bar:before {
     font-size: 60px;
 }
+/* display contact button and mobile menu icon in one row */
+#menu_section_small_desktop .menu_column_menu {
+  display: flex;
+}
 }
 
 
