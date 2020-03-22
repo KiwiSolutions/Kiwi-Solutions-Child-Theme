@@ -267,7 +267,7 @@
 /*? ************************************************ */
 
 /*======CSS for menu on large desktops======*/
-@media all and (min-width: 1501px){
+@media all and (min-width: 1501px) {
   /* switch from small desktop to large above a pixel width of 1500px */
   #menu_section_large_desktop {
     display: block;
@@ -303,7 +303,7 @@
 }
 
 /* display menu and button in one row */
-#menu_section_large_desktop #menu_column_ld_menu {
+#menu_section_large_desktop .menu_column_menu {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
@@ -331,11 +331,12 @@
 
 /*==========================================*/
 
-@media all and (max-width: 1500px){
+@media all and (max-width: 1500px) {
   /*  */
   #menu_section_large_desktop {
     display: none;
   }
+
   #menu_section_small_desktop {
     display: block;
   }
