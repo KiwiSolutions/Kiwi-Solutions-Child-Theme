@@ -283,6 +283,7 @@
   border: 1px solid #17381b;
   background-color: #17381b;
   border-radius: 3px;
+  line-height: 1em;
 }
 
 /* make menu translucient if the user scrolls*/
