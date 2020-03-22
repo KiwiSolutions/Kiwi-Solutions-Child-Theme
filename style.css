@@ -290,6 +290,17 @@
 /*?                     MAIN MENU                    */
 /*? ************************************************ */
 
+/*======CSS for menu on large desktops======*/
+@media all and (min-width: 1501px){
+  /* switch from small desktop to large above a pixel width of 1500px */
+  #menu_section_large_desktop {
+    display: block;
+  }
+  #menu_section_small_desktop {
+    display: none;
+  }
+}
+
 /* make the calendly-link appear as a button */
 .menu_contact_button a {
   padding: 10px 20px;
@@ -297,27 +308,6 @@
   background-color: #17381b;
   border-radius: 3px;
 }
-
-@media all and (min-width:1501){
-  /*  */
-  #menu_section_large_desktop {
-    display: flex;
-  }
-  #menu_section_small_desktop {
-    display: none;
-  }
-}
-
-@media all and (max-width:1500){
-  /*  */
-  #menu_section_large_desktop {
-    display: none;
-  }
-  #menu_section_small_desktop {
-    display: flex;
-  }
-}
-/*? CSS for menu on large desktops*/
 
 /* make menu translucient if the user scrolls*/
 #menu_section_large_desktop.menu_scrolled {
@@ -351,24 +341,35 @@
 
 /* make contact button and social media dissappear on the large Desktop if the menu is at the top of the page and no one hovers above it */
 #menu_section_large_desktop .menu_contact_button,
-#menu_section_large_desktop #menu_column_ld_social_media {
+#menu_section_large_desktop .menu_column_social_media {
   display: none;
 }
 
-/* make the contact button appear on large desktops if the page is scrolled or the hover-funktion is aktivated */
+/* make the contact button appear and social media on large desktops if the page is scrolled or the hover-funktion is aktivated */
 #menu_section_large_desktop:hover .menu_contact_button,
-#menu_section_large_desktop.menu_scrolled .menu_contact_button {
-  display: inline-block;
+#menu_section_large_desktop.menu_scrolled .menu_contact_button,
+#menu_section_large_desktop.menu_scrolled .menu_column_social_media,
+#menu_section_large_desktop:hover .menu_column_social_media {
+  display: block;
 }
 
 /* make the social media icons appear on large desktops if the page is scrolled or the hover-funktion is aktivated */
-#menu_section_large_desktop.menu_scrolled #menu_column_ld_social_media,
-#menu_section_large_desktop:hover #menu_column_ld_social_media {
+#menu_section_large_desktop.menu_scrolled .menu_column_social_media,
+#menu_section_large_desktop:hover .menu_column_social_media {
   display: flex;
 }
 
-/*? *******************************/
+/*==========================================*/
 
+@media all and (max-width: 1500px){
+  /*  */
+  #menu_section_large_desktop {
+    display: none;
+  }
+  #menu_section_small_desktop {
+    display: block;
+  }
+}
 /*? *********************************************** */
 /*?                 FONT ADJUSMENT                  */
 /*? *********************************************** */
