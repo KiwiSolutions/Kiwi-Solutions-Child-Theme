@@ -322,6 +322,20 @@
   align-items: center;
 }
 
+#menu_section_large_desktop .menu_contact_button {
+  position: relative;
+  bottom: 14px;
+  left: 30px;
+}
+
+#menu_section_large_desktop .menu_contact_button {
+  padding: 10px 20px;
+  border: 1px solid #17381b;
+  background-color: #17381b;
+  border-radius: 3px;
+  color: white;
+}
+
 /* clear margain bottom of menu */
 #menu_module {
   margin-bottom: 0px;
