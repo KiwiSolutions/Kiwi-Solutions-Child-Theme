@@ -368,6 +368,11 @@
   #menu_section_small_desktop .menu_module .et_mobile_nav_menu {
     display:block;
   }
+
+  /* make the contact button appear on the same height as the other modules */
+  #menu_section_small_desktop .menu_contact_button {
+    margin-top: 20px!important;
+  }
 }
 
 /*==========================================*/
