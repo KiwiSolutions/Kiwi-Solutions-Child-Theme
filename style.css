@@ -358,6 +358,16 @@
     left:60px;
     bottom:10px;
   }
+
+  /* remove the desktop menu */
+  #menu_section_small_desktop .menu_module .et_pb_menu__menu {
+    display:none;
+  }
+
+  /* make the mobile menu icon appear */
+  #menu_section_small_desktop .menu_module .et_mobile_nav_menu {
+    display:block;
+  }
 }
 
 /*==========================================*/
