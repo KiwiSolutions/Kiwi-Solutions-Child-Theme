@@ -276,7 +276,7 @@
 
 @media all and (min-width:1501){
   /*  */
-  #media_section_large_desktop {
+  #menu_section_large_desktop {
     display: flex;
   }
   #menu_section_small_desktop {
@@ -286,7 +286,7 @@
 
 @media all and (max-width:1500){
   /*  */
-  #media_section_large_desktop {
+  #menu_section_large_desktop {
     display: none;
   }
   #menu_section_small_desktop {
