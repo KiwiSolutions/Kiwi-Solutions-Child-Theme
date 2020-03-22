@@ -337,7 +337,7 @@
 
 
 
-#menu_section_large_desktop .et_pb_button,
+#menu_section_large_desktop .menu_contact_button,
 
 #menu_section_large_desktop #menu_column_ld_social_media {
 
@@ -347,9 +347,9 @@
 
 
 
-#menu_section_large_desktop:hover .et_pb_button,
+#menu_section_large_desktop:hover .menu_contact_button,
 
-#menu_section_large_desktop.menu_scrolled .et_pb_button {
+#menu_section_large_desktop.menu_scrolled .menu_contact_button {
 
   display: inline-block;
 
