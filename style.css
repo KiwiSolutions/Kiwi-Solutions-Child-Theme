@@ -329,12 +329,6 @@
   display: block;
 }
 
-/* make the social media icons appear on large desktops if the page is scrolled or the hover-funktion is aktivated */
-#menu_section_large_desktop.menu_scrolled .menu_column_social_media,
-#menu_section_large_desktop:hover .menu_column_social_media {
-  display: flex;
-}
-
 /*==========================================*/
 
 @media all and (max-width: 1500px){
