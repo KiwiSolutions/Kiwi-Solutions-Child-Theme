@@ -287,22 +287,38 @@
 }
 
 /*? ************************************************ */
-
 /*?                     MAIN MENU                    */
-
 /*? ************************************************ */
+
+/* make the calendly-link appear as a button */
+.menu_contact_button a {
+  padding: 10px 20px;
+  border: 1px solid #17381b;
+  background-color: #17381b;
+  border-radius: 3px;
+}
+
+@media all and (min-width:1501){
+  /*  */
+  #media_section_large_desktop {
+    display: none;
+  }
+  #menu_section_small_desktop {
+    display: flex;
+  }
+}
+
+/*? CSS for menu on large desktops*/
 
 /* make menu translucient if the user scrolls*/
 #menu_section_large_desktop.menu_scrolled {
   background-color: rgba(255, 255, 255, 0.8) !important;
-
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
 /* make menu solid if the user hovers */
 #menu_section_large_desktop:hover {
   background-color: rgba(255, 255, 255) !important;
-
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
 }
 
@@ -314,24 +330,13 @@
 /* display menu and button in one row */
 #menu_section_large_desktop #menu_column_ld_menu {
   display: flex;
-
   flex-flow: row nowrap;
-
   justify-content: flex-start;
-
   align-items: center;
 }
 
-#menu_section_large_desktop .menu_contact_button a {
-  padding: 10px 20px;
-  border: 1px solid #17381b;
-  background-color: #17381b;
-  border-radius: 3px;
-  color: white;
-}
-
 /* clear margain bottom of menu */
-#menu_module {
+#menu_section_large_desktop .menu_module {
   margin-bottom: 0px;
 }
 
@@ -353,10 +358,10 @@
   display: flex;
 }
 
+/*? *******************************/
+
 /*? *********************************************** */
-
 /*?                 FONT ADJUSMENT                  */
-
 /*? *********************************************** */
 
 @media all and (min-width: 1405px) {
@@ -370,9 +375,7 @@
 }
 
 /*? *********************************************** */
-
 /*?                 BUTTON ALIGNMENT                */
-
 /*? *********************************************** */
 
 /* =========BUTTON INLINE LEFT========*/
@@ -430,9 +433,7 @@
 }
 
 /*? *********************************************** */
-
 /*?                     IMG INLINE                  */
-
 /*? *********************************************** */
 
 /* =========IMG INLINE========*/
@@ -458,27 +459,17 @@
 }
 
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* *                      HOME                       */
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* ************************************************* */
 
 /*? *********************************************** */
-
 /*?        CUSTOMER REVIEW SLLDER PREFERENCES       */
-
 /*? *********************************************** */
 
 /*remove text shadow*/
@@ -509,9 +500,7 @@
 }
 
 /*? *********************************************** */
-
 /*?    SECTION SERVICE SHOW HIDE @MEDIA 1365px      */
-
 /*? *********************************************** */
 
 /*TODO Replace .et_pb_row.et_pb_row_10 with id/class
@@ -541,9 +530,7 @@
 }
 
 /*? *********************************************** */
-
 /*?     SEO TEXT RESPONSIVE VIEWS CORRECTION        */
-
 /*? *********************************************** */
 
 @media all and (min-width: 1366px) {
@@ -621,29 +608,18 @@
 
   /*==================================================*/
 }
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* *                   HOSTING                       */
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* ************************************************* */
-
 /* ************************************************* */
 
 /*? *********************************************** */
-
 /*?         INTEGRATION OF PLUGIN WHOIS             */
-
 /*? *********************************************** */
 
 /*========HOSTING=========*/
