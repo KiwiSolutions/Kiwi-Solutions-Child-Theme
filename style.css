@@ -412,7 +412,7 @@
   margin-bottom: 0px;
 }
 
-/* make the phone and mobile menu icon on the same height */
+/* make the phone and mobile menu icon on the same height and adjust the width */
 #menu_section_mobile .menu_column_menu {
   width: 33%;
   display: flex;
@@ -422,6 +422,12 @@
 /* adjust the positon of the phone icon */
 #menu_section_mobile .menu_column_menu .et_pb_image {
   margin-right: 10%;
+  margin-bottom: 0px;
+}
+
+/* adjust the margin and width of the logo column */
+#menu_section_mobile .menu_column_logo {
+  width: 66%;
   margin-bottom: 0px;
 }
 /*=========================================*/
