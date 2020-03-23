@@ -412,6 +412,14 @@
   margin-bottom: 0px;
 }
 /*=========================================*/
+
+/*=========CSS for menu on mobile==========*/
+/* make the columns appear on the same heigth */
+#menu_section_mobile .et_pb_row {
+  display: flex;
+}
+/*==========================================*/
+
 /*? *********************************************** */
 /*?                 FONT ADJUSMENT                  */
 /*? *********************************************** */
