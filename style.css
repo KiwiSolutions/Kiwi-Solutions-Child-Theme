@@ -411,6 +411,13 @@
   width: 33%;
   margin-bottom: 0px;
 }
+/*=========================================*/
+
+/*=========CSS for menu on mobile==========*/
+/* make the columns appear on the same heigth */
+#menu_section_mobile .et_pb_row {
+  display: flex;
+}
 
 /* make the phone and mobile menu icon on the same height and adjust the width */
 #menu_section_mobile .menu_column_menu {
@@ -419,23 +426,10 @@
   align-items: center;
 }
 
-/* adjust the positon of the phone icon */
-#menu_section_mobile .menu_column_menu .et_pb_image {
-  margin-right: 10%;
-  margin-bottom: 0px;
-}
-
 /* adjust the margin and width of the logo column */
 #menu_section_mobile .menu_column_logo {
   width: 66%;
   margin-bottom: 0px;
-}
-/*=========================================*/
-
-/*=========CSS for menu on mobile==========*/
-/* make the columns appear on the same heigth */
-#menu_section_mobile .et_pb_row {
-  display: flex;
 }
 /*==========================================*/
 
