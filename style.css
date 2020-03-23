@@ -344,7 +344,7 @@
   }
 
   /* adjust size of mobile menu icon */
-  #menu_section_small_desktop .menu_module .mobile_nav .mobile_menu_bar:before {
+  .menu_module .mobile_nav .mobile_menu_bar:before {
     font-size: 60px;
   }
 
@@ -391,8 +391,8 @@
     display: block;
   }
 }
-
 /*==========================================*/
+
 /*? *********************************************** */
 /*?                 FONT ADJUSMENT                  */
 /*? *********************************************** */
