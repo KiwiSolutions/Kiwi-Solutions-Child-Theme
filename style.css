@@ -321,7 +321,7 @@
 /* Elegant Icons */
 @font-face {
   font-family: "ElegantIcons";
-  src: url("fonts/ElegantIcons.woff") format("woff");
+  src: url("/public_html/fonts/ElegantIcons.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
