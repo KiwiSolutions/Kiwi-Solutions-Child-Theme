@@ -398,6 +398,12 @@
   #menu_contact_button_link_full {
     display: none;
   }
+
+  /* make the button and icon appear more left bound  */
+  #menu_section_small_desktop .menu_column_menu {
+    justify-content: center;
+  }
+
   /* make the small contact button appear */
   #menu_contact_button_link_small {
     display: block;
