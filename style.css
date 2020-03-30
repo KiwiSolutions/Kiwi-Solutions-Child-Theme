@@ -61,16 +61,17 @@
 /*?                 FONT ADJUSMENT                  */
 /*? *********************************************** */
 
-
+/*===================font adjustment for small desktop=======================*/
 @media all and (min-width: 1405px) {
   h1 {
     font-size: 58px !important;
   }
-
+  
   .sub_headline {
     font-size: 45px !important;
   }
 }
+/*===========================================================================*/
 
 /*? *********************************************** */
 /*?                 BUTTON ALIGNMENT                */
@@ -89,26 +90,26 @@
 @media all and (min-width: 768px) {
   #btn_align_center_row .et_pb_column {
     display: flex;
-
     justify-content: center;
   }
 }
 
+/*TODO check if this code is just up to date */
 /*==========BUTTON CORRECTION==========
 
   @media all and (min-width: 768px and max-width: 980px){
-
+    
    #btn_align_left_row .et_pb_column .et_pb_button_module_wrapper {
-
+     
      margin-bottom: 0px !important;
-
+     
      margin-right: 20px !important;
 
-  }
+    }
 
   }*/
 
-/* =========BUTTON INLINE RIGHT========*/
+/* =========BUTTON INLINE RIGHT========
 
 #btn_fix_right
   #design_logo_standard_btn_active
@@ -117,44 +118,49 @@
   #design_logo_pro_btn_inactive
   .et_pb_column
   .et_pb_button_module_wrapper {
-  float: left;
+    float: left;
 }
 
 #btn_fix_right .et_pb_column {
   display: flex;
-
+  
   justify-content: flex-end;
 }
 
 .hosting_button_active .et_pb_column {
   border-bottom: 4px solid #2372f5 !important;
 }
+*/
+/*TODO=======================================*/
 
 /*? *********************************************** */
 /*?                     IMG INLINE                  */
 /*? *********************************************** */
 
-/* =========IMG INLINE========*/
+/*TODO check if display flex is possible */
+/* =========IMG INLINE LEFT========*/
 
 .img_inline {
   display: inline-block;
-
+  
   margin-right: 10px;
 }
+/*=================================*/
 
 /* =========IMG INLINE CENTER========*/
-
 .img_inline_center_row .et_pb_column {
   display: flex;
-
+  
   justify-content: center;
 }
 
 .img_inline_center {
   display: inline-block;
-
+  
   margin-right: 40px;
 }
+/*===================================*/
+/*TODO===================================*/
 
 /* ************************************************* */
 /* ************************************************* */
@@ -167,26 +173,27 @@
 /* ************************************************* */
 
 /*? *********************************************** */
-/*?        CUSTOMER REVIEW SLLDER PREFERENCES       */
+/*?        CUSTOMER REVIEW SLIDER PREFERENCES       */
 /*? *********************************************** */
 
-/*remove text shadow*/
-
+/*===================remove text shadow=======================*/
 .page-id-28567 .et_pb_bg_layout_dark .et_pb_slide_description {
   text-shadow: none;
 }
+/*============================================================*/
 
+/*TODO fix comments to new comment-structure (see above)*/
 /*style fonts for customer name and job*/
 
 .page-id-28567 .home_customer-review_slider_name {
   font-weight: 500;
-
+  
   font-size: 24px;
 }
 
 .page-id-28567 .home_customer-review_slider_job {
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-
+  
   color: #6b6b6b;
 }
 
@@ -196,6 +203,7 @@
 .et_pb_best_value {
   font-size: 16px;
 }
+/*TODO=======================================*/
 
 /*? *********************************************** */
 /*?    SECTION SERVICE SHOW HIDE @MEDIA 1365px      */
