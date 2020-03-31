@@ -172,7 +172,7 @@
   border-radius: 3px;
   padding: 20px 40px;
 }
-@media all and (max-height:980px) {
+@media all and (max-width:980px) {
   .contact_button a {
     padding: 10px 20px;
   }
