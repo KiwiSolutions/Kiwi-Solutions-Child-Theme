@@ -173,6 +173,11 @@
   border-radius: 3px;
 }
 
+.contact_button {
+  display:flex;
+  align-items:center;
+}
+
 .contact_button_tablet_desktop {
   padding: 25px 40px;
 }
