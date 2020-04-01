@@ -166,26 +166,11 @@
 /*?                 CONTACT BUTTON                   */
 /*? ************************************************ */
 /*===================make the the calendly link appeear as button=======================*/
-.contact_button a {
+.contact_button_tablet_desktop,
+.contact_button_mobile {
   border: 1px solid #17381b;
   background-color: #17381b;
   border-radius: 3px;
-  padding: 25px 40px;
-  position: relative;
-  top: 23px;
-}
-
-@media all and (max-width:980px) {
-  .contact_button a {
-    padding: 13px 20px;
-    top: 11px
-  }
-}
-
-@media all and (max-width:767px) {
-  .contact_button a{
-    left:162px;
-  }
 }
 /*======================================================================================*/
 
