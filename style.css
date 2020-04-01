@@ -55,8 +55,6 @@
 /*===============================================================*/
 /*! =============================================================================== */
 
-
-
 /*? *********************************************** */
 /*?                 FONT ADJUSMENT                  */
 /*? *********************************************** */
@@ -66,7 +64,7 @@
   h1 {
     font-size: 58px !important;
   }
-  
+
   .sub_headline {
     font-size: 45px !important;
   }
@@ -142,7 +140,7 @@
 
 .img_inline {
   display: inline-block;
-  
+
   margin-right: 10px;
 }
 /*=================================*/
@@ -150,13 +148,13 @@
 /* =========IMG INLINE CENTER========*/
 .img_inline_center_row .et_pb_column {
   display: flex;
-  
+
   justify-content: center;
 }
 
 .img_inline_center {
   display: inline-block;
-  
+
   margin-right: 40px;
 }
 /*===================================*/
@@ -165,40 +163,26 @@
 /*? ************************************************ */
 /*?                 CONTACT BUTTON                   */
 /*? ************************************************ */
-/*===================make the the calendly link appeear as button=======================*/
+/*===================make the the calendly link appear as button=======================*/
 .contact_button_tablet_desktop,
 .contact_button_mobile {
   border: 1px solid #17381b;
   background-color: #17381b;
   border-radius: 3px;
 }
+/*======================================================================================*/
 
+/*===================make the button appear on the right heigth and in the center on mobile=======================*/
 .contact_button {
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
 }
-
-.contact_button_tablet_desktop {
-  padding: 25px 40px;
-}
-
-.contact_button_mobile {
-  padding: 13px 20px;
-  display: none;
-}
-
-@media all and (max-width:980px) {
-  .contact_button_tablet_desktop {
-    padding: 13px 20px;
-  }
-}
-
-@media all and (max-width:767px) {
+@media all and (max-width: 767px) {
   .contact_button {
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
   }
-  .contact_button_mobile{
+  .contact_button_mobile {
     display: block;
     width: 200px;
   }
@@ -206,7 +190,25 @@
     display: none;
   }
 }
-/*======================================================================================*/
+/*================================================================================================================*/
+
+
+/*===================padding and set mobile to none=======================*/
+.contact_button_tablet_desktop {
+  padding: 25px 40px;
+}
+
+@media all and (max-width: 980px) {
+  .contact_button_tablet_desktop {
+    padding: 13px 20px;
+  }
+}
+
+.contact_button_mobile {
+  padding: 13px 20px;
+  display: none;
+}
+/*========================================================================*/
 
 /* ************************************************* */
 /* ************************************************* */
@@ -233,13 +235,13 @@
 
 .page-id-28567 .home_customer-review_slider_name {
   font-weight: 500;
-  
+
   font-size: 24px;
 }
 
 .page-id-28567 .home_customer-review_slider_job {
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-  
+
   color: #6b6b6b;
 }
 
@@ -366,7 +368,7 @@
 /*? ************************************************ */
 
 /*==========change width of the reference-logos on tablets and mobile===========*/
-@media all and (max-width:980px) {
+@media all and (max-width: 980px) {
   #home_references_row_logos .et_pb_column {
     width: 33%;
   }
