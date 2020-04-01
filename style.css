@@ -172,6 +172,23 @@
 }
 /*======================================================================================*/
 
+/*===================padding and set mobile to none=======================*/
+.contact_button_tablet_desktop {
+  padding: 25px 40px;
+}
+
+@media all and (max-width: 980px) {
+  .contact_button_tablet_desktop {
+    padding: 13px 20px;
+  }
+}
+
+.contact_button_mobile {
+  padding: 13px 20px;
+  display: none;
+}
+/*========================================================================*/
+
 /*===================make the button appear on the right heigth and in the center on mobile=======================*/
 .contact_button {
   display: flex;
@@ -191,24 +208,6 @@
   }
 }
 /*================================================================================================================*/
-
-
-/*===================padding and set mobile to none=======================*/
-.contact_button_tablet_desktop {
-  padding: 25px 40px;
-}
-
-@media all and (max-width: 980px) {
-  .contact_button_tablet_desktop {
-    padding: 13px 20px;
-  }
-}
-
-.contact_button_mobile {
-  padding: 13px 20px;
-  display: none;
-}
-/*========================================================================*/
 
 /* ************************************************* */
 /* ************************************************* */
