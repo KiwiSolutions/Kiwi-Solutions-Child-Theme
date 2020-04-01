@@ -197,6 +197,9 @@
     display: block;
     width: 200px;
   }
+  .contact_button_tablet_desktop {
+    display: none;
+  }
 }
 /*======================================================================================*/
 
