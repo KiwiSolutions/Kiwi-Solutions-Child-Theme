@@ -172,6 +172,21 @@
   background-color: #17381b;
   border-radius: 3px;
 }
+
+.contact_button_tablet_desktop {
+  padding: 25px 40px;
+}
+
+.contact_button_mobile {
+  padding: 13px 20px;
+  display: none;
+}
+
+@media all and (max-width:980px) {
+  .contact_button_tablet_desktop {
+    padding: 13px 20px;
+  }
+}
 /*======================================================================================*/
 
 /* ************************************************* */
