@@ -531,3 +531,17 @@
 	font-weight: 400;
 }
 /*================================================================================*/
+
+/*===================define dimensions and margin off radio buttons and textboxes=======================*/
+#wpcf7-f983-o1 .wpcf7-radio,
+#wpcf7-f983-o1 .wpcf7-text,
+#wpcf7-f983-o1 .wpcf7-email, 
+#wpcf7-f983-o1 .wpcf7-textarea, 
+#wpcf7-f983-o1 .wpcf7-intl-tel {
+	margin-bottom: 13px;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 30px;
+}
+/*======================================================================================================*/
