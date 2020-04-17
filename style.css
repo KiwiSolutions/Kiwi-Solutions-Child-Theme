@@ -662,3 +662,20 @@
   width: 16px;
 }
 /*==========================================================================*/
+
+@media all and (max-width: 767px) {
+  /*===================make the Textboxes, etc. all appear in their on row=======================*/
+  .footer_contactform .Email,
+  .footer_contactform .Unternehmen,
+  .footer_contactform .Vorname,
+  .footer_contactform .Nachname,
+  .footer_contactform .Telefonnummer {
+    width: 100%;
+  }
+  
+  .footer_contactform .Telefonnummer,
+  .footer_contactform .Anrede {
+    margin-bottom: 13px;
+  }
+  /*=============================================================================================*/
+}
