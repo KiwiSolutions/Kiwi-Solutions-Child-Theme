@@ -493,7 +493,7 @@
 /*? ************************************************ */
 /*===================Add margin to the Schreib uns text=======================*/
 .footer_contact-line-above-form_write-us {
-  font-size:20px;
+  font-size: 20px;
   margin-right: 5%;
 }
 /*============================================================================*/
@@ -501,11 +501,20 @@
 /*===================Style the contact button-text=======================*/
 .footer_contact-line-above-form_get-advice {
   padding: 10px 20px;
-  background-color:#17381B;
-  border-radius:3px;
+  background-color: #17381b;
+  border-radius: 3px;
   margin-left: 5%;
 }
 /*=======================================================================*/
+
+@media all and (max-width: 767px) {
+  /*===================adjust margin of Schreib uns text=======================*/
+  .footer_contact-line-above-form_write-us {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  /*===========================================================================*/
+}
 
 /*? *********************************************** */
 /*?                    CONTACTFORM                  */
