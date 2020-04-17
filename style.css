@@ -514,6 +514,15 @@
     margin-bottom: 10px;
   }
   /*===========================================================================*/
+
+  /*===================Adjust styles of contactbutton text=======================*/
+  .footer_contact-line-above-form_get-advice {
+    margin-top: 20px;
+    padding: 0px;
+    background-color: transparent;
+    margin-left: 0px;
+  }
+  /*==============================================================================*/
 }
 
 /*? *********************************************** */
