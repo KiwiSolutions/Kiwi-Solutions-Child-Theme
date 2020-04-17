@@ -560,9 +560,17 @@
 
 /*===================define background- & fontcolor of focused Textbox=======================*/
 #wpcf7-f983-o1 .wpcf7-text:focus,
-#wpcf7-f983-o1 .wpcf7-email:focus, 
-#wpcf7-f983-o1 .wpcf7-textarea:focus, 
+#wpcf7-f983-o1 .wpcf7-email:focus,
+#wpcf7-f983-o1 .wpcf7-textarea:focus,
 #wpcf7-f983-o1 .wpcf7-intl-tel:focus {
   background-color: white;
 }
 /*===========================================================================================*/
+
+/*===================define padding of Textboxes=======================*/
+#wpcf7-f983-o1 .wpcf7-text,
+#wpcf7-f983-o1 .wpcf7-email,
+#wpcf7-f983-o1 .wpcf7-textarea {
+  padding-left: 10px;
+}
+/*=====================================================================*/
