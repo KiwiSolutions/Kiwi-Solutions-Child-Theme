@@ -525,6 +525,12 @@
 }
 /*======================================================================================================*/
 
+/*===================make the Submit-button-arrow dissapear=======================*/
+.footer_contactform .wpcf7-submit:hover::after {
+  display: none;
+}
+/*================================================================================*/
+
 /*===================define font-family=======================*/
 .footer_contactform .wpcf7-form,
 .footer_contactform .wpcf7-text,
