@@ -492,13 +492,13 @@
 /*==================================================================*/
 
 /*===================change font-color of Radiobutton- and privacy policy-text=======================*/
-#wpcf7-f983-o1 .wpcf7-form {
+.footer_contactform .wpcf7-form {
   color: #706d70;
 }
 /*===================================================================================================*/
 
 /*===================Style of Submitbutton=======================*/
-#wpcf7-f983-o1 .wpcf7-submit {
+.footer_contactform .wpcf7-submit {
   font-size: 14px;
   font-weight: 700;
   color: white;
@@ -511,39 +511,39 @@
 /*===============================================================*/
 
 /*===================Make the button-text stay in the middle when hover is aktive=======================*/
-#wpcf7-f983-o1 .wpcf7-submit:hover {
+.footer_contactform .wpcf7-submit:hover {
   padding: 0px;
 }
 /*======================================================================================================*/
 
 /*===================define font-family=======================*/
-#wpcf7-f983-o1 .wpcf7-form,
-#wpcf7-f983-o1 .wpcf7-text,
-#wpcf7-f983-o1 .wpcf7-email,
-#wpcf7-f983-o1 .wpcf7-textarea,
-#wpcf7-f983-o1 .wpcf7-intl-tel,
-#wpcf7-f983-o1 .wpcf7-submit {
+.footer_contactform .wpcf7-form,
+.footer_contactform .wpcf7-text,
+.footer_contactform .wpcf7-email,
+.footer_contactform .wpcf7-textarea,
+.footer_contactform .wpcf7-intl-tel,
+.footer_contactform .wpcf7-submit {
   font-family: "Roboto", sans-serif;
 }
 /*============================================================*/
 
 /*===================define font-size&-weight exept submitbutton=======================*/
-#wpcf7-f983-o1 .wpcf7-form,
-#wpcf7-f983-o1 .wpcf7-text,
-#wpcf7-f983-o1 .wpcf7-email,
-#wpcf7-f983-o1 .wpcf7-textarea,
-#wpcf7-f983-o1 .wpcf7-intl-tel {
+.footer_contactform .wpcf7-form,
+.footer_contactform .wpcf7-text,
+.footer_contactform .wpcf7-email,
+.footer_contactform .wpcf7-textarea,
+.footer_contactform .wpcf7-intl-tel {
   font-size: 16px;
   font-weight: 400;
 }
 /*================================================================================*/
 
 /*===================define dimensions and margin off radio buttons and textboxes=======================*/
-#wpcf7-f983-o1 .wpcf7-radio,
-#wpcf7-f983-o1 .wpcf7-text,
-#wpcf7-f983-o1 .wpcf7-email,
-#wpcf7-f983-o1 .wpcf7-textarea,
-#wpcf7-f983-o1 .wpcf7-intl-tel {
+.footer_contactform .wpcf7-radio,
+.footer_contactform .wpcf7-text,
+.footer_contactform .wpcf7-email,
+.footer_contactform .wpcf7-textarea,
+.footer_contactform .wpcf7-intl-tel {
   margin-bottom: 13px;
   width: 100%;
   min-width: 100%;
@@ -553,10 +553,10 @@
 /*======================================================================================================*/
 
 /*===================define border and background- & fontcolor of unfocused Textbox=======================*/
-#wpcf7-f983-o1 .wpcf7-text,
-#wpcf7-f983-o1 .wpcf7-email,
-#wpcf7-f983-o1 .wpcf7-textarea,
-#wpcf7-f983-o1 .wpcf7-intl-tel {
+.footer_contactform .wpcf7-text,
+.footer_contactform .wpcf7-email,
+.footer_contactform .wpcf7-textarea,
+.footer_contactform .wpcf7-intl-tel {
   border: none;
   border-radius: 4px;
   color: #464646;
@@ -565,40 +565,40 @@
 /*==========================================================================================*/
 
 /*===================define background- & fontcolor of focused Textbox=======================*/
-#wpcf7-f983-o1 .wpcf7-text:focus,
-#wpcf7-f983-o1 .wpcf7-email:focus,
-#wpcf7-f983-o1 .wpcf7-textarea:focus,
-#wpcf7-f983-o1 .wpcf7-intl-tel:focus {
+.footer_contactform .wpcf7-text:focus,
+.footer_contactform .wpcf7-email:focus,
+.footer_contactform .wpcf7-textarea:focus,
+.footer_contactform .wpcf7-intl-tel:focus {
   background-color: white;
 }
 /*===========================================================================================*/
 
 /*===================define padding of Textboxes=======================*/
-#wpcf7-f983-o1 .wpcf7-text,
-#wpcf7-f983-o1 .wpcf7-email,
-#wpcf7-f983-o1 .wpcf7-textarea {
+.footer_contactform .wpcf7-text,
+.footer_contactform .wpcf7-email,
+.footer_contactform .wpcf7-textarea {
   padding-left: 10px;
 }
 /*=====================================================================*/
 
 /*===================Make Telephonbox appear at the right width=======================*/
-#wpcf7-f983-o1 .intl-tel-input {
+.footer_contactform .intl-tel-input {
   width: 100%;
 }
 /*===================================================================================*/
 
 /*===================define width of the textboxwrappers=======================*/
-#wpcf7-f983-o1 .Email,
-#wpcf7-f983-o1 .Unternehmen,
-#wpcf7-f983-o1 .Vorname,
-#wpcf7-f983-o1 .Nachname,
-#wpcf7-f983-o1 .Telefonnummer {
+.footer_contactform .Email,
+.footer_contactform .Unternehmen,
+.footer_contactform .Vorname,
+.footer_contactform .Nachname,
+.footer_contactform .Telefonnummer {
   width: 47%;
 }
 /*=============================================================================*/
 
 /*===================define dimensions of radiobutton=======================*/
-#wpcf7-f983-o1 input[type="radio"] {
+.footer_contactform input[type="radio"] {
   height: 16px;
   width: 16px;
 }
