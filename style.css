@@ -521,27 +521,39 @@
 }
 /*============================================================*/
 
-/*===================define font-size&-weight for Textboxes=======================*/
-#wpcf7-f983-o1 .wpcf7-form, 
+/*===================define font-size&-weight exept submitbutton=======================*/
+#wpcf7-f983-o1 .wpcf7-form,
 #wpcf7-f983-o1 .wpcf7-text,
-#wpcf7-f983-o1 .wpcf7-email, 
-#wpcf7-f983-o1 .wpcf7-textarea, 
+#wpcf7-f983-o1 .wpcf7-email,
+#wpcf7-f983-o1 .wpcf7-textarea,
 #wpcf7-f983-o1 .wpcf7-intl-tel {
   font-size: 16px;
-	font-weight: 400;
+  font-weight: 400;
 }
 /*================================================================================*/
 
 /*===================define dimensions and margin off radio buttons and textboxes=======================*/
 #wpcf7-f983-o1 .wpcf7-radio,
 #wpcf7-f983-o1 .wpcf7-text,
-#wpcf7-f983-o1 .wpcf7-email, 
-#wpcf7-f983-o1 .wpcf7-textarea, 
+#wpcf7-f983-o1 .wpcf7-email,
+#wpcf7-f983-o1 .wpcf7-textarea,
 #wpcf7-f983-o1 .wpcf7-intl-tel {
-	margin-bottom: 13px;
-	width: 100%;
-	min-width: 100%;
-	max-width: 100%;
-	min-height: 30px;
+  margin-bottom: 13px;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 30px;
 }
 /*======================================================================================================*/
+
+/*===================define border and backcolor of unfocused Textbox=======================*/
+#wpcf7-f983-o1 .wpcf7-text,
+#wpcf7-f983-o1 .wpcf7-email,
+#wpcf7-f983-o1 .wpcf7-textarea,
+#wpcf7-f983-o1 .wpcf7-intl-tel {
+  border: none;
+  border-radius: 4px;
+  color: #464646;
+  background-color: #ededed;
+}
+/*==========================================================================================*/
