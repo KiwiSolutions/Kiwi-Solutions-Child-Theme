@@ -421,6 +421,16 @@ ul#mobile_menu2 li {
 }
 /*=====================================================================================*/
 
+/*===================make border permanent after image is clicked=======================*/
+#websites_slider_video.focus img,
+#websites_slider_beratung.focus img,
+#websites_slider_analyse.focus img,
+#websites_slider_design.focus img,
+#websites_slider_responsiv.focus img,
+#websites_slider_wartung.focus img {
+  border-color: rgba(91, 91, 91, 0.33);
+}
+/*======================================================================================*/
 
 /* ************************************************* */
 /* ************************************************* */
