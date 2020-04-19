@@ -402,12 +402,25 @@ ul#mobile_menu2 li {
 /*============================================================================*/
 
 /*===================add border & margin to navigation images=======================*/
-.activelinks img{
+.activelinks img {
   margin: 20px;
   border-radius: 100px;
   border: 3px solid transparent;
 }
 /*==================================================================================*/
+
+/*===================turn image and change border color on hover=======================*/
+#websites_slider_video:hover img,
+#websites_slider_beratung:hover img,
+#websites_slider_analyse:hover img,
+#websites_slider_design:hover img,
+#websites_slider_responsiv:hover img,
+#websites_slider_wartung:hover img {
+  transform: rotate(20deg);
+  border-color: rgba(91, 91, 91, 0.33);
+}
+/*=====================================================================================*/
+
 
 /* ************************************************* */
 /* ************************************************* */
