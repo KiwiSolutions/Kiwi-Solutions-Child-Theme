@@ -2753,10 +2753,10 @@ jQuery(document).ready(function() {
 /* ************************************************* */
 
 /* ************************************************* */
-/*              JS HIDE SHOW SECTIONS                */
+/*            JS IMAGE SLIDER NAVIGATION             */
 /* ************************************************* */
 
-/*Test*/
+//Make the images under the slider work as a navigation bar
 jQuery(document).ready(function ($) {
 
 	var selector = '.activelinks a';
@@ -2816,7 +2816,11 @@ jQuery(document).ready(function ($) {
 		$(this).addClass("focus");
 	});
 });
-/*Test*/
+//=======================
+/* ************************************************* */
+/*              JS HIDE SHOW SECTIONS                */
+/* ************************************************* */
+
 
 
 jQuery(document).ready(function() {
