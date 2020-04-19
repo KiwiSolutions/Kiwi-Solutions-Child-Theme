@@ -385,8 +385,8 @@ ul#mobile_menu2 li {
 /*==================================================================================*/
 
 /*===================remove other navigation methodes=======================*/
-.et-pb-slider-arrows,
-.et-pb-controllers {
+#websites_slider_desktop .et-pb-slider-arrows,
+#websites_slider_desktop .et-pb-controllers {
   display: none;
 }
 /*==========================================================================*/
@@ -433,7 +433,7 @@ ul#mobile_menu2 li {
 /*======================================================================================*/
 
 /*===================style the headers of the slides=======================*/
-.websites_slider_header {
+.websites_slider_header_desktop {
   font-size: 23px !important;
   margin-top: -50px !important;
   margin-bottom: 30px;
