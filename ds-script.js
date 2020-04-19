@@ -2756,6 +2756,69 @@ jQuery(document).ready(function() {
 /*              JS HIDE SHOW SECTIONS                */
 /* ************************************************* */
 
+/*Test*/
+jQuery(document).ready(function ($) {
+
+	var selector = '.activelinks a';
+	$(selector).on('click', function () {
+		$(selector).removeClass('active');
+		$(this).addClass('active');
+	});
+
+	function removeClassFocus() {
+		$("#websites_slider_video").removeClass("focus");
+		$("#websites_slider_beratung").removeClass("focus");
+		$("#websites_slider_analyse").removeClass("focus");
+		$("#websites_slider_design").removeClass("focus");
+		$("#websites_slider_responsiv").removeClass("focus");
+		$("#websites_slider_wartung").removeClass("focus");
+	}
+
+	$("#websites_slider_video").on("click", function (e) {
+		e.preventDefault();
+		removeClassFocus();
+		$(".et-pb-controllers a:nth-child(1)").trigger("click");
+		$(this).addClass("focus");
+	});
+
+	$("#websites_slider_beratung").on("click", function (e) {
+		e.preventDefault();
+		removeClassFocus();
+		$(".et-pb-controllers a:nth-child(2)").trigger("click");
+		$(this).addClass("focus");
+	});
+
+	$("#websites_slider_analyse").on("click", function (e) {
+		e.preventDefault();
+		removeClassFocus();
+		$(".et-pb-controllers a:nth-child(3)").trigger("click");
+		$(this).addClass("focus");
+	});
+
+	$("#websites_slider_design").on("click", function (e) {
+		e.preventDefault();
+		removeClassFocus();
+		$(".et-pb-controllers a:nth-child(4)").trigger("click");
+		$(this).addClass("focus");
+	});
+
+	$("#websites_slider_responsiv").on("click", function (e) {
+		e.preventDefault();
+		removeClassFocus();
+		$(".et-pb-controllers a:nth-child(5)").trigger("click");
+		$(this).addClass("focus");
+	});
+
+	$("#websites_slider_wartung").on("click", function (e) {
+		e.preventDefault();
+		removeClassFocus();
+		$(".et-pb-controllers a:nth-child(6)").trigger("click");
+		$(this).addClass("focus");
+	});
+});
+/*Test*/
+
+
 jQuery(document).ready(function() {
     //Hide Things on Page Uebersetzungen
     jQuery('#uebersetzungen_preise_normale_texte_btn_inactive').hide();
