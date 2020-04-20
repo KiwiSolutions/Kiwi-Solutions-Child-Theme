@@ -401,11 +401,12 @@ ul#mobile_menu2 li {
 }
 /*============================================================================*/
 
-/*===================add border & margin to navigation images=======================*/
+/*===================add border, margin & padding to navigation images=======================*/
 .activelinks img {
   margin: 20px;
   border-radius: 100px;
   border: 3px solid transparent;
+  padding: 5px;
 }
 /*==================================================================================*/
 
