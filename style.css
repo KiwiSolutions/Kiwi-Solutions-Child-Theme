@@ -401,14 +401,15 @@ ul#mobile_menu2 li {
 }
 /*============================================================================*/
 
-/*===================add border, margin & padding to navigation images=======================*/
+/*===================Style navigation images=======================*/
 .activelinks img {
   margin: 20px;
   border-radius: 100px;
   border: 3px solid transparent;
-  padding: 5px;
+  padding: 10px;
+  max-width: 80% !important;
 }
-/*==================================================================================*/
+/*=================================================================*/
 
 /*===================turn image and change border color on hover=======================*/
 #websites_slider_video:hover img,
