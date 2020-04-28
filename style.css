@@ -445,6 +445,149 @@ ul#mobile_menu2 li {
 }
 /*=========================================================================*/
 
+/*? ************************************************ */
+/*?                  PRICE TABLE                     */
+/*? ************************************************ */
+
+.websites_price-table_switch-button_column {
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+}
+
+#websites_price-table_button-website-pakete, 
+#websites_price-table_button-spezial-pakete {
+	color: #17381b;
+}
+
+#websites_price-table_button-website-pakete.aktive_slider-button, 
+#websites_price-table_button-spezial-pakete.aktive_slider-button {
+	color: #ffffff!important;
+    background-color: #17381b !important;
+	box-shadow: none;
+}
+
+.websites_price-table_row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.websites_price-table_column{
+	min-width:300px;
+}
+
+table, th, td {
+	border: 0px solid transparent !important;
+	text-align: center !important;
+}
+
+.tablepress-id-1 td {
+    position: relative;
+}
+.tablepress-id-1 .info-box {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 30%;
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(230,230,230,0.8);
+}
+.tablepress-id-1 td:hover .info-box {
+    display: block;
+}
+.websites_price-table_image_mobile {
+    width:150px;
+}
+
+.websites_price-table_packege-header_mobile,
+.websites_price-table_text_mobile {
+    font-size: 16px;
+}
+
+.websites_price-table_price_mobile, 
+.websites_price-table_tax_mobile, 
+.websites_price-table_euro_mobile, 
+.websites_price-table_header_mobile {
+    color: #17381b !important;
+}
+
+.websites_price-table_header_mobile {
+    font-size: 26px;
+    margin:7px 0px;
+}
+
+.websites_price-table_euro_mobile {
+    font-size: 20px;
+}
+
+.websites_price-table_price_mobile {
+    font-size: 30px;
+    margin-top: 7px
+}
+
+.websites_price-table_price_mobile, 
+.websites_price-table_euro_mobile, 
+.websites_price-table_tax_mobile, 
+.websites_price-table_header_mobile {
+    font-weight: 700;
+}
+
+
+tr:nth-child(even) {background-color: #f4f8fb;}
+
+.row-2, 
+.row-12, 
+tr:nth-child(odd) {background-color: white !important;}
+
+td:nth-child(even) {
+	background-color: #A5DBAC !important;
+}
+
+
+.websites_price-table_text_mobile {
+	margin: 5px 0px;
+}
+
+td:nth-child(odd) {
+	min-width: 300px;
+}
+
+
+td:nth-child(even) {
+	width: 25px;
+}
+
+.websites_price-table_contact-button_mobile {
+    background-color: #17381b;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+
+.websites_price-table_compare-link {
+    color: #17381b;
+    text-decoration: underline;
+}
+
+#websites_price-table_swipe-gif_mobile {
+    position: absolute;
+    left: 0%;
+    right: 0;
+    z-index: 1;
+    top: 36%;
+}
+
+#websites_price-table_responsiv-view_mobile {
+margin-bottom: 0;
+overflow: hidden;
+overflow-x: scroll;
+display: block;
+white-space: nowrap;
+}
+
 /* ************************************************* */
 /* ************************************************* */
 /* ************************************************* */
