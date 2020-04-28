@@ -578,9 +578,9 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
     display: block;
   }
 
-  #websites_price-table_button-website-pakete,
-  #websites_price-table_button-spezial-pakete, 
-  .websites_price-table_switch-button_column {
+  #websites_price-table_website-pakete_row,
+  #websites_price-table_spezial-pakete_row, 
+  #websites_price-table_switch-button_row {
     display: none !important;
   }
 }
