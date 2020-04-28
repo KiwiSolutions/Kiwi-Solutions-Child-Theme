@@ -28,7 +28,7 @@
 	},
 
 	"Comment row column": {
-		"scope": "com:",
+		"scope": "css",
 		"prefix": "com:Subsection",
 		"body": [
 			"/*===================${1:Text}=======================*/",
