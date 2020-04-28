@@ -712,11 +712,11 @@ td:nth-child(even) {
 }
 
 #websites_price-table_swipe-gif_mobile {
-  position: absolute;
-  left: 0%;
-  right: 0;
-  z-index: 1;
-  top: 36%;
+    position: absolute;
+    left: 0%;
+    right: 0;
+    z-index: 1;
+    top: 15%;
 }
 
 /*
