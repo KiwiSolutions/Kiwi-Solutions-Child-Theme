@@ -39,42 +39,6 @@
 
 */
 
-/*! Delete this two code snippets as far we use other Plugins like Table Press etc. */
-
-/*
- .d8b.  d8888b.      d88888b  .d88b.  d8888b. .88b  d88. .d8888.      .d8888. db    db d8888b. d8888b.  .d88b.  d8888b. d888888b
-d8' `8b 88  `8D      88'     .8P  Y8. 88  `8D 88'YbdP`88 88'  YP      88'  YP 88    88 88  `8D 88  `8D .8P  Y8. 88  `8D `~~88~~'
-88ooo88 88oobY'      88ooo   88    88 88oobY' 88  88  88 `8bo.        `8bo.   88    88 88oodD' 88oodD' 88    88 88oobY'    88
-88~~~88 88`8b        88~~~   88    88 88`8b   88  88  88   `Y8b.        `Y8b. 88    88 88~~~   88~~~   88    88 88`8b      88
-88   88 88 `88.      88      `8b  d8' 88 `88. 88  88  88 db   8D      db   8D 88b  d88 88      88      `8b  d8' 88 `88.    88
-YP   YP 88   YD      YP       `Y88P'  88   YD YP  YP  YP `8888Y'      `8888Y' ~Y8888P' 88      88       `Y88P'  88   YD    YP
-
-
-*/
-
-/*========= Don't use AR Forms, so right now not nesseccary======
-/*.arf_confirmation_summary_inner_wrapper .con_dis_none {
-  display: none;
-}*/
-/*===============================================================*/
-/*
- .d8b.  d8888b.      d8888b. d8888b. d888888b  .o88b. d88888b      .d8888. db    db d8888b. d8888b.  .d88b.  d8888b. d888888b
-d8' `8b 88  `8D      88  `8D 88  `8D   `88'   d8P  Y8 88'          88'  YP 88    88 88  `8D 88  `8D .8P  Y8. 88  `8D `~~88~~'
-88ooo88 88oobY'      88oodD' 88oobY'    88    8P      88ooooo      `8bo.   88    88 88oodD' 88oodD' 88    88 88oobY'    88
-88~~~88 88`8b        88~~~   88`8b      88    8b      88~~~~~        `Y8b. 88    88 88~~~   88~~~   88    88 88`8b      88
-88   88 88 `88.      88      88 `88.   .88.   Y8b  d8 88.          db   8D 88b  d88 88      88      `8b  d8' 88 `88.    88
-YP   YP 88   YD      88      88   YD Y888888P  `Y88P' Y88888P      `8888Y' ~Y8888P' 88      88       `Y88P'  88   YD    YP
-
-
-*/
-
-/*========= Don't use AR Price, so right now not nesseccary======
-.arptemplate_105 .ArpPricingTableColumnWrapper {
-  width: 240px !important;
-}*/
-/*===============================================================*/
-/*! =============================================================================== */
-
 /*
 d88888b  .d88b.  d8b   db d888888b       .d8b.  d8888b.    d88b db    db .d8888. d888888b .88b  d88. d88888b d8b   db d888888b
 88'     .8P  Y8. 888o  88 `~~88~~'      d8' `8b 88  `8D    `8P' 88    88 88'  YP `~~88~~' 88'YbdP`88 88'     888o  88 `~~88~~'
@@ -86,17 +50,19 @@ YP       `Y88P'  VP   V8P    YP         YP   YP Y8888D' Y8888P  ~Y8888P' `8888Y'
 
 */
 
-/*===================font adjustment for small desktop=======================*/
+/*? ************************************************************************ */
+/*?                   font adjustment for small desktop                      */
+/*? ************************************************************************ */
 @media all and (min-width: 1405px) {
   h1 {
     font-size: 58px !important;
   }
-
+  
   .sub_headline {
     font-size: 45px !important;
   }
 }
-/*===========================================================================*/
+/*? ************************************************************************ */
 
 /*
 d8888b. db    db d888888b d888888b  .d88b.  d8b   db       .d8b.  db      d888888b  d888b  d8b   db .88b  d88. d88888b d8b   db d888888b
@@ -109,37 +75,41 @@ Y8888P' ~Y8888P'    YP       YP     `Y88P'  VP   V8P      YP   YP Y88888P Y88888
 
 */
 
-/* =========BUTTON INLINE LEFT========*/
-
+/*? ********************************************************* */
+/*?                   BUTTON INLINE LEFT                      */
+/*? ********************************************************* */
 @media all and (min-width: 768px) {
   #btn_align_left_row .et_pb_column {
     display: flex;
   }
 }
+/*? ********************************************************* */
 
-/* =========BUTTON INLINE CENTER========*/
-
+/*? *********************************************************** */
+/*?                   BUTTON INLINE CENTER                      */
+/*? *********************************************************** */
 @media all and (min-width: 768px) {
   #btn_align_center_row .et_pb_column {
     display: flex;
     justify-content: center;
   }
 }
+/*? *********************************************************** */
 
 /*TODO check if this code is just up to date */
 /*==========BUTTON CORRECTION==========
 
-  @media all and (min-width: 768px and max-width: 980px){
+@media all and (min-width: 768px and max-width: 980px){
+  
+  #btn_align_left_row .et_pb_column .et_pb_button_module_wrapper {
     
-   #btn_align_left_row .et_pb_column .et_pb_button_module_wrapper {
-     
-     margin-bottom: 0px !important;
-     
-     margin-right: 20px !important;
-
-    }
-
-  }*/
+    margin-bottom: 0px !important;
+    
+    margin-right: 20px !important;
+    
+  }
+  
+}*/
 
 /* =========BUTTON INLINE RIGHT========
 
@@ -166,39 +136,42 @@ Y8888P' ~Y8888P'    YP       YP     `Y88P'  VP   V8P      YP   YP Y88888P Y88888
 /*TODO=======================================*/
 
 /*
-d888888b .88b  d88.  d888b       d888888b d8b   db db      d888888b d8b   db d88888b
-  `88'   88'YbdP`88 88' Y8b        `88'   888o  88 88        `88'   888o  88 88'
-   88    88  88  88 88              88    88V8o 88 88         88    88V8o 88 88ooooo
-   88    88  88  88 88  ooo         88    88 V8o88 88         88    88 V8o88 88~~~~~
-  .88.   88  88  88 88. ~8~        .88.   88  V888 88booo.   .88.   88  V888 88.
-Y888888P YP  YP  YP  Y888P       Y888888P VP   V8P Y88888P Y888888P VP   V8P Y88888P
+d888888b .88b  d88.  d888b        .d8b.  db      d888888b  d888b  d8b   db .88b  d88. d88888b d8b   db d888888b
+  `88'   88'YbdP`88 88' Y8b      d8' `8b 88        `88'   88' Y8b 888o  88 88'YbdP`88 88'     888o  88 `~~88~~'
+   88    88  88  88 88           88ooo88 88         88    88      88V8o 88 88  88  88 88ooooo 88V8o 88    88
+   88    88  88  88 88  ooo      88~~~88 88         88    88  ooo 88 V8o88 88  88  88 88~~~~~ 88 V8o88    88
+  .88.   88  88  88 88. ~8~      88   88 88booo.   .88.   88. ~8~ 88  V888 88  88  88 88.     88  V888    88
+Y888888P YP  YP  YP  Y888P       YP   YP Y88888P Y888888P  Y888P  VP   V8P YP  YP  YP Y88888P VP   V8P    YP
 
 
 */
 
 /*TODO check if display flex is possible */
-/* =========IMG INLINE LEFT========*/
-
+/*? ****************************************************** */
+/*?                   IMG INLINE LEFT                      */
+/*? ****************************************************** */
 .img_inline {
   display: inline-block;
-
+  
   margin-right: 10px;
 }
-/*=================================*/
+/*? ****************************************************** */
 
-/* =========IMG INLINE CENTER========*/
+/*? ******************************************************** */
+/*?                   IMG INLINE CENTER                      */
+/*? ******************************************************** */
 .img_inline_center_row .et_pb_column {
   display: flex;
-
+  
   justify-content: center;
 }
 
 .img_inline_center {
   display: inline-block;
-
+  
   margin-right: 40px;
 }
-/*===================================*/
+/*? ******************************************************** */
 /*TODO===================================*/
 
 /*
@@ -226,129 +199,223 @@ ul#mobile_menu2 {
 ul#mobile_menu2 li {
   list-style: none !important;
 }
-/*? *********************************************** */
-/*?                    EXAMPLE                      */
-/*? *********************************************** */
 
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* *                      HOME                       */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
-/* ************************************************* */
+/*
+ ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄       ▄▄  ▄▄▄▄▄▄▄▄▄▄▄
+▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░▌     ▐░░▌▐░░░░░░░░░░░▌
+▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌░▌   ▐░▐░▌▐░█▀▀▀▀▀▀▀▀▀
+▐░▌       ▐░▌▐░▌       ▐░▌▐░▌▐░▌ ▐░▌▐░▌▐░▌
+▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░▌ ▐░▐░▌ ▐░▌▐░█▄▄▄▄▄▄▄▄▄
+▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌  ▐░▌  ▐░▌▐░░░░░░░░░░░▌
+▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌   ▀   ▐░▌▐░█▀▀▀▀▀▀▀▀▀
+▐░▌       ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌▐░▌
+▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄
+▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌
+ ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀
 
-/*? *********************************************** */
-/*?        CUSTOMER REVIEW SLIDER PREFERENCES       */
-/*? *********************************************** */
+*/
 
+/*
+.d8888. d88888b d8888b. db    db d888888b  .o88b. d88888b .d8888.
+88'  YP 88'     88  `8D 88    88   `88'   d8P  Y8 88'     88'  YP
+`8bo.   88ooooo 88oobY' Y8    8P    88    8P      88ooooo `8bo.
+  `Y8b. 88~~~~~ 88`8b   `8b  d8'    88    8b      88~~~~~   `Y8b.
+db   8D 88.     88 `88.  `8bd8'    .88.   Y8b  d8 88.     db   8D
+`8888Y' Y88888P 88   YD    YP    Y888888P  `Y88P' Y88888P `8888Y'
+
+
+*/
+/*? **************************************** */
+/*?    SHOW HIDE SERVICES @MEDIA 1365px      */
+/*? **************************************** */
+/*TODO Replace .et_pb_row.et_pb_row_10 with id/class
+
+/*===================Show Row for mobile view=======================*/
+@media all and (max-width: 1365px) {
+  #home_weitere-leistungen_tablet-mobile {
+    display: block;
+  }
+  
+  #home_weitere-leistungen_desktop {
+    display: none;
+  }
+}
+/*==================================================================*/
+
+/*===================Show Row for Desktop view=======================*/
+@media all and (min-width: 1366px) {
+  #home_weitere-leistungen_tablet-mobile {
+    display: none;
+  }
+  
+  #home_weitere-leistungen_desktop {
+    display: block;
+  }
+}
+/*===================================================================*/
+/*? **************************************** */
+
+/*
+ .o88b. db    db .d8888. d888888b  .d88b.  .88b  d88. d88888b d8888b.      d8888b. d88888b db    db d888888b d88888b db   d8b   db        .d8888. db      d888888b d8888b. d88888b d8888b.
+d8P  Y8 88    88 88'  YP `~~88~~' .8P  Y8. 88'YbdP`88 88'     88  `8D      88  `8D 88'     88    88   `88'   88'     88   I8I   88        88'  YP 88        `88'   88  `8D 88'     88  `8D
+8P      88    88 `8bo.      88    88    88 88  88  88 88ooooo 88oobY'      88oobY' 88ooooo Y8    8P    88    88ooooo 88   I8I   88        `8bo.   88         88    88   88 88ooooo 88oobY'
+8b      88    88   `Y8b.    88    88    88 88  88  88 88~~~~~ 88`8b        88`8b   88~~~~~ `8b  d8'    88    88~~~~~ Y8   I8I   88 C8888D   `Y8b. 88         88    88   88 88~~~~~ 88`8b
+Y8b  d8 88b  d88 db   8D    88    `8b  d8' 88  88  88 88.     88 `88.      88 `88. 88.      `8bd8'    .88.   88.     `8b d8'8b d8'        db   8D 88booo.   .88.   88  .8D 88.     88 `88.
+ `Y88P' ~Y8888P' `8888Y'    YP     `Y88P'  YP  YP  YP Y88888P 88   YD      88   YD Y88888P    YP    Y888888P Y88888P  `8b8' `8d8'         `8888Y' Y88888P Y888888P Y8888D' Y88888P 88   YD
+
+*/
+
+/*? ******************************************************************* */
+/*?                   style fonts in review slider                      */
+/*? ******************************************************************* */
 /*===================remove text shadow=======================*/
 .et_pb_bg_layout_dark .et_pb_slide_description {
   text-shadow: none;
 }
 /*============================================================*/
 
-/*TODO fix comments to new comment-structure (see above)*/
-/*style fonts for customer name and job*/
-
+/*===================style fonts for customer name and job=======================*/
 .home_customer-review_slider_name {
   font-weight: 500;
-
+  
   font-size: 24px;
 }
 
 .home_customer-review_slider_job {
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-
+  
   color: #6b6b6b;
 }
+/*===============================================================================*/
 
-/* font size correction to 16px*/
-
+/*===================font size correction to 16px=======================*/
 .et_pb_slide_content,
 .et_pb_best_value {
   font-size: 16px;
 }
-/*TODO=======================================*/
+/*======================================================================*/
+/*? ******************************************************************* */
 
-/*? *********************************************** */
-/*?    SECTION SERVICE SHOW HIDE @MEDIA 1365px      */
-/*? *********************************************** */
+/*
+d8888b. d88888b d88888b d88888b d8888b. d88888b d8b   db  .o88b. d88888b .d8888.
+88  `8D 88'     88'     88'     88  `8D 88'     888o  88 d8P  Y8 88'     88'  YP
+88oobY' 88ooooo 88ooo   88ooooo 88oobY' 88ooooo 88V8o 88 8P      88ooooo `8bo.
+88`8b   88~~~~~ 88~~~   88~~~~~ 88`8b   88~~~~~ 88 V8o88 8b      88~~~~~   `Y8b.
+88 `88. 88.     88      88.     88 `88. 88.     88  V888 Y8b  d8 88.     db   8D
+88   YD Y88888P YP      Y88888P 88   YD Y88888P VP   V8P  `Y88P' Y88888P `8888Y'
 
-/*TODO Replace .et_pb_row.et_pb_row_10 with id/class
 
-  /*Show Row for mobile view*/
-
-@media all and (max-width: 1365px) {
-  #home_weitere-leistungen_tablet-mobile {
-    display: block;
-  }
-
-  #home_weitere-leistungen_desktop {
-    display: none;
-  }
-}
-
-/*Show Row for Desktop view*/
-
-@media all and (min-width: 1366px) {
-  #home_weitere-leistungen_tablet-mobile {
-    display: none;
-  }
-
-  #home_weitere-leistungen_desktop {
-    display: block;
+*/
+/*? ************************************************************************************************ */
+/*?                   change width of the reference-logos on tablets and mobile                      */
+/*? ************************************************************************************************ */
+@media all and (max-width: 980px) {
+  #home_references_row_logos .et_pb_column {
+    width: 33%;
   }
 }
+/*? ************************************************************************************************ */
 
-/*? *********************************************** */
-/*?     SEO TEXT RESPONSIVE VIEWS CORRECTION        */
-/*? *********************************************** */
+/*
+.d8888. d88888b  .d88b.       d888888b d88888b db    db d888888b       db
+88'  YP 88'     .8P  Y8.      `~~88~~' 88'     `8b  d8' `~~88~~'      o88
+`8bo.   88ooooo 88    88         88    88ooooo  `8bd8'     88          88
+  `Y8b. 88~~~~~ 88    88         88    88~~~~~  .dPYb.     88          88
+db   8D 88.     `8b  d8'         88    88.     .8P  Y8.    88          88
+`8888Y' Y88888P  `Y88P'          YP    Y88888P YP    YP    YP          VP
+
+
+*/
+
+/*? ******************************************************************* */
+/*?                   Settings for MOBILE & TABLET                      */
+/*? ******************************************************************* */
 @media all and (max-width: 1365px) {
-  /*=================== SEO Text 1 ===================*/
-
+  /*===================adjust text width=======================*/
   .home_seo-text1_row-text-button {
     padding: 5% !important;
   }
+  /*===========================================================*/
+/*? ******************************************************************* */
 
-  /*==================================================*/
-
-  /*=================== SEO Text 2 ===================*/
-
-  .home_seo-text2_row-text-button {
-    padding: 5% !important;
-  }
-  /*==================================================*/
-}
-
+/*? ***************************************************************** */
+/*?                   Settings for SMALL Desktop                      */
+/*? ***************************************************************** */
 @media all and (min-width: 1366px) {
-  /*=================== SEO Text 1 ===================*/
-
+  /*=================== put the text next to the image ===================*/
   .home_seo-text1_row-text-button {
     overflow: hidden !important;
-
+    
     left: -20%;
-
+    
     right: auto;
-
+    
     width: 40%;
-
+    
     background-color: transparent !important;
-
+    
     padding: 0px !important;
   }
+  /*======================================================================*/
+}
+/*? ***************************************************************** */
 
-  /*==================================================*/
+/*? ***************************************************************** */
+/*?                   SETTINGS FOR LARGE DESKTOP                      */
+/*? ***************************************************************** */
+@media all and (min-width: 1800px) {
+  /*=================== put the text next to the image ===================*/
+  
+  .home_seo-text1_row-text-button {
+    overflow: hidden !important;
+    
+    left: -15%;
 
-  /*=================== SEO Text 2 ===================*/
+    right: auto;
+    
+    width: 35%;
+    
+    background-color: transparent !important;
+    
+    padding: 5% !important;
+  }
+  
+  /*======================================================================*/
+}
+/*? ***************************************************************** */
 
+/*
+.d8888. d88888b  .d88b.       d888888b d88888b db    db d888888b      .d888b.
+88'  YP 88'     .8P  Y8.      `~~88~~' 88'     `8b  d8' `~~88~~'      VP  `8D
+`8bo.   88ooooo 88    88         88    88ooooo  `8bd8'     88            odD'
+  `Y8b. 88~~~~~ 88    88         88    88~~~~~  .dPYb.     88          .88'
+db   8D 88.     `8b  d8'         88    88.     .8P  Y8.    88         j88.
+`8888Y' Y88888P  `Y88P'          YP    Y88888P YP    YP    YP         888888D
+
+
+*/
+
+/*? ******************************************************************* */
+/*?                   Settings for MOBILE & TABLET                      */
+/*? ******************************************************************* */
+@media all and (max-width: 1365px) {
+  /*===================adjust text width=======================*/
+  .home_seo-text2_row-text-button {
+    padding: 5% !important;
+  }
+  /*===========================================================*/
+/*? ******************************************************************* */
+
+/*? ***************************************************************** */
+/*?                   Settings for SMALL Desktop                      */
+/*? ***************************************************************** */
+@media all and (min-width: 1366px) {
+  /*=================== put the text next to the image ===================*/
   .home_seo-text2_row-text-button {
     overflow: hidden !important;
-
+    
     left: auto;
-
+    
     right: -20%;
 
     width: 40%;
@@ -357,59 +424,34 @@ ul#mobile_menu2 li {
 
     padding: 0px !important;
   }
-
-  /*==================================================*/
+  /*======================================================================*/
 }
+/*? ***************************************************************** */
 
+/*? ***************************************************************** */
+/*?                   SETTINGS FOR LARGE DESKTOP                      */
+/*? ***************************************************************** */
 @media all and (min-width: 1800px) {
-  /*=================== SEO Text 1 ===================*/
-
-  .home_seo-text1_row-text-button {
-    overflow: hidden !important;
-
-    left: -15%;
-
-    right: auto;
-
-    width: 35%;
-
-    background-color: transparent !important;
-
-    padding: 5% !important;
-  }
-
-  /*==================================================*/
-
-  /*=================== SEO Text 2 ===================*/
-
+  /*=================== put the text next to the image ===================*/
+  
   .home_seo-text2_row-text-button {
     overflow: hidden !important;
-
+    
     left: auto;
-
+    
     right: -15%;
-
+    
     width: 35%;
-
+    
     background-color: transparent !important;
-
+    
     padding: 5% !important;
   }
 
-  /*==================================================*/
+  /*======================================================================*/
 }
+/*? ***************************************************************** */
 
-/*? ************************************************ */
-/*?                REFERENCES SECTION                */
-/*? ************************************************ */
-
-/*==========change width of the reference-logos on tablets and mobile===========*/
-@media all and (max-width: 980px) {
-  #home_references_row_logos .et_pb_column {
-    width: 33%;
-  }
-}
-/*=============================================================================*/
 
 /* ************************************************* */
 /* ************************************************* */
