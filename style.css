@@ -612,9 +612,9 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   min-width: 300px;
 }
 
-table,
-th,
-td {
+.tablepress-id-1 table,
+.tablepress-id-1 th,
+.tablepress-id-1 td {
   border: 0px solid transparent !important;
   text-align: center !important;
 }
@@ -672,17 +672,16 @@ td {
   font-weight: 700;
 }
 
-tr:nth-child(even) {
+.tablepress-id-1 tr:nth-child(even) {
   background-color: #f4f8fb;
 }
 
-.row-2,
-.row-12,
-tr:nth-child(odd) {
+.tablepress-id-1 .row-2,
+.tablepress-id-1 .row-12,
+.tablepress-id-1 tr:nth-child(odd) {
   background-color: white !important;
 }
-
-td:nth-child(even) {
+.tablepress-id-1 td:nth-child(even) {
   background-color: #a5dbac !important;
 }
 
@@ -690,11 +689,11 @@ td:nth-child(even) {
   margin: 5px 0px;
 }
 
-td:nth-child(odd) {
+.tablepress-id-1 td:nth-child(odd) {
   min-width: 300px;
 }
 
-td:nth-child(even) {
+.tablepress-id-1 td:nth-child(even) {
   width: 25px;
 }
 
