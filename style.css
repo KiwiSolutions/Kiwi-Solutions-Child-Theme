@@ -564,18 +564,22 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 
 */
 
-.websites_price-table_responsiv-view_mobile {
+.websites_price-table_responsiv-view_mobile, 
+.websites_extended-price-table_responsiv-view_mobile {
   margin-bottom: 0;
   overflow: hidden;
   overflow-x: scroll;
   display: block;
   white-space: nowrap;
+}
+
+.websites_price-table_responsiv-view_mobile {
   display: none;
 }
 
 @media all and (max-width: 1023px) {
   .websites_price-table_responsiv-view_mobile {
-    display: block;
+    display: table;
   }
 
   #websites_price-table_website-pakete_row,
