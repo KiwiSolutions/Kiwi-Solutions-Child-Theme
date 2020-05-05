@@ -121,14 +121,14 @@ jQuery(document).ready(function ($) {
   $("#ce-table_button-website-pakete").addClass(
     "aktive_slider-button"
   );
-  $("#websites_additional-features_services_row").hide();
+  $(".websites_additional-features_services_row").hide();
 
   $("#ce-table_button-website-pakete").click(function () {
     $(this).addClass("aktive_slider-button");
     $("#ce-table_button-spezial-pakete").removeClass(
       "aktive_slider-button"
     );
-    $("#websites_additional-features_services_row").hide();
+    $(".websites_additional-features_services_row").hide();
     $("#ce-table_website-pakete_row").show();
   });
 
@@ -138,7 +138,7 @@ jQuery(document).ready(function ($) {
       "aktive_slider-button"
     );
     $("#ce-table_website-pakete_row").hide();
-    $("#websites_additional-features_services_row").show();
+    $(".websites_additional-features_services_row").show();
   });
 
   //make the gif obove the price table mobile dissapear when scrolled left
@@ -161,15 +161,15 @@ jQuery(document).ready(function ($) {
   $("#websites_additional-packages_switch-button").addClass(
     "aktive_slider-button"
   );
-  $("#websites_additional-features_services_row").hide();
+  $(".websites_additional-features_services_row").hide();
 
   $("#websites_additional-packages_switch-button").click(function () {
     $(this).addClass("aktive_slider-button");
     $("#websites_additional-services_switch-button").removeClass(
       "aktive_slider-button"
     );
-    $("#websites_additional-features_services_row").hide();
-    $("#websites_additional-features_packages_row").show();
+    $(".websites_additional-features_services_row").hide();
+    $(".websites_additional-features_packages_row").show();
   });
 
   $("#websites_additional-services_switch-button").click(function () {
@@ -177,8 +177,8 @@ jQuery(document).ready(function ($) {
     $("#websites_additional-packages_switch-button").removeClass(
       "aktive_slider-button"
     );
-    $("#websites_additional-features_packages_row").hide();
-    $("#websites_additional-features_services_row").show();
+    $(".websites_additional-features_packages_row").hide();
+    $(".websites_additional-features_services_row").show();
   });
 });
 
