@@ -178,7 +178,7 @@ jQuery(document).ready(function ($) {
       "aktive_slider-button"
     );
     $("#websites_additional-features_packages_row").hide();
-    $("websites_additional-features_services_row").show();
+    $("#websites_additional-features_services_row").show();
   });
 });
 
