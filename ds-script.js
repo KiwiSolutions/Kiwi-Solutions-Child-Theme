@@ -118,39 +118,70 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
   // Switch button for the Price Table Desktop
-  $("#websites_price-table_button-website-pakete").addClass(
+  $("#ce-table_button-website-pakete").addClass(
     "aktive_slider-button"
   );
-  $("#websites_price-table_spezial-pakete_row").hide();
+  $("#websites_additional-features_services_row").hide();
 
-  $("#websites_price-table_button-website-pakete").click(function () {
+  $("#ce-table_button-website-pakete").click(function () {
     $(this).addClass("aktive_slider-button");
-    $("#websites_price-table_button-spezial-pakete").removeClass(
+    $("#ce-table_button-spezial-pakete").removeClass(
       "aktive_slider-button"
     );
-    $("#websites_price-table_spezial-pakete_row").hide();
-    $("#websites_price-table_website-pakete_row").show();
+    $("#websites_additional-features_services_row").hide();
+    $("#ce-table_website-pakete_row").show();
   });
 
-  $("#websites_price-table_button-spezial-pakete").click(function () {
+  $("#ce-table_button-spezial-pakete").click(function () {
     $(this).addClass("aktive_slider-button");
-    $("#websites_price-table_button-website-pakete").removeClass(
+    $("#ce-table_button-website-pakete").removeClass(
       "aktive_slider-button"
     );
-    $("#websites_price-table_website-pakete_row").hide();
-    $("#websites_price-table_spezial-pakete_row").show();
+    $("#ce-table_website-pakete_row").hide();
+    $("#websites_additional-features_services_row").show();
   });
 
   //make the gif obove the price table mobile dissapear when scrolled left
-  $("#websites_price-table_responsiv-view_mobile").scroll(function () {
+  $("#ce-table_responsiv-view_mobile").scroll(function () {
     var elmnt = document.getElementById(
-      "websites_price-table_responsiv-view_mobile"
+      "ce-table_responsiv-view_mobile"
     );
     if (elmnt.scrollLeft > 100) {
-      $("#websites_price-table_swipe-gif_mobile").hide();
+      $("#ce-table_swipe-gif_mobile").hide();
     }
   });
 });
+
+/* ************************************************* */
+/*               ADDITIONAL FEATURES                 */
+/* ************************************************* */
+
+jQuery(document).ready(function ($) {
+  // Switch button for the additional features
+  $("#websites_additional-packages_switch-button").addClass(
+    "aktive_slider-button"
+  );
+  $("#websites_additional-features_services_row").hide();
+
+  $("#websites_additional-packages_switch-button").click(function () {
+    $(this).addClass("aktive_slider-button");
+    $("#websites_additional-services_switch-button").removeClass(
+      "aktive_slider-button"
+    );
+    $("#websites_additional-features_services_row").hide();
+    $("#websites_additional-features_packages_row").show();
+  });
+
+  $("#websites_additional-services_switch-button").click(function () {
+    $(this).addClass("aktive_slider-button");
+    $("#websites_additional-packages_switch-button").removeClass(
+      "aktive_slider-button"
+    );
+    $("#websites_additional-features_packages_row").hide();
+    $("websites_additional-features_services_row").show();
+  });
+});
+
 
 /* ************************************************* */
 /* ************************************************* */

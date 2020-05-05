@@ -569,7 +569,6 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   margin-bottom: 0;
   overflow: hidden;
   overflow-x: auto;
-  display: block;
   white-space: nowrap;
 }
 
@@ -593,7 +592,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
     display: none !important;
   }
 }
-
+ 
 .websites_price-table_switch-button_column {
   display: flex;
   justify-content: center;
@@ -725,6 +724,34 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
     right: 0;
     z-index: 1;
     top: 80px;
+}
+/*
+ .d8b.  d8888b. d8888b. d888888b d888888b d888888b  .d88b.  d8b   db  .d8b.  db           d88888b d88888b  .d8b.  d888888b db    db d8888b. d88888b .d8888.
+d8' `8b 88  `8D 88  `8D   `88'   `~~88~~'   `88'   .8P  Y8. 888o  88 d8' `8b 88           88'     88'     d8' `8b `~~88~~' 88    88 88  `8D 88'     88'  YP
+88ooo88 88   88 88   88    88       88       88    88    88 88V8o 88 88ooo88 88           88ooo   88ooooo 88ooo88    88    88    88 88oobY' 88ooooo `8bo.
+88~~~88 88   88 88   88    88       88       88    88    88 88 V8o88 88~~~88 88           88~~~   88~~~~~ 88~~~88    88    88    88 88`8b   88~~~~~   `Y8b.
+88   88 88  .8D 88  .8D   .88.      88      .88.   `8b  d8' 88  V888 88   88 88booo.      88      88.     88   88    88    88b  d88 88 `88. 88.     db   8D
+YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88888P      YP      Y88888P YP   YP    YP    ~Y8888P' 88   YD Y88888P `8888Y'
+
+
+*/
+
+.websites_additional-features_switch-button_column {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+#websites_additional-packages_switch-button, 
+#websites_additional-services_switch-button {
+  color: #17381b;
+}
+
+#websites_additional-packages_switch-button.active_slider-button, 
+#websites_additional-services_switch-button.aktive_slider-button {
+  color: #ffffff !important;
+  background-color: #17381b !important;
+  box-shadow: none;
 }
 
 /*
