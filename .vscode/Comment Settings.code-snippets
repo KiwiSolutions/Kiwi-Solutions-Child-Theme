@@ -59,7 +59,7 @@
 
 
 	"Comment row header_js": {
-		"scope": "js",
+		"scope": "javascript",
 		"prefix": "com:Section",
 		"body": [
 			"//? ************************************************ //",
@@ -72,7 +72,7 @@
 	},
 
 	"Comment row column_js": {
-		"scope": "js",
+		"scope": "javascript",
 		"prefix": "com:Subsection",
 		"body": [
 			"//===================${1:Text}=======================//",
@@ -82,7 +82,7 @@
 	},
 
 	"Comment to be removed_js": {
-		"scope": "js",
+		"scope": "javascript",
 		"prefix": "com:remove",
 		"body": [
 			"//! ${1:Text} //",
@@ -91,7 +91,7 @@
 	},
 
 	"Comment TODO_js": {
-		"scope": "js",
+		"scope": "javascript",
 		"prefix": "com:todo",
 		"body": [
 			"//TODO ${1:Text} //",
