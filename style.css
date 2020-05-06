@@ -568,6 +568,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*?                    Desktop                       */
 /*? ************************************************ */
 /*===================make switch buttons appear in one row=======================*/
+.websites_additional-features_switch-button_column,
 .websites_price-table_switch-button_column {
   display: flex;
   justify-content: center;
@@ -576,11 +577,15 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
  /*===============================================================================*/
 
  /*===================style switch button=======================*/
+ #websites_additional-packages_switch-button, 
+ #websites_additional-services_switch-button,
  #websites_price-table_button-website-pakete,
  #websites_price-table_button-spezial-pakete {
    color: #17381b;
  }
  
+ #websites_additional-packages_switch-button.aktive_slider-button, 
+ #websites_additional-services_switch-button.aktive_slider-button,
  #websites_price-table_button-website-pakete.aktive_slider-button,
  #websites_price-table_button-spezial-pakete.aktive_slider-button {
    color: #ffffff !important;
@@ -618,11 +623,6 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   overflow: hidden;
   overflow-x: auto;
   white-space: nowrap;
-}
-
-.websites_extended-price-table {
-  overflow-y: auto;
-  max-height: 80vh;
 }
 /*===================================================================================================*/
 
@@ -777,6 +777,83 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*============================================================================*/
 /*? ************************************************ */
 
+/*? ************************************************ */
+/*?                 extended Table                   */
+/*? ************************************************ */
+
+
+.websites_extended-price-table {
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.tablepress-id-3 {
+  color: #17381b !important;
+	font-family: 'Lato', sans-serif;
+}
+
+.tablepress-id-3 .row-1 {
+  background-color: #D7E0D8 !important;
+	font-weight: 700;
+	height: 70px;
+	text-align: left;
+}
+
+.tablepress-id-3 .column-6 {
+  width: 220px;
+}
+
+.tablepress-id-3 .row-1 td {
+  padding-top: 23px;
+}
+
+.tablepress-id-3 tr:nth-child(odd) {
+  background-color: #F7FAF8;
+}
+
+.tablepress-id-3 tr:nth-child(even){
+  background-color: white;
+}
+
+.tablepress-id-3 table,
+.tablepress-id-3 th,
+.tablepress-id-3 td {
+  border: 0px solid transparent !important;
+}
+
+.tablepress-id-3 .row-46, 
+.tablepress-id-3 .row-47 {
+  background-color: #9AA49B !important;
+	font-weight: bold;
+}
+
+.tablepress-id-3 .row-2, 
+.tablepress-id-3 .row-13, 
+.tablepress-id-3 .row-23, 
+.tablepress-id-3 .row-29, 
+.tablepress-id-3 .row-35, 
+.tablepress-id-3 .row-42 {
+  font-weight: bold;
+	background-color: #D3DBD4 !important;
+}
+
+.tablepress-id-3 .row-47 td {
+  min-width: 215px;
+	padding: 25px 0px;
+}
+
+.tablepress-id-3 .column-1 {
+	min-width: 240px;
+}
+
+.tablepress-id-3 .row-3 {
+  font-weight: bold;
+}
+
+.tablepress-id-3 {
+  display: table !important;
+}
+/*? ************************************************ */
 
 
 
@@ -792,22 +869,30 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
 */
 
-.websites_additional-features_switch-button_column {
-  display: flex;
-  justify-content: center;
-  flex-flow: row nowrap;
+/*===================style the switch button=======================*/
+/* <the code is in the desktop section of the price table
+/*=================================================================*/
+
+
+.websites_additional-features_packages_price-and-button>div {
+	display: flex;
+	justify-content: space-around;
 }
 
-#websites_additional-packages_switch-button, 
-#websites_additional-services_switch-button {
-  color: #17381b;
+.websites_additional-features_packages_price-and-button a {
+	padding: 10px 20px;
+	background-color: #17381b;
+	border-radius: 3px;
 }
 
-#websites_additional-packages_switch-button.aktive_slider-button, 
-#websites_additional-services_switch-button.aktive_slider-button {
-  color: #ffffff !important;
-  background-color: #17381b !important;
-  box-shadow: none;
+.websites_additional-features_packages_price {
+	font-size: 35px;
+}
+
+.websites_additional-features_packages_blurb_subheadline {
+	font-family: 'Poppins', sans-serif;
+	font-size: large;
+	color: #17381b;
 }
 
 /*
