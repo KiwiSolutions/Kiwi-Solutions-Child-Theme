@@ -778,35 +778,49 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*? ************************************************ */
 
 /*? ************************************************ */
-/*?                 extended Table                   */
+/*?                    Extended                      */
 /*? ************************************************ */
 
-
+/*===================make the extended price table responsiv=======================*/
 .websites_extended-price-table {
   overflow-y: auto;
   max-height: 80vh;
 }
+/*=================================================================================*/
 
+/*===================Styling font of the table=======================*/
 .tablepress-id-3 {
   color: #17381b !important;
 	font-family: 'Lato', sans-serif;
 }
 
+.tablepress-id-3 .row-3 {
+  font-weight: bold;
+}
+/*===================================================================*/
+
+/*===================styling the first row of the table=======================*/
 .tablepress-id-3 .row-1 {
   background-color: #D7E0D8 !important;
 	font-weight: 700;
 	height: 70px;
 	text-align: left;
 }
+/*============================================================================*/
 
+/*===================setting width of the sixth column=======================*/
 .tablepress-id-3 .column-6 {
   width: 220px;
 }
+/*===========================================================================*/
 
+/*===================add padding to the cells of the first row=======================*/
 .tablepress-id-3 .row-1 td {
   padding-top: 23px;
 }
+/*===================================================================================*/
 
+/*===================added background color=======================*/
 .tablepress-id-3 tr:nth-child(odd) {
   background-color: #F7FAF8;
 }
@@ -814,19 +828,25 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 .tablepress-id-3 tr:nth-child(even){
   background-color: white;
 }
+/*================================================================*/
 
+/*===================remove the borders of the table=======================*/
 .tablepress-id-3 table,
 .tablepress-id-3 th,
 .tablepress-id-3 td {
   border: 0px solid transparent !important;
 }
+/*=========================================================================*/
 
+/*===================style the rows 46 & 47=======================*/
 .tablepress-id-3 .row-46, 
 .tablepress-id-3 .row-47 {
   background-color: #9AA49B !important;
 	font-weight: bold;
 }
+/*================================================================*/
 
+/*===================style the subheaders of the table=======================*/
 .tablepress-id-3 .row-2, 
 .tablepress-id-3 .row-13, 
 .tablepress-id-3 .row-23, 
@@ -836,23 +856,27 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   font-weight: bold;
 	background-color: #D3DBD4 !important;
 }
+/*===========================================================================*/
 
+/*===================styling the cells of row 47=======================*/
 .tablepress-id-3 .row-47 td {
   min-width: 215px;
 	padding: 25px 0px;
 }
+/*=====================================================================*/
 
+/*===================give the first column a min width=======================*/
 .tablepress-id-3 .column-1 {
-	min-width: 240px;
+  min-width: 240px;
 }
+/*===========================================================================*/
 
-.tablepress-id-3 .row-3 {
-  font-weight: bold;
-}
 
+/*===================set the display of the table=======================*/
 .tablepress-id-3 {
   display: table !important;
 }
+/*======================================================================*/
 /*? ************************************************ */
 
 
@@ -870,30 +894,37 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 */
 
 /*===================style the switch button=======================*/
-/* <the code is in the desktop section of the price table
+/*the code is in the desktop section of the price table
 /*=================================================================*/
 
-
+/*===================display button and price correctly=======================*/
 .websites_additional-features_packages_price-and-button>div {
-	display: flex;
+  display: flex;
 	justify-content: space-around;
 }
+/*============================================================================*/
 
+/*===================style thecantact button=======================*/
 .websites_additional-features_packages_price-and-button a {
-	padding: 10px 20px;
+  padding: 10px 20px;
 	background-color: #17381b;
 	border-radius: 3px;
 }
+/*=================================================================*/
 
+/*===================Styling package price=======================*/
 .websites_additional-features_packages_price {
-	font-size: 35px;
+  font-size: 35px;
 }
+/*===============================================================*/
 
+/*===================Style the subheadline of the blurb=======================*/
 .websites_additional-features_packages_blurb_subheadline {
-	font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 	font-size: large;
 	color: #17381b;
 }
+/*============================================================================*/
 
 /*
  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄
