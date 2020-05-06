@@ -564,6 +564,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 
 */
 
+/*===================make mobile price table and more details table responsive=======================*/
 .websites_price-table_responsiv-view_mobile, 
 .websites_extended-price-table {
   margin-bottom: 0;
@@ -573,13 +574,16 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 }
 
 .websites_extended-price-table {
- overflow-y: auto;
- max-height: 80vh;
+  overflow-y: auto;
+  max-height: 80vh;
 }
+/*===================================================================================================*/
 
+/*===================hide mobile price table in desktop view=======================*/
 .websites_price-table_responsiv-view_mobile {
   display: none;
 }
+/*=================================================================================*/
 
 @media all and (max-width: 1023px) {
   .websites_price-table_responsiv-view_mobile {
