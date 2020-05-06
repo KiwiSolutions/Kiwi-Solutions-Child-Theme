@@ -564,6 +564,53 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 
 */
 
+/*? ************************************************ */
+/*?                    Desktop                       */
+/*? ************************************************ */
+/*===================make switch buttons appear in one row=======================*/
+.websites_price-table_switch-button_column {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+ }
+ /*===============================================================================*/
+
+ /*===================style switch button=======================*/
+ #websites_price-table_button-website-pakete,
+ #websites_price-table_button-spezial-pakete {
+   color: #17381b;
+ }
+ 
+ #websites_price-table_button-website-pakete.aktive_slider-button,
+ #websites_price-table_button-spezial-pakete.aktive_slider-button {
+   color: #ffffff !important;
+   background-color: #17381b !important;
+   box-shadow: none;
+ }
+ /*=============================================================*/
+
+ /*===================make pricetable appear in one row and define min width for each column=======================*/
+.websites_price-table_row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.websites_price-table_column {
+  min-width: 300px;
+}
+/*================================================================================================================*/
+/*? ************************************************ */
+
+/*? ************************************************ */
+/*?                     Mobil                        */
+/*? ************************************************ */
+/*===================hide mobile price table in desktop view=======================*/
+.websites_price-table_responsiv-view_mobile {
+  display: none;
+}
+/*=================================================================================*/
+
 /*===================make mobile price table and more details table responsive=======================*/
 .websites_price-table_responsiv-view_mobile, 
 .websites_extended-price-table {
@@ -579,52 +626,21 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 }
 /*===================================================================================================*/
 
-/*===================hide mobile price table in desktop view=======================*/
-.websites_price-table_responsiv-view_mobile {
-  display: none;
-}
-/*=================================================================================*/
-
+/*===================show pricetable in mobile view=======================*/
 @media all and (max-width: 1023px) {
   .websites_price-table_responsiv-view_mobile {
     display: table;
   }
-
+  
   #websites_price-table_website-pakete_row,
   #websites_price-table_spezial-pakete_row, 
   #websites_price-table_switch-button_row {
     display: none !important;
   }
 }
- 
-.websites_price-table_switch-button_column {
-  display: flex;
-  justify-content: center;
-  flex-flow: row nowrap;
-}
+/*========================================================================*/
 
-#websites_price-table_button-website-pakete,
-#websites_price-table_button-spezial-pakete {
-  color: #17381b;
-}
-
-#websites_price-table_button-website-pakete.aktive_slider-button,
-#websites_price-table_button-spezial-pakete.aktive_slider-button {
-  color: #ffffff !important;
-  background-color: #17381b !important;
-  box-shadow: none;
-}
-
-.websites_price-table_row {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-
-.websites_price-table_column {
-  min-width: 300px;
-}
-
+/*===================no border and text align center for whole table=======================*/
 .tablepress-id-1 table,
 .tablepress-id-1 th,
 .tablepress-id-1 td {
@@ -632,26 +648,20 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   text-align: center !important;
 }
 
+/*TODO check if code is neccessary */
 .tablepress-id-1 td {
   position: relative;
 }
-.tablepress-id-1 .info-box {
-  display: none;
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 30%;
-  width: 200px;
-  padding: 5px;
-  background-color: rgb(230, 230, 230, 0.8);
-}
-.tablepress-id-1 td:hover .info-box {
-  display: block;
-}
-.websites_price-table_image_mobile {
-  width: 150px;
-}
+/*TODO=============================*/
+/*=========================================================================================*/
 
+/*===================set width for package images=======================*/
+.websites_price-table_image_mobile {
+  max-width: 150px;
+}
+/*======================================================================*/
+
+/*===================style font in table=======================*/
 .websites_price-table_packege-header_mobile,
 .websites_price-table_text_mobile {
   font-size: 16px;
@@ -684,7 +694,9 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 .websites_price-table_header_mobile {
   font-weight: 700;
 }
+/*=============================================================*/
 
+/*===================set background styles for table rows=======================*/
 .tablepress-id-1 tr:nth-child(even) {
   background-color: #f4f8fb;
 }
@@ -694,14 +706,21 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 .tablepress-id-1 tr:nth-child(odd) {
   background-color: white !important;
 }
+/*==============================================================================*/
+
+/*===================set background styles for columns=======================*/
 .tablepress-id-1 td:nth-child(even) {
   background-color: #a5dbac !important;
 }
+/*===========================================================================*/
 
+/*===================set margin for top and bottom for all text in table=======================*/
 .websites_price-table_text_mobile {
   margin: 5px 0px;
 }
+/*============================================================================================*/
 
+/*===================set width of table columns=======================*/
 .tablepress-id-1 td:nth-child(odd) {
   min-width: 300px;
 }
@@ -709,7 +728,9 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 .tablepress-id-1 td:nth-child(even) {
   width: 25px;
 }
+/*====================================================================*/
 
+/*===================style CTA button in table=======================*/
 .websites_price-table_contact-button_mobile {
   background-color: #17381b;
   padding: 10px 20px;
@@ -717,21 +738,51 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   color: white;
   font-family: "poppins", sans-serif;
 }
+/*===================================================================*/
 
+/*===================style CTA "compare" links below CTA button in table =======================*/
 .websites_price-table_compare-link {
   color: #17381b;
   text-decoration: underline;
 }
+/*==============================================================================================*/
 
-#websites_price-table_swipe-gif_mobile {
-    position: absolute;
-    left: 105px;
-    right: 0;
-    z-index: 1;
-    top: 80px;
+/*===================style tooltip and hide it at first pageload=======================*/
+.tablepress-id-1 .info-box {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 30%;
+  width: 200px;
+  padding: 5px;
+  background-color: rgb(230, 230, 230, 0.8);
 }
+/*=====================================================================================*/
+
+/*===================show tooltip=======================*/
+.tablepress-id-1 td:hover .info-box {
+  display: block;
+}
+/*======================================================*/
+
+/*===================position swipe gif above the table=======================*/
+#websites_price-table_swipe-gif_mobile {
+  position: absolute;
+  left: 105px;
+  right: 0;
+  z-index: 1;
+  top: 80px;
+}
+/*============================================================================*/
+/*? ************************************************ */
+
+
+
+
+
 /*
- .d8b.  d8888b. d8888b. d888888b d888888b d888888b  .d88b.  d8b   db  .d8b.  db           d88888b d88888b  .d8b.  d888888b db    db d8888b. d88888b .d8888.
+.d8b.  d8888b. d8888b. d888888b d888888b d888888b  .d88b.  d8b   db  .d8b.  db           d88888b d88888b  .d8b.  d888888b db    db d8888b. d88888b .d8888.
 d8' `8b 88  `8D 88  `8D   `88'   `~~88~~'   `88'   .8P  Y8. 888o  88 d8' `8b 88           88'     88'     d8' `8b `~~88~~' 88    88 88  `8D 88'     88'  YP
 88ooo88 88   88 88   88    88       88       88    88    88 88V8o 88 88ooo88 88           88ooo   88ooooo 88ooo88    88    88    88 88oobY' 88ooooo `8bo.
 88~~~88 88   88 88   88    88       88       88    88    88 88 V8o88 88~~~88 88           88~~~   88~~~~~ 88~~~88    88    88    88 88`8b   88~~~~~   `Y8b.
