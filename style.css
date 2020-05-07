@@ -629,7 +629,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*===================show pricetable in mobile view=======================*/
 @media all and (max-width: 1023px) {
   .websites_price-table_responsiv-view_mobile {
-    display: table;
+    display: block;
   }
 
   #websites_price-table_website-pakete_row,
@@ -657,7 +657,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 
 /*===================set width for package images=======================*/
 .websites_price-table_image_mobile {
-  max-width: 150px;
+  max-width: 150px !important;
 }
 /*======================================================================*/
 
