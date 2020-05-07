@@ -769,7 +769,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*===================position swipe gif above the table=======================*/
 #websites_price-table_swipe-gif_mobile {
   position: absolute;
-  left: 105px;
+  left: 55px;
   right: 0;
   z-index: 1;
   top: 80px;
