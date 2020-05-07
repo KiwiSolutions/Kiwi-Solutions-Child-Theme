@@ -573,28 +573,28 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   display: flex;
   justify-content: center;
   flex-flow: row nowrap;
- }
- /*===============================================================================*/
+}
+/*===============================================================================*/
 
- /*===================style switch button=======================*/
- #websites_additional-packages_switch-button, 
- #websites_additional-services_switch-button,
- #websites_price-table_button-website-pakete,
- #websites_price-table_button-spezial-pakete {
-   color: #17381b;
- }
- 
- #websites_additional-packages_switch-button.aktive_slider-button, 
- #websites_additional-services_switch-button.aktive_slider-button,
- #websites_price-table_button-website-pakete.aktive_slider-button,
- #websites_price-table_button-spezial-pakete.aktive_slider-button {
-   color: #ffffff !important;
-   background-color: #17381b !important;
-   box-shadow: none;
- }
- /*=============================================================*/
+/*===================style switch button=======================*/
+#websites_additional-packages_switch-button,
+#websites_additional-services_switch-button,
+#websites_price-table_button-website-pakete,
+#websites_price-table_button-spezial-pakete {
+  color: #17381b;
+}
 
- /*===================make pricetable appear in one row and define min width for each column=======================*/
+#websites_additional-packages_switch-button.aktive_slider-button,
+#websites_additional-services_switch-button.aktive_slider-button,
+#websites_price-table_button-website-pakete.aktive_slider-button,
+#websites_price-table_button-spezial-pakete.aktive_slider-button {
+  color: #ffffff !important;
+  background-color: #17381b !important;
+  box-shadow: none;
+}
+/*=============================================================*/
+
+/*===================make pricetable appear in one row and define min width for each column=======================*/
 .websites_price-table_row {
   display: flex;
   justify-content: space-around;
@@ -617,7 +617,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*=================================================================================*/
 
 /*===================make mobile price table and more details table responsive=======================*/
-.websites_price-table_responsiv-view_mobile, 
+.websites_price-table_responsiv-view_mobile,
 .websites_extended-price-table {
   margin-bottom: 0;
   overflow: hidden;
@@ -631,9 +631,9 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   .websites_price-table_responsiv-view_mobile {
     display: table;
   }
-  
+
   #websites_price-table_website-pakete_row,
-  #websites_price-table_spezial-pakete_row, 
+  #websites_price-table_spezial-pakete_row,
   #websites_price-table_switch-button_row {
     display: none !important;
   }
@@ -791,7 +791,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*===================Styling font of the table=======================*/
 .tablepress-id-3 {
   color: #17381b !important;
-	font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .tablepress-id-3 .row-3 {
@@ -801,10 +801,10 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 
 /*===================styling the first row of the table=======================*/
 .tablepress-id-3 .row-1 {
-  background-color: #D7E0D8 !important;
-	font-weight: 700;
-	height: 70px;
-	text-align: left;
+  background-color: #d7e0d8 !important;
+  font-weight: 700;
+  height: 70px;
+  text-align: left;
 }
 /*============================================================================*/
 
@@ -822,10 +822,10 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 
 /*===================added background color=======================*/
 .tablepress-id-3 tr:nth-child(odd) {
-  background-color: #F7FAF8;
+  background-color: #f7faf8;
 }
 
-.tablepress-id-3 tr:nth-child(even){
+.tablepress-id-3 tr:nth-child(even) {
   background-color: white;
 }
 /*================================================================*/
@@ -839,29 +839,29 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*=========================================================================*/
 
 /*===================style the rows 46 & 47=======================*/
-.tablepress-id-3 .row-46, 
+.tablepress-id-3 .row-46,
 .tablepress-id-3 .row-47 {
-  background-color: #9AA49B !important;
-	font-weight: bold;
+  background-color: #9aa49b !important;
+  font-weight: bold;
 }
 /*================================================================*/
 
 /*===================style the subheaders of the table=======================*/
-.tablepress-id-3 .row-2, 
-.tablepress-id-3 .row-13, 
-.tablepress-id-3 .row-23, 
-.tablepress-id-3 .row-29, 
-.tablepress-id-3 .row-35, 
+.tablepress-id-3 .row-2,
+.tablepress-id-3 .row-13,
+.tablepress-id-3 .row-23,
+.tablepress-id-3 .row-29,
+.tablepress-id-3 .row-35,
 .tablepress-id-3 .row-42 {
   font-weight: bold;
-	background-color: #D3DBD4 !important;
+  background-color: #d3dbd4 !important;
 }
 /*===========================================================================*/
 
 /*===================styling the cells of row 47=======================*/
 .tablepress-id-3 .row-47 td {
   min-width: 215px;
-	padding: 25px 0px;
+  padding: 25px 0px;
 }
 /*=====================================================================*/
 
@@ -871,16 +871,12 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 }
 /*===========================================================================*/
 
-
 /*===================set the display of the table=======================*/
 .tablepress-id-3 {
   display: table !important;
 }
 /*======================================================================*/
 /*? ************************************************ */
-
-
-
 
 /*
 .d8b.  d8888b. d8888b. d888888b d888888b d888888b  .d88b.  d8b   db  .d8b.  db           d88888b d88888b  .d8b.  d888888b db    db d8888b. d88888b .d8888.
@@ -898,17 +894,25 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*=================================================================*/
 
 /*===================display button and price correctly=======================*/
-.websites_additional-features_packages_price-and-button>div {
+.websites_additional-features_packages_price-and-button > div {
   display: flex;
-	justify-content: space-around;
+  justify-content: space-around;
 }
 /*============================================================================*/
+
+/*===================adjust the size of the blurb under the dektop width of 1310px=======================*/
+@media all and (max-width: 1309px) {
+  .websites_additional-features_packages_blurb .et_pb_image_wrap {
+    width: 135px !important;
+  }
+}
+/*=======================================================================================================*/
 
 /*===================style thecantact button=======================*/
 .websites_additional-features_packages_price-and-button a {
   padding: 10px 20px;
-	background-color: #17381b;
-	border-radius: 3px;
+  background-color: #17381b;
+  border-radius: 3px;
 }
 /*=================================================================*/
 
@@ -920,9 +924,9 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
 /*===================Style the subheadline of the blurb=======================*/
 .websites_additional-features_packages_blurb_subheadline {
-  font-family: 'Poppins', sans-serif;
-	font-size: large;
-	color: #17381b;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  color: #17381b;
 }
 /*============================================================================*/
 
