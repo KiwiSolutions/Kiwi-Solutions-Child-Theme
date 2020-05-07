@@ -137,36 +137,36 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
   // Switch button for the Price Table Desktop
-  $("#price-table_button-website-pakete").addClass(
+  $("#websites_price-table_button-website-pakete").addClass(
     "aktive_slider-button"
   );
-  $(".websites_additional-features_services_row").hide();
+  $("#websites_price-table_spezial-pakete_row").hide();
 
-  $("#price-table_button-website-pakete").click(function () {
+  $("#websites_price-table_button-website-pakete").click(function () {
     $(this).addClass("aktive_slider-button");
-    $("#price-table_button-spezial-pakete").removeClass(
+    $("#websites_price-table_button-spezial-pakete").removeClass(
       "aktive_slider-button"
     );
-    $(".websites_additional-features_services_row").hide();
-    $("#price-table_website-pakete_row").show();
+    $("#websites_price-table_spezial-pakete_row").hide();
+    $("#websites_price-table_website-pakete_row").show();
   });
 
-  $("#price-table_button-spezial-pakete").click(function () {
+  $("#websites_price-table_button-spezial-pakete").click(function () {
     $(this).addClass("aktive_slider-button");
-    $("#price-table_button-website-pakete").removeClass(
+    $("#websites_price-table_button-website-pakete").removeClass(
       "aktive_slider-button"
     );
-    $("#price-table_website-pakete_row").hide();
-    $(".websites_additional-features_services_row").show();
+    $("#websites_price-table_website-pakete_row").hide();
+    $("#websites_price-table_spezial-pakete_row").show();
   });
 
   //make the gif obove the price table mobile dissapear when scrolled left
-  $("#price-table_responsiv-view_mobile").scroll(function () {
+  $("#websites_price-table_responsiv-view_mobile").scroll(function () {
     var elmnt = document.getElementById(
-      "price-table_responsiv-view_mobile"
+      "websites_price-table_responsiv-view_mobile"
     );
     if (elmnt.scrollLeft > 100) {
-      $("#price-table_swipe-gif_mobile").hide();
+      $("#websites_price-table_swipe-gif_mobile").hide();
     }
   });
 });
