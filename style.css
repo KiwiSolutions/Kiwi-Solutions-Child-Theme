@@ -895,15 +895,6 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*the code is in the desktop section of the price table
 /*=================================================================*/
 
-/*===================make switch button appear in one column on mobile=======================*/
-@media all and (max-width: 767px) {
-  .websites_additional-features_switch-button_column {
-    flex-flow: column nowrap;
-    align-items: center;
-  }
-}
-/*===========================================================================================*/
-
 
 /*===================display button and price correctly=======================*/
 .websites_additional-features_packages_price-and-button > div {
@@ -911,6 +902,20 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
   justify-content: space-around;
 }
 /*============================================================================*/
+
+@media all and (max-width: 767px) {
+
+
+
+  /*===================make switch button appear in one column on mobile=======================*/
+  .websites_additional-features_switch-button_column {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  /*===========================================================================================*/
+}
+
+
 
 /*===================adjust the size of the blurb under the dektop width of 1310px=======================*/
 @media all and (max-width: 1309px) {
@@ -928,9 +933,13 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 }
 /*=================================================================*/
 
-/*===================Styling package price=======================*/
+/*===================Styling package price and price-text=======================*/
 .websites_additional-features_packages_price {
   font-size: 35px;
+}
+
+.websites_additional-features_packages_price-text {
+  font-size: 20px;
 }
 /*===============================================================*/
 
