@@ -145,7 +145,8 @@ jQuery(document).ready(function ($) {
     $("#websites_price-table_spezial-pakete_row").show();
   });
 });
-$(document).ready(function () {
+
+jQuery(document).ready(function () {
   $("#websites_price-table_responsiv-view_mobile").on("swipe", function () {
     $("#websites_price-table_swipe-gif_mobile").hide();
   });
