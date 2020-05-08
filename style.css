@@ -610,6 +610,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*? ************************************************ */
 /*?                     Mobil                        */
 /*? ************************************************ */
+
 /*===================hide mobile price table in desktop view=======================*/
 .websites_price-table_responsiv-view_mobile {
   display: none;
@@ -893,6 +894,16 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*===================style the switch button=======================*/
 /*the code is in the desktop section of the price table
 /*=================================================================*/
+
+/*===================make switch button appear in one column on mobile=======================*/
+@media all and (max-width: 767px) {
+  .websites_additional-features_switch-button_column {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+}
+/*===========================================================================================*/
+
 
 /*===================display button and price correctly=======================*/
 .websites_additional-features_packages_price-and-button > div {
