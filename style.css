@@ -895,7 +895,6 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*the code is in the desktop section of the price table
 /*=================================================================*/
 
-
 /*===================display button and price correctly=======================*/
 .websites_additional-features_packages_price-and-button > div {
   display: flex;
@@ -911,10 +910,9 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
   .websites_additional-features_packages_contact-button {
     margin-top: 20px;
-    min-width: 140px;
   }
   /*========================================================================*/
-
+  
   /*===================make switch button appear in one column on mobile=======================*/
   .websites_additional-features_switch-button_column {
     flex-flow: column nowrap;
@@ -932,11 +930,17 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*=======================================================================================================*/
 
 /*===================style the contact button=======================*/
-.websites_additional-features_packages_price-and-button .websites_additional-features_packages_contact-button a {
+.websites_additional-features_packages_price-and-button
+  .websites_additional-features_packages_contact-button
+  a {
   padding: 10px 20px;
   background-color: #17381b;
   border-radius: 3px;
   font-size: 14px !important;
+}
+
+.websites_additional-features_packages_contact-button {
+  min-width: 140px;
 }
 /*=================================================================*/
 
@@ -961,7 +965,6 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*===================switch the services on 1024px viewport width=======================*/
 .websites_additional-features_services_blurb_mobile {
   display: none;
-
 }
 
 .websites_additional-features_services_flip-box {
@@ -970,12 +973,11 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
 @media all and (max-width: 1024) {
   .websites_additional-features_services_blurb_mobile {
-    display: none;
-  
-  }
-  
-  .websites_additional-features_services_flip-box {
     display: block;
+  }
+
+  .websites_additional-features_services_flip-box {
+    display: none;
   }
 }
 /*=====================================================================================*/
