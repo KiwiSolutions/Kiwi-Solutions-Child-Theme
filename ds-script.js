@@ -152,7 +152,7 @@ jQuery(document).ready(function ($) {
     if (elmnt.scrollLeft > 100) {
       $("#websites_price-table_swipe-gif_mobile").hide();
     }
-  });!important;
+  });
 });
 /* ************************************************* */
 /*               ADDITIONAL FEATURES                 */
