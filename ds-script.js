@@ -32,21 +32,6 @@
 
 */
 
-/* change Header when scrolled */
-jQuery(document).ready(function ($) {
-  $(window).scroll(function () {
-    if ($(document).scrollTop() > 100) {
-      $("#menu_section_large_desktop").addClass("menu_scrolled");
-      /*$(".headerScroll_row").addClass("mhmmScrolled");*/
-    } else {
-      $("#menu_section_large_desktop").removeClass("menu_scrolled");
-      /*$(".headerScroll_row").removeClass("mhmmScrolled");*/
-    }
-  });
-  /*$("#headerScroll").click(function(){
-      /*('#menu_social-media').css('display', 'block');
-    });*/
-});
 
 
 
