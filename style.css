@@ -911,6 +911,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
   .websites_additional-features_packages_contact-button {
     margin-top: 20px;
+    min-width: 140px;
   }
   /*========================================================================*/
 
@@ -922,8 +923,6 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
   /*===========================================================================================*/
 }
 
-
-
 /*===================adjust the size of the blurb under the dektop width of 1310px=======================*/
 @media all and (max-width: 1309px) {
   .websites_additional-features_packages_blurb .et_pb_image_wrap {
@@ -932,7 +931,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 }
 /*=======================================================================================================*/
 
-/*===================style thecantact button=======================*/
+/*===================style the contact button=======================*/
 .websites_additional-features_packages_price-and-button .websites_additional-features_packages_contact-button a {
   padding: 10px 20px;
   background-color: #17381b;
@@ -958,6 +957,28 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
   color: #17381b;
 }
 /*============================================================================*/
+
+/*===================switch the services on 1024px viewport width=======================*/
+.websites_additional-features_services_blurb_mobile {
+  display: none;
+
+}
+
+.websites_additional-features_services_flip-box {
+  display: block;
+}
+
+@media all and (max-width: 1024) {
+  .websites_additional-features_services_blurb_mobile {
+    display: block;
+  
+  }
+  
+  .websites_additional-features_services_flip-box {
+    display: none;
+  }
+}
+/*=====================================================================================*/
 
 /*
  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄
