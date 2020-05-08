@@ -970,12 +970,12 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
 @media all and (max-width: 1024) {
   .websites_additional-features_services_blurb_mobile {
-    display: block;
+    display: none;
   
   }
   
   .websites_additional-features_services_flip-box {
-    display: none;
+    display: block;
   }
 }
 /*=====================================================================================*/
