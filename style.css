@@ -904,8 +904,15 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*============================================================================*/
 
 @media all and (max-width: 767px) {
+  /*===================style the text under the blurb=======================*/
+  .websites_additional-features_packages_price-and-button > div {
+    flex-flow: column nowrap;
+  }
 
-
+  .websites_additional-features_packages_contact-button {
+    margin-top: 20px;
+  }
+  /*========================================================================*/
 
   /*===================make switch button appear in one column on mobile=======================*/
   .websites_additional-features_switch-button_column {
