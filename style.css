@@ -995,7 +995,7 @@ db   8D 88.     `8b  d8'         88    88.     .8P  Y8.    88    88.
 
 /*===================adjust padding of the image in the first SEO Section=======================*/
 
-@media all and (max-width: 1601px) {
+@media all and (min-width: 1601px) {
   .websites_seo-1_desktop_image {
     margin-right: -22vw !important;
   }
