@@ -1052,12 +1052,21 @@ db   8D 88.     88 `88.  `8bd8'    .88.   Y8b  d8 88.     db   8D
 /*===========================================================================*/
 
 /*===================Move the columns=======================*/
-@media all and (max-width: 980px) {
+@media all and (min-width: 981px) {
   .digitales-marketing_services_sea_column {
     margin-top: -25px;
   }
   .digitales-marketing_services_social-media_column {
     margin-top: 40px;
+  }
+}
+
+@media all and (max-width: 980px) and (min-width: 768px) {
+  .digitales-marketing_services_sea_column {
+    margin-left: 20px;
+  }
+  .digitales-marketing_services_social-media_column {
+    margin-right: 20px;
   }
 }
 /*==========================================================*/
