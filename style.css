@@ -1038,9 +1038,16 @@ db   8D 88.     `8b  d8'         88    88.     .8P  Y8.    88    88.
   `Y8b. 88~~~~~ 88`8b   `8b  d8'    88    8b      88~~~~~   `Y8b.
 db   8D 88.     88 `88.  `8bd8'    .88.   Y8b  d8 88.     db   8D
 `8888Y' Y88888P 88   YD    YP    Y888888P  `Y88P' Y88888P `8888Y'
-
-
 */
+
+/*===================displaying the columns correctly=======================*/
+.digitales-marketing_services_package_row {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: self-end;
+}
+/*==========================================================================*/
 
 /*===================define max-width of blurb columns=======================*/
 .digitales-marketing_services_social-media_column,
