@@ -67,13 +67,13 @@ YP       `Y88P'  VP   V8P    YP         YP   YP Y8888D' Y8888P  ~Y8888P' `8888Y'
 /*? ************************************************************************* */
 /*?                   font adjustment for other desktops                      */
 /*? ************************************************************************* */
-h1{
+h1 {
   font-size: 50px !important;
 }
-h2{
+h2 {
   font-size: 38px !important;
 }
-h3{
+h3 {
   font-size: 22px !important;
 }
 /*? ************************************************************************* */
@@ -82,10 +82,10 @@ h3{
 /*?                   font adjustment for tablets                      */
 /*? ****************************************************************** */
 @media all and (max-width: 980px) {
-  h1{
+  h1 {
     font-size: 40px !important;
   }
-  h2{
+  h2 {
     font-size: 32px !important;
   }
 }
@@ -95,13 +95,13 @@ h3{
 /*?                   font adjustment for mobile                      */
 /*? ***************************************************************** */
 @media all and (max-width: 767px) {
-  h1{
+  h1 {
     font-size: 30px !important;
   }
-  h2{
+  h2 {
     font-size: 28px !important;
   }
-  h3{
+  h3 {
     font-size: 20px !important;
   }
 }
@@ -1093,11 +1093,13 @@ db   8D 88.     88 `88.  `8bd8'    .88.   Y8b  d8 88.     db   8D
 /*==========================================================================*/
 
 /*===================define max-width of blurb columns=======================*/
-.digitales-marketing_services_social-media_column,
-.digitales-marketing_services_sea_column,
-.digitales-marketing_services_analyse_column,
-.digitales-marketing_services_seo_column {
-  max-width: 295px;
+@media all and (min-width: 768px) {
+  .digitales-marketing_services_social-media_column,
+  .digitales-marketing_services_sea_column,
+  .digitales-marketing_services_analyse_column,
+  .digitales-marketing_services_seo_column {
+    max-width: 295px;
+  }
 }
 /*===========================================================================*/
 
@@ -1105,6 +1107,7 @@ db   8D 88.     88 `88.  `8bd8'    .88.   Y8b  d8 88.     db   8D
 @media all and (min-width: 981px) {
   .digitales-marketing_services_sea_column {
     margin-top: -25px;
+    min-height: 375px;
   }
   .digitales-marketing_services_social-media_column {
     margin-top: 40px;
@@ -1167,7 +1170,7 @@ YP   YP Y88888P YP   YP Y8888D' Y88888P 88   YD
     display: flex;
     align-items: center;
   }
-  
+
   @media all and (max-width: 980px) {
     .seo_header_price-contact-button_column {
       justify-content: center;
