@@ -1408,6 +1408,60 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 }
 /*? ************************************************************************ */
 
+
+/*? ************************************************ */
+/*?                  CONTACTFORM                     */
+/*? ************************************************ */
+/*===================style error validation message above the contact form=======================*/
+.wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
+  color: #D8000C;
+  background-color: #FFBABA;
+  border: 0;
+  padding: 10px;
+}
+/*===============================================================================================*/
+
+/*===================style confirm message 'is sent' above the contact form=======================*/
+.wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  border: 0;
+  padding: 10px;
+}
+/*================================================================================================*/
+
+/*===================style error message 'GDPR approval' above the contact form=======================*/
+.wpcf7-form .wpcf7-response-output.wpcf7-acceptance-missing {
+  color: #D8000C;
+  background-color: #FFBABA;
+  border: 0;
+  padding: 10px;
+}
+/*====================================================================================================*/
+
+
+/*===================red border around incorrect fields=======================*/
+.wpcf7-form .wpcf7-not-valid {
+  border: 2px solid #ff0000;
+}
+/*============================================================================*/
+
+/*===================position GDPR message=======================*/
+.wpcf7-form .Datenschutz span.wpcf7-list-item {
+  margin: 0 0 30px 0 !important;
+}
+/*===============================================================*/
+
+
+/*===================make checkbox of GDPR message bigger=======================*/
+.wpcf7-form input.kontaktformular_datenschutz {
+  width: 17px;
+  height: 17px;
+}
+/*==============================================================================*/
+/*? ************************************************ */
+
+
 /*? *********************************************************** */
 /*?                   CONTACTFORM - Desktop                     */
 /*? *********************************************************** */
