@@ -47,7 +47,7 @@ add_filter('et_pb_font_icon_symbols', 'myfont_icons');
 function my_custom_fonts() { ?>
 <style>
 [data-icon="myicon"]::before { 
-    background: url('https://i.ytimg.com/vi/OiH5YMXQwYg/maxresdefault.jpg'); 
+    background: url('https://image.flaticon.com/icons/svg/993/993845.svg'); 
     content:'a' !important; 
     width:16px !important; 
     height:16px !important; 
@@ -59,7 +59,7 @@ add_action('admin_head', 'my_custom_fonts');
 
 function my_custom_fonts_js() { ?>
 <script>
-jQuery('.et-pb-icon').filter(function(){ return jQuery(this).text() == 'myicon'; }).html('<img src="https://i.ytimg.com/vi/OiH5YMXQwYg/maxresdefault.jpg"/>');
+jQuery('.et-pb-icon').filter(function(){ return jQuery(this).text() == 'myicon'; }).html('<img src="https://image.flaticon.com/icons/svg/993/993845.svg"/>');
 </script>
 <?php
 }
