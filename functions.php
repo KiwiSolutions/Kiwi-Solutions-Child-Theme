@@ -47,7 +47,7 @@ add_filter('et_pb_font_icon_symbols', 'myfont_icons');
 function my_custom_fonts() { ?>
 <style>
 [data-icon="myicon"]::before { 
-    background: url('https://image.flaticon.com/icons/svg/993/993845.svg'); 
+    background: url('https://modern-websites.de/wp-content/uploads/2020/05/digital-marketinganalyseseosocial-media_contact_phone_03.png'); 
     content:'a' !important; 
     width:16px !important; 
     height:16px !important; 
@@ -59,7 +59,7 @@ add_action('admin_head', 'my_custom_fonts');
 
 function my_custom_fonts_js() { ?>
 <script>
-jQuery('.et-pb-icon').filter(function(){ return jQuery(this).text() == 'myicon'; }).html('<img src="https://image.flaticon.com/icons/svg/993/993845.svg"/>');
+jQuery('.et-pb-icon').filter(function(){ return jQuery(this).text() == 'myicon'; }).html('<img src="https://modern-websites.de/wp-content/uploads/2020/05/digital-marketinganalyseseosocial-media_contact_phone_03.png"/>');
 </script>
 <?php
 }
