@@ -149,7 +149,7 @@ jQuery(document).ready(function ($) {
 
      $(document).ready(function(){   
        // FADE OUT GIF IF GIF IS CLICKED
-         $("#websites_price-table_swipe-gif_mobile").click(function() {
+         $(".websites_price-table_responsiv-view_mobile").click(function() {
              $("#websites_price-table_swipe-gif_mobile").fadeOut(200);
          });       
      }); 
