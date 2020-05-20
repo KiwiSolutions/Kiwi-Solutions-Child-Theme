@@ -57,6 +57,7 @@
 //Make the images under the slider work as a navigation bar
 jQuery(document).ready(function ($) {
   var selector = ".activelinks a";
+  $("#websites_slider_video").addClass("focus");
   $(selector).on("click", function () {
     $(selector).removeClass("active");
     $(this).addClass("active");
