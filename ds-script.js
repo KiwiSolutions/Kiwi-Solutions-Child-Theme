@@ -147,13 +147,18 @@ jQuery(document).ready(function ($) {
   });
   //make the gif obove the price table mobile dissapear when scrolled left
 
-     $(document).ready(function(){   
-       // FADE OUT GIF IF GIF IS CLICKED
-         $(".websites_price-table_responsiv-view_mobile").click(function() {
-             $("#websites_price-table_swipe-gif_mobile").fadeOut(200);
-         });       
-     }); 
+      $(document).ready(function(){   
+         // JQUERY MOBILE LIB NEEDS TO BE BINDED
+       $(function(){
+         // Bind the swipeHandler callback function to the swipe event on div.box
+         $( "table#tablepress-1" ).on( "swipe", swipeHandler );
 
+         // Callback function references the event target and adds the 'swipe' class to it
+         function swipeHandler( event ){
+        $("#websites_price-table_swipe-gif_mobile").fadeOut(200);
+         }
+       });
+      }); 
 
 });
 /* ************************************************* */
