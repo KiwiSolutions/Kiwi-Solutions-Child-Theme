@@ -146,14 +146,14 @@ jQuery(document).ready(function ($) {
     $("#websites_price-table_spezial-pakete_row").show();
   });
   //make the gif obove the price table mobile dissapear when scrolled left
-  $("#websites_price-table_responsiv-view_mobile").scroll(function () {
-    var elmnt = document.getElementById(
-      "websites_price-table_responsiv-view_mobile"
-    );
-    if (elmnt.scrollLeft > 100) {
-      $("#websites_price-table_swipe-gif_mobile").hide();
-    }
-  });
+
+     $(document).ready(function(){   
+         $(".websites_price-table_image_mobile").click(function() {
+             $("#websites_price-table_swipe-gif_mobile").fadeOut(200);
+         }); 
+     }); 
+
+
 });
 /* ************************************************* */
 /*               ADDITIONAL FEATURES                 */
