@@ -150,7 +150,7 @@ jQuery(document).ready(function ($) {
       $(document).ready(function(){   
          // JQUERY MOBILE LIB NEEDS TO BE BINDED
        $(function(){
-         // Bind the swipeHandler callback function to the swipe event on div.box
+         // Bind the swipeHandler callback function to the swipe event on table#ID
          $( "table#tablepress-1" ).on( "swipe", swipeHandler );
 
          // Callback function references the event target and adds the 'swipe' class to it
