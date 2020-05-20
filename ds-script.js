@@ -148,9 +148,10 @@ jQuery(document).ready(function ($) {
   //make the gif obove the price table mobile dissapear when scrolled left
 
      $(document).ready(function(){   
-         $(".websites_price-table_image_mobile").click(function() {
+       // FADE OUT GIF IF GIF IS CLICKED
+         $("#websites_price-table_swipe-gif_mobile").click(function() {
              $("#websites_price-table_swipe-gif_mobile").fadeOut(200);
-         }); 
+         });       
      }); 
 
 
