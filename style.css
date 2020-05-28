@@ -1074,6 +1074,25 @@ db   8D 88.     `8b  d8'         88    88.     .8P  Y8.    88    88.
 */
 
 /*
+db   db d88888b  .d8b.  d8888b. d88888b d8888b.
+88   88 88'     d8' `8b 88  `8D 88'     88  `8D
+88ooo88 88ooooo 88ooo88 88   88 88ooooo 88oobY'
+88~~~88 88~~~~~ 88~~~88 88   88 88~~~~~ 88`8b
+88   88 88.     88   88 88  .8D 88.     88 `88.
+YP   YP Y88888P YP   YP Y8888D' Y88888P 88   YD
+
+
+*/
+
+/*===================adjust margin of blurb icons=======================*/
+@media all and (min-width: 981px) {
+  .digital-marketing_header_blurbs .et_pb_main_blurb_image {
+    margin-bottom: 10px;
+  }
+}
+/*=====================================================================*/
+
+/*
 .d8888. d88888b d8888b. db    db d888888b  .o88b. d88888b .d8888.
 88'  YP 88'     88  `8D 88    88   `88'   d8P  Y8 88'     88'  YP
 `8bo.   88ooooo 88oobY' Y8    8P    88    8P      88ooooo `8bo.
@@ -1356,7 +1375,6 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 }
 /*==================================================================*/
 
-
 /*===================Style the red contact button=======================*/
 .footer_contact-line-above-form_get-advice_red {
   padding: 10px 20px;
@@ -1379,7 +1397,7 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
   /*===========================================================================*/
 
   /*===================Adjust styles of contact-button=======================*/
-  .footer_contact-line-above-form_get-advice_red, 
+  .footer_contact-line-above-form_get-advice_red,
   .footer_contact-line-above-form_get-advice {
     margin-top: 20px;
     padding: 0px;
@@ -1395,7 +1413,7 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
     border-radius: 3px;
   }
   /*=======================================================================*/
-  
+
   /*===================Style the red contact-button link=======================*/
   .footer_contact-line-above-form_get-advice_red a {
     padding: 10px 20px;
@@ -1403,18 +1421,16 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
     border-radius: 3px;
   }
   /*===========================================================================*/
-
 }
 /*? ************************************************************************ */
-
 
 /*? ************************************************ */
 /*?                  CONTACTFORM                     */
 /*? ************************************************ */
 /*===================style error validation message above the contact form=======================*/
 .wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
-  color: #D8000C;
-  background-color: #FFBABA;
+  color: #d8000c;
+  background-color: #ffbaba;
   border: 0;
   padding: 10px;
 }
@@ -1422,8 +1438,8 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 
 /*===================style confirm message 'is sent' above the contact form=======================*/
 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
-  color: #4F8A10 !important;
-  background-color: #DFF2BF !important;
+  color: #4f8a10 !important;
+  background-color: #dff2bf !important;
   border: 0;
   padding: 10px;
 }
@@ -1431,13 +1447,12 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 
 /*===================style error message 'GDPR approval' above the contact form=======================*/
 .wpcf7-form .wpcf7-response-output.wpcf7-acceptance-missing {
-  color: #D8000C;
-  background-color: #FFBABA;
+  color: #d8000c;
+  background-color: #ffbaba;
   border: 0;
   padding: 10px;
 }
 /*====================================================================================================*/
-
 
 /*===================red border around incorrect fields=======================*/
 .wpcf7-form .wpcf7-not-valid {
@@ -1451,7 +1466,6 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 }
 /*===============================================================*/
 
-
 /*===================make checkbox of GDPR message bigger=======================*/
 .wpcf7-form input.kontaktformular_datenschutz {
   width: 17px;
@@ -1459,7 +1473,6 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 }
 /*==============================================================================*/
 /*? ************************************************ */
-
 
 /*? *********************************************************** */
 /*?                   CONTACTFORM - Desktop                     */
@@ -1503,7 +1516,6 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
   height: 30px;
 }
 /*===================================================================*/
-
 
 /*===================Make the button-text stay in the middle when hover is aktive=======================*/
 .footer_contactform .wpcf7-submit:hover {
