@@ -191,6 +191,78 @@ jQuery(document).ready(function ($) {
   });
 });
 
+/*
+ ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄                 ▄▄       ▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌               ▐░░▌     ▐░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░▌               ▐░▌░▌   ▐░▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌
+▐░▌          ▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌       ▐░▌▐░▌               ▐░▌▐░▌ ▐░▌▐░▌▐░▌          ▐░▌       ▐░▌    ▐░▌     ▐░▌       ▐░▌
+▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌▐░▌               ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌▐░▌               ▐░▌ ▐░▐░▌ ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌    ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌
+▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░░░░░░░░░░░▌▐░▌               ▐░▌  ▐░▌  ▐░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌    ▐░▌     ▐░░░░░░░░░░░▌
+ ▀▀▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░█▀▀▀▀▀▀▀█░▌▐░▌               ▐░▌   ▀   ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌       ▐░▌    ▐░▌     ▐░█▀▀▀▀▀▀▀█░▌
+          ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌       ▐░▌▐░▌               ▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌    ▐░▌     ▐░▌       ▐░▌
+ ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄  ▄▄▄▄█░█▄▄▄▄ ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄      ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▄▄▄▄█░█▄▄▄▄ ▐░▌       ▐░▌
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌     ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌
+ ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀
+
+*/
+
+/* ************************************************* */
+/*            JS IMAGE SLIDER NAVIGATION             */
+/* ************************************************* */
+
+//Make the images under the slider work as a navigation bar
+jQuery(document).ready(function ($) {
+  var selector = ".activelinks a";
+  $("#social-media_slider_beratung").addClass("focus");
+  $(selector).on("click", function () {
+    $(selector).removeClass("active");
+    $(this).addClass("active");
+  });
+
+  function removeClassFocus() {
+    $("#social-media_slider_beratung").removeClass("focus");
+    $("#social-media_slider_postingstrategie").removeClass("focus");
+    $("#social-media_slider_einrichtung").removeClass("focus");
+    $("#social-media_slider_beitragserstellung").removeClass("focus");
+    $("#social-media_slider_rechtssicher").removeClass("focus");
+  }
+
+  $("#social-media_slider_beratung").on("click", function (e) {
+    e.preventDefault();
+    removeClassFocus();
+    $(".et-pb-controllers a:nth-child(1)").trigger("click");
+    $(this).addClass("focus");
+  });
+
+  $("#social-media_slider_postingstrategie").on("click", function (e) {
+    e.preventDefault();
+    removeClassFocus();
+    $(".et-pb-controllers a:nth-child(2)").trigger("click");
+    $(this).addClass("focus");
+  });
+
+  $("#social-media_slider_einrichtung").on("click", function (e) {
+    e.preventDefault();
+    removeClassFocus();
+    $(".et-pb-controllers a:nth-child(3)").trigger("click");
+    $(this).addClass("focus");
+  });
+
+  $("#social-media_slider_beitragserstellung").on("click", function (e) {
+    e.preventDefault();
+    removeClassFocus();
+    $(".et-pb-controllers a:nth-child(4)").trigger("click");
+    $(this).addClass("focus");
+  });
+
+  $("#social-media_slider_rechtssicher").on("click", function (e) {
+    e.preventDefault();
+    removeClassFocus();
+    $(".et-pb-controllers a:nth-child(5)").trigger("click");
+    $(this).addClass("focus");
+  });
+});
+//=======================
 
 /*
  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄       ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄

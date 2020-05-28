@@ -537,6 +537,8 @@ db   8D 88booo.   .88.   88  .8D 88.     88 `88.
 /*==================================================================================*/
 
 /*===================remove other navigation methodes=======================*/
+.social-media_slider .et-pb-slider-arrows,
+.social-media_slider .et-pb-controllers,
 #websites_slider_desktop .et-pb-slider-arrows,
 #websites_slider_desktop .et-pb-controllers {
   display: none;
@@ -564,6 +566,11 @@ db   8D 88booo.   .88.   88  .8D 88.     88 `88.
 /*=================================================================*/
 
 /*===================turn image and change border color on hover=======================*/
+#social-media_slider_beratung:hover img,
+#social-media_slider_postingstrategie:hover img,
+#social-media_slider_einrichtung:hover img,
+#social-media_slider_beitragserstellung:hover img,
+#social-media_slider_rechtssicher:hover img,
 #websites_slider_video:hover img,
 #websites_slider_beratung:hover img,
 #websites_slider_analyse:hover img,
@@ -576,6 +583,11 @@ db   8D 88booo.   .88.   88  .8D 88.     88 `88.
 /*=====================================================================================*/
 
 /*===================make border permanent after image is clicked=======================*/
+#social-media_slider_beratung.focus img,
+#social-media_slider_postingstrategie.focus img,
+#social-media_slider_einrichtung.focus img,
+#social-media_slider_beitragserstellung.focus img,
+#social-media_slider_rechtssicher.focus img,
 #websites_slider_video.focus img,
 #websites_slider_beratung.focus img,
 #websites_slider_analyse.focus img,
@@ -588,14 +600,19 @@ db   8D 88booo.   .88.   88  .8D 88.     88 `88.
 /*? ******************************************************** */
 
 /*===================style the headers of the slides=======================*/
+.social-media_slider_header,
 .websites_slider_header_desktop {
   font-size: 23px !important;
   margin-top: -50px !important;
   margin-bottom: 30px;
   font-family: "Lato", sans-serif;
-  color: #17381b;
   font-weight: 700;
 }
+
+.websites_slider_header_desktop {
+  color: #17381b;
+}
+
 /*=========================================================================*/
 
 /*
@@ -1203,6 +1220,40 @@ YP   YP Y88888P YP   YP Y8888D' Y88888P 88   YD
   font-size: 20px;
 }
 /*==========================================================*/
+
+/*
+ ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄                 ▄▄       ▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌               ▐░░▌     ▐░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░▌               ▐░▌░▌   ▐░▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌
+▐░▌          ▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌       ▐░▌▐░▌               ▐░▌▐░▌ ▐░▌▐░▌▐░▌          ▐░▌       ▐░▌    ▐░▌     ▐░▌       ▐░▌
+▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌▐░▌               ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌▐░▌               ▐░▌ ▐░▐░▌ ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌    ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌
+▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░░░░░░░░░░░▌▐░▌               ▐░▌  ▐░▌  ▐░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌    ▐░▌     ▐░░░░░░░░░░░▌
+ ▀▀▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░█▀▀▀▀▀▀▀█░▌▐░▌               ▐░▌   ▀   ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌       ▐░▌    ▐░▌     ▐░█▀▀▀▀▀▀▀█░▌
+          ▐░▌▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌       ▐░▌▐░▌               ▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌    ▐░▌     ▐░▌       ▐░▌
+ ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄  ▄▄▄▄█░█▄▄▄▄ ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄      ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▄▄▄▄█░█▄▄▄▄ ▐░▌       ▐░▌
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌     ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌
+ ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀
+
+*/
+
+/*
+.d8888. db      d888888b d8888b. d88888b d8888b.
+88'  YP 88        `88'   88  `8D 88'     88  `8D
+`8bo.   88         88    88   88 88ooooo 88oobY'
+  `Y8b. 88         88    88   88 88~~~~~ 88`8b
+db   8D 88booo.   .88.   88  .8D 88.     88 `88.
+`8888Y' Y88888P Y888888P Y8888D' Y88888P 88   YD
+*/
+
+/*===================the rest of the css can be found under WEBSITES->Slider=======================*/
+/*=================================================================================================*/
+
+/*===================style headers of social media slider=======================*/
+.social-media_slider_header {
+  color: #590101;
+}
+/*==============================================================================*/
+
 /*
 ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄
 ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌▐░░░░░░░░░░░▌
