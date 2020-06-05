@@ -646,13 +646,17 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   color: #17381b;
 }
 
+#websites_additional-packages_switch-button.aktive_slider-button:hover,
+#websites_additional-services_switch-button.aktive_slider-button:hover,
+#websites_price-table_button-website-pakete.aktive_slider-button:hover,
+#websites_price-table_button-spezial-pakete.aktive_slider-button:hover,
 #websites_additional-packages_switch-button.aktive_slider-button,
 #websites_additional-services_switch-button.aktive_slider-button,
 #websites_price-table_button-website-pakete.aktive_slider-button,
 #websites_price-table_button-spezial-pakete.aktive_slider-button {
   color: #ffffff !important;
   background-color: #17381b !important;
-  box-shadow: none;
+  box-shadow: none !important;
 }
 /*=============================================================*/
 
