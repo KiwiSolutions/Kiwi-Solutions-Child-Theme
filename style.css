@@ -863,12 +863,15 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 }
 /*===================================================================*/
 
-/*===================styling the first row of the table=======================*/
-.tablepress-id-3 .row-1 {
+/*===================styling the first two rows of the table=======================*/
+.tablepress-id-3 .row-1{
   background-color: #d7e0d8 !important;
   font-weight: 700;
   height: 70px;
   text-align: left;
+}
+.tablepress-id-3 .row-2{
+  background-color: #d7e0d8 !important;
 }
 /*============================================================================*/
 
@@ -902,21 +905,22 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 }
 /*=========================================================================*/
 
-/*===================style the rows 46 & 47=======================*/
-.tablepress-id-3 .row-46,
-.tablepress-id-3 .row-47 {
+/*===================style the last two rows=======================*/
+.tablepress-id-3 .row-49,
+.tablepress-id-3 .row-50 {
   background-color: #9aa49b !important;
   font-weight: bold;
 }
 /*================================================================*/
 
 /*===================style the subheaders of the table=======================*/
-.tablepress-id-3 .row-2,
+.tablepress-id-3 .row-3,
 .tablepress-id-3 .row-13,
-.tablepress-id-3 .row-23,
-.tablepress-id-3 .row-29,
-.tablepress-id-3 .row-35,
-.tablepress-id-3 .row-42 {
+.tablepress-id-3 .row-17,
+.tablepress-id-3 .row-24,
+.tablepress-id-3 .row-32,
+.tablepress-id-3 .row-38,
+.tablepress-id-3 .row-45 {
   font-weight: bold;
   background-color: #d3dbd4 !important;
 }
@@ -932,6 +936,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*===================give the first column a min width=======================*/
 .tablepress-id-3 .column-1 {
   min-width: 240px;
+  max-width: 240px;
 }
 /*===========================================================================*/
 
