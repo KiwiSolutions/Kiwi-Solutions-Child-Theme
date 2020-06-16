@@ -13,10 +13,6 @@
 
 */
 
-
-
-
-
 /*
  ▄▄       ▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄       ▄▄       ▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄  ▄         ▄
 ▐░░▌     ▐░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌     ▐░░▌     ▐░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌▐░▌       ▐░▌
@@ -31,9 +27,6 @@
  ▀         ▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀       ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀  ▀▀▀▀▀▀▀▀▀▀▀
 
 */
-
-
-
 
 /*
  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄
@@ -120,7 +113,6 @@ jQuery(document).ready(function ($) {
 /*                    PRICE TABLE                    */
 /* ************************************************* */
 
-
 jQuery(document).ready(function ($) {
   // Switch button for the Price Table Desktop
   $("#websites_price-table_button-website-pakete").addClass(
@@ -147,19 +139,18 @@ jQuery(document).ready(function ($) {
   });
   //make the gif obove the price table mobile dissapear when scrolled left
 
-      $(document).ready(function(){   
-         // JQUERY MOBILE LIB NEEDS TO BE BINDED
-       $(function(){
-         // Bind the swipeHandler callback function to the swipe event on table#ID
-         $( "table#tablepress-1" ).on( "swipe", swipeHandler );
+  $(document).ready(function () {
+    // JQUERY MOBILE LIB NEEDS TO BE BINDED
+    $(function () {
+      // Bind the swipeHandler callback function to the swipe event on table#ID
+      $("table#tablepress-1").on("swipe", swipeHandler);
 
-         // Callback function references the event target and adds the 'swipe' class to it
-         function swipeHandler( event ){
+      // Callback function references the event target and adds the 'swipe' class to it
+      function swipeHandler(event) {
         $("#websites_price-table_swipe-gif_mobile").fadeOut(200);
-         }
-       });
-      }); 
-
+      }
+    });
+  });
 });
 /* ************************************************* */
 /*               ADDITIONAL FEATURES                 */
@@ -190,6 +181,36 @@ jQuery(document).ready(function ($) {
     $(".websites_additional-features_services_row").show();
   });
 });
+
+//===================Test=======================//
+//===================================================//
+/* @Note: not sure e.pageX will work in IE8 */
+(function (window) {
+  /* A full compatability script from MDN: */
+  var supportPageOffset = window.pageXOffset !== undefined;
+  var isCSS1Compat = (document.compatMode || "") === "CSS1Compat";
+
+  /* Set up some variables  */
+  var demoItem2 = document.getElementById("demoItem2");
+  var demoItem3 = document.getElementById("demoItem3");
+  /* Add an event to the window.onscroll event */
+  window.addEventListener("scroll", function (e) {
+    /* A full compatability script from MDN for gathering the x and y values of scroll: */
+    var x = supportPageOffset
+      ? window.pageXOffset
+      : isCSS1Compat
+      ? document.documentElement.scrollLeft
+      : document.body.scrollLeft;
+    var y = supportPageOffset
+      ? window.pageYOffset
+      : isCSS1Compat
+      ? document.documentElement.scrollTop
+      : document.body.scrollTop;
+
+    demoItem2.style.left = -x + 50 + "px";
+    demoItem3.style.top = -y + 50 + "px";
+  });
+})(window);
 
 /*
  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄                 ▄▄       ▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄
