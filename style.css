@@ -1339,20 +1339,6 @@ YP   YP Y88888P YP   YP Y8888D' Y88888P 88   YD
 */
 
 /*
-db   db d88888b  .d8b.  d8888b. d88888b d8888b.
-88   88 88'     d8' `8b 88  `8D 88'     88  `8D
-88ooo88 88ooooo 88ooo88 88   88 88ooooo 88oobY'
-88~~~88 88~~~~~ 88~~~88 88   88 88~~~~~ 88`8b
-88   88 88.     88   88 88  .8D 88.     88 `88.
-YP   YP Y88888P YP   YP Y8888D' Y88888P 88   YD
-
-
-*/
-
-/*===================uses the seo header styles=======================*/
-/*====================================================================*/
-
-/*
 db   d8b   db db   db  .d88b.  d888888b .d8888.      d8888b. db      db    db  d888b  d888888b d8b   db
 88   I8I   88 88   88 .8P  Y8.   `88'   88'  YP      88  `8D 88      88    88 88' Y8b   `88'   888o  88
 88   I8I   88 88ooo88 88    88    88    `8bo.        88oodD' 88      88    88 88         88    88V8o 88
@@ -1500,28 +1486,48 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 }
 /*============================================================================*/
 
-/*===================Style the contact button=======================*/
+/*===================Adjust styles of contact-button=======================*/
+.footer_contact-line-above-form_get-advice_blue,
+.footer_contact-line-above-form_get-advice_red,
 .footer_contact-line-above-form_get-advice {
-  padding: 10px 20px;
-  background-color: #17381b;
-  border-radius: 3px;
+  padding: 0px;
+  background-color: transparent;
   margin-left: 5%;
 }
-/*==================================================================*/
+/*==============================================================================*/
 
-/*===================Style the red contact button=======================*/
-.footer_contact-line-above-form_get-advice_red {
+/*===================Style the contact-button link=======================*/
+.footer_contact-line-above-form_get-advice_blue a,
+.footer_contact-line-above-form_get-advice_red a,
+.footer_contact-line-above-form_get-advice a {
   padding: 10px 20px;
-  background-color: #590101;
   border-radius: 3px;
-  margin-left: 5%;
+}
+/*=======================================================================*/
+
+/*===================make contact-button link green=======================*/
+.footer_contact-line-above-form_get-advice a {
+  background-color: #17381b;
+}
+/*========================================================================*/
+
+/*===================make contact-button link red=======================*/
+.footer_contact-line-above-form_get-advice_red a {
+  background-color: #590101;
 }
 /*======================================================================*/
+
+/*===================make contact-button link blue=======================*/
+.footer_contact-line-above-form_get-advice_blue a {
+  background-color: #2372f5;
+}
+/*=======================================================================*/
+
 /*? ************************************************************************ */
 
-/*? ************************************************************** */
-/*?                   Line above Contact Form                      */
-/*? ************************************************************** */
+/*? ************************************************************************ */
+/*?                   Line above Contact Form - mobile                       */
+/*? ************************************************************************ */
 @media all and (max-width: 767px) {
   /*===================adjust margin of "Schreib uns" text=======================*/
   .footer_contact-line-above-form_write-us {
@@ -1567,7 +1573,6 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
     background-color: #2372f5;
   }
   /*=======================================================================*/
-
 }
 /*? ************************************************************************ */
 
@@ -1658,7 +1663,6 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
   background-color: #590101;
 }
 /*===================================================================*/
-
 
 .footer_contactform_blue .wpcf7-submit {
   background-color: #2372f5;
