@@ -864,13 +864,13 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*===================================================================*/
 
 /*===================styling the first two rows of the table=======================*/
-.tablepress-id-3 .row-1{
+.tablepress-id-3 .row-1 {
   background-color: #d7e0d8 !important;
   font-weight: 700;
   height: 70px;
   text-align: left;
 }
-.tablepress-id-3 .row-2{
+.tablepress-id-3 .row-2 {
   background-color: #d7e0d8 !important;
 }
 /*============================================================================*/
@@ -907,7 +907,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 
 /*===================add right border to first column=======================*/
 .tablepress-id-3 .column-1 {
-	border-right: 1px solid #17381b !important;
+  border-right: 1px solid #17381b !important;
 }
 
 .tablepress-id-3 .row-1 .column-1,
@@ -920,8 +920,8 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 .tablepress-id-3 .row-38 .column-1,
 .tablepress-id-3 .row-45 .column-1,
 .tablepress-id-3 .row-49 .column-1,
-.tablepress-id-3 .row-50 .column-1{
-	border-right: none !important;
+.tablepress-id-3 .row-50 .column-1 {
+  border-right: none !important;
 }
 /*==========================================================================*/
 
@@ -1262,7 +1262,6 @@ YP   YP Y88888P YP   YP Y8888D' Y88888P 88   YD
 
 */
 
-
 /*
 db   db d88888b  .d8b.  d8888b. d88888b d8888b.
 88   88 88'     d8' `8b 88  `8D 88'     88  `8D
@@ -1338,7 +1337,6 @@ YP   YP Y88888P YP   YP Y8888D' Y88888P 88   YD
  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀  ▀▀▀▀▀▀▀▀▀▀▀
 
 */
-
 
 /*
 db   db d88888b  .d8b.  d8888b. d88888b d8888b.
@@ -1521,9 +1519,9 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 /*======================================================================*/
 /*? ************************************************************************ */
 
-/*? ************************************************************************ */
-/*?                   Line above Contact Form - Desktop                      */
-/*? ************************************************************************ */
+/*? ************************************************************** */
+/*?                   Line above Contact Form                      */
+/*? ************************************************************** */
 @media all and (max-width: 767px) {
   /*===================adjust margin of "Schreib uns" text=======================*/
   .footer_contact-line-above-form_write-us {
@@ -1533,6 +1531,7 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
   /*===========================================================================*/
 
   /*===================Adjust styles of contact-button=======================*/
+  .footer_contact-line-above-form_get-advice_blue,
   .footer_contact-line-above-form_get-advice_red,
   .footer_contact-line-above-form_get-advice {
     margin-top: 20px;
@@ -1543,20 +1542,32 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
   /*==============================================================================*/
 
   /*===================Style the contact-button link=======================*/
+  .footer_contact-line-above-form_get-advice_blue a,
+  .footer_contact-line-above-form_get-advice_red a,
   .footer_contact-line-above-form_get-advice a {
     padding: 10px 20px;
-    background-color: #17381b;
     border-radius: 3px;
   }
   /*=======================================================================*/
 
-  /*===================Style the red contact-button link=======================*/
-  .footer_contact-line-above-form_get-advice_red a {
-    padding: 10px 20px;
-    background-color: #590101;
-    border-radius: 3px;
+  /*===================make contact-button link green=======================*/
+  .footer_contact-line-above-form_get-advice a {
+    background-color: #17381b;
   }
-  /*===========================================================================*/
+  /*========================================================================*/
+
+  /*===================make contact-button link red=======================*/
+  .footer_contact-line-above-form_get-advice_red a {
+    background-color: #590101;
+  }
+  /*======================================================================*/
+
+  /*===================make contact-button link blue=======================*/
+  .footer_contact-line-above-form_get-advice_blue a {
+    background-color: #2372f5;
+  }
+  /*=======================================================================*/
+
 }
 /*? ************************************************************************ */
 
@@ -1628,6 +1639,8 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 /*===================================================================================================*/
 
 /*===================Style of Submitbutton=======================*/
+.footer_contactform_red .wpcf7-submit,
+.footer_contactform_blue .wpcf7-submit,
 .footer_contactform .wpcf7-submit {
   font-size: 14px;
   font-weight: 700;
@@ -1642,16 +1655,14 @@ Y8   I8I   88 88~~~88 88    88    88      `Y8b.      88~~~   88      88    88 88
 
 /*===================Style of red Submitbutton=======================*/
 .footer_contactform_red .wpcf7-submit {
-  font-size: 14px;
-  font-weight: 700;
-  color: white;
   background-color: #590101;
-  border-radius: 35px;
-  border: none;
-  width: 125px;
-  height: 30px;
 }
 /*===================================================================*/
+
+
+.footer_contactform_blue .wpcf7-submit {
+  background-color: #2372f5;
+}
 
 /*===================Make the button-text stay in the middle when hover is aktive=======================*/
 .footer_contactform .wpcf7-submit:hover {
