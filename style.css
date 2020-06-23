@@ -1402,6 +1402,130 @@ YP   YP Y88888P YP   YP Y8888D' Y88888P 88   YD
 /*====================================================================*/
 
 /*
+d888888b  .d8b.  d8888b. .d8888.
+`~~88~~' d8' `8b 88  `8D 88'  YP
+   88    88ooo88 88oooY' `8bo.
+   88    88~~~88 88~~~b.   `Y8b.
+   88    88   88 88   8D db   8D
+   YP    YP   YP Y8888P' `8888Y'
+
+
+*/
+
+/*===================move nav to the side & remove border=======================*/
+.analyse_tab {
+  display: flex;
+  border: none;
+}
+/*==============================================================================*/
+
+/*===================move the nav to the right side=======================*/
+.analyse_tab-nav-right {
+  flex-direction: row-reverse;
+}
+/*========================================================================*/
+
+/*===================style left navigation=======================*/
+.analyse_tab ul {
+  margin-right: 30px;
+  background-color: white;
+  border: none;
+  position: relative;
+  background-color: transparent;
+  min-width: 400px;
+}
+/*===============================================================*/
+
+/*===================style right navigation=======================*/
+.analyse_tab-nav-right ul {
+  margin-right: 0px;
+  margin-left: 30px;
+}
+/*================================================================*/
+
+/*===================remove border from under the navigation=======================*/
+.analyse_tab ul.et_pb_tabs_controls:after {
+  display: none;
+}
+/*=================================================================================*/
+
+/*===================position the nav on the correct height=======================*/
+.analyse_tab ul {
+  top: 220px;
+}
+/*================================================================================*/
+
+/*===================style a singel nav button=======================*/
+.analyse_tab li {
+  border: solid transparent 2px !important;
+  padding: 10px 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+  height: auto !important;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  min-width: 100%;
+  min-height: 86px;
+}
+/*===================================================================*/
+
+/*===================add border when hover or clicked=======================*/
+.analyse_tab .et_pb_tab_active,
+.analyse_tab li:hover {
+  border: solid #ddabab 2px !important;
+}
+/*==========================================================================*/
+
+/*===================change background on hover=======================*/
+.analyse_tab li:hover {
+  background-color: #f2f2f2;
+}
+/*====================================================================*/
+
+/*===================change styles of active nav button=======================*/
+.analyse_tab .et_pb_tab_active {
+  text-decoration: none;
+  background-color: #f0e7e7 !important;
+}
+/*============================================================================*/
+
+/*===================change font color of activ and hover links=======================*/
+.analyse_tab .et_pb_tab_active a,
+.analyse_tab li:hover a {
+  color: #590101 !important;
+}
+/*====================================================================================*/
+
+/*===================make all buttons the same length=======================*/
+.analyse_tab .et_pb_all_tabs {
+  min-width: 55vw;
+}
+/*==========================================================================*/
+
+/*? *********************************************************************** */
+/*?                   style changes under 1366px width                      */
+/*? *********************************************************************** */
+@media all and (max-width: 1365px) {
+  /*===================change font size of header=======================*/
+  .analyse_tab-text_header h2 {
+    font-size: 28px;
+  }
+  /*====================================================================*/
+
+  /*===================adjust width of nav buttons=======================*/
+  .analyse_tab-text_column .et_pb_text {
+    width: 300px !important;
+  }
+  
+  .analyse_tab ul {
+    min-width: 300px;
+  }
+  /*=====================================================================*/
+}
+/*? *********************************************************************** */
+
+/*
 ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄
 ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌▐░░░░░░░░░░░▌
 ▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀█░█▀▀▀▀  ▀▀▀▀█░█▀▀▀▀ ▐░▌░▌     ▐░▌▐░█▀▀▀▀▀▀▀▀▀
