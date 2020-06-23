@@ -1517,7 +1517,7 @@ d888888b  .d8b.  d8888b. .d8888.
   .analyse_tab-text_column .et_pb_text {
     width: 300px !important;
   }
-  
+
   .analyse_tab ul {
     min-width: 300px;
   }
@@ -1540,6 +1540,61 @@ d888888b  .d8b.  d8888b. .d8888.
 
 */
 
+/*
+ .d8b.  d8888b. d8888b.       .o88b.  .d8b.  d888888b  .d8b.  db       .d88b.   d888b
+d8' `8b 88  `8D 88  `8D      d8P  Y8 d8' `8b `~~88~~' d8' `8b 88      .8P  Y8. 88' Y8b
+88ooo88 88oodD' 88oodD'      8P      88ooo88    88    88ooo88 88      88    88 88
+88~~~88 88~~~   88~~~        8b      88~~~88    88    88~~~88 88      88    88 88  ooo
+88   88 88      88           Y8b  d8 88   88    88    88   88 88booo. `8b  d8' 88. ~8~
+YP   YP 88      88            `Y88P' YP   YP    YP    YP   YP Y88888P  `Y88P'   Y888P
+
+
+*/
+
+/*===================adjust spacing between images=======================*/
+.hosting_app-catalog_tabs .et_pb_tab_content img {
+  margin-right: 5%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/*=======================================================================*/
+
+/*===================adjust how images are displayed=======================*/
+.hosting_app-catalog_tabs .et_pb_tab_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/*=========================================================================*/
+
+/*===================remove borders=======================*/
+.hosting_app-catalog_tabs,
+.hosting_app-catalog_tabs .et_pb_tabs_controls li,
+.hosting_app-catalog_tabs ul.et_pb_tabs_controls:after {
+  border: none;
+}
+/*========================================================*/
+
+/*===================give active tab nav a bottom border and margin=======================*/
+.hosting_app-catalog_tabs .et_pb_tabs_controls li.et_pb_tab_active {
+  border-bottom: 4px #123996 solid;
+}
+/*========================================================================================*/
+
+/*===================make the background of nav bar white adnd the fontsize 14px=======================*/
+.hosting_app-catalog_tabs ul.et_pb_tabs_controls {
+  background-color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+/*=====================================================================================================*/
+
+/*===================give background a shadow and rounded edges=======================*/
+.hosting_app-catalog_tabs .et_pb_all_tabs {
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+/*====================================================================================*/
 /*
 db   d8b   db db   db  .d88b.  d888888b .d8888.      d8888b. db      db    db  d888b  d888888b d8b   db
 88   I8I   88 88   88 .8P  Y8.   `88'   88'  YP      88  `8D 88      88    88 88' Y8b   `88'   888o  88
