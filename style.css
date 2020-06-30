@@ -630,6 +630,7 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*?                    Desktop                       */
 /*? ************************************************ */
 /*===================make switch buttons appear in one row=======================*/
+.hosting_price-table-webhosting_switch-button_column,
 .websites_additional-features_switch-button_column,
 .websites_price-table_switch-button_column {
   display: flex;
@@ -1541,6 +1542,37 @@ d888888b  .d8b.  d8888b. .d8888.
 */
 
 /*
+d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d88888b      db   d8b   db d88888b d8888b. db   db  .d88b.  .d8888. d888888b d888888b d8b   db  d888b
+88  `8D 88  `8D   `88'   d8P  Y8 88'          `~~88~~' d8' `8b 88  `8D 88      88'          88   I8I   88 88'     88  `8D 88   88 .8P  Y8. 88'  YP `~~88~~'   `88'   888o  88 88' Y8b
+88oodD' 88oobY'    88    8P      88ooooo         88    88ooo88 88oooY' 88      88ooooo      88   I8I   88 88ooooo 88oooY' 88ooo88 88    88 `8bo.      88       88    88V8o 88 88
+88~~~   88`8b      88    8b      88~~~~~         88    88~~~88 88~~~b. 88      88~~~~~      Y8   I8I   88 88~~~~~ 88~~~b. 88~~~88 88    88   `Y8b.    88       88    88 V8o88 88  ooo
+88      88 `88.   .88.   Y8b  d8 88.             88    88   88 88   8D 88booo. 88.          `8b d8'8b d8' 88.     88   8D 88   88 `8b  d8' db   8D    88      .88.   88  V888 88. ~8~
+88      88   YD Y888888P  `Y88P' Y88888P         YP    YP   YP Y8888P' Y88888P Y88888P       `8b8' `8d8'  Y88888P Y8888P' YP   YP  `Y88P'  `8888Y'    YP    Y888888P VP   V8P  Y888P
+
+
+*/
+
+/*===================Switch button=======================*/
+/*The rest of the CSS-Code is in the Website->Price Table->Desktop*/
+/*=======================================================*/
+
+/*===================style switch button=======================*/
+#hosting_price-table-webhosting_switch-button_1-month,
+#hosting_price-table-webhosting_switch-button_1-year {
+  color: #123996 !important;
+  background-color: #ffffff !important;
+}
+
+#hosting_price-table-webhosting_switch-button_1-month.aktive_slider-button,
+#hosting_price-table-webhosting_switch-button_1-year.aktive_slider-button {
+  color: #ffffff !important;
+  background-color: #123996 !important;
+  box-shadow: none !important;
+}
+/*=============================================================*/
+
+
+/*
  .d8b.  d8888b. d8888b.       .o88b.  .d8b.  d888888b  .d8b.  db       .d88b.   d888b
 d8' `8b 88  `8D 88  `8D      d8P  Y8 d8' `8b `~~88~~' d8' `8b 88      .8P  Y8. 88' Y8b
 88ooo88 88oodD' 88oodD'      8P      88ooo88    88    88ooo88 88      88    88 88
@@ -1595,6 +1627,8 @@ YP   YP 88      88            `Y88P' YP   YP    YP    YP   YP Y88888P  `Y88P'   
   border-radius: 10px;
 }
 /*====================================================================================*/
+
+
 /*
 db   d8b   db db   db  .d88b.  d888888b .d8888.      d8888b. db      db    db  d888b  d888888b d8b   db
 88   I8I   88 88   88 .8P  Y8.   `88'   88'  YP      88  `8D 88      88    88 88' Y8b   `88'   888o  88
