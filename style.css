@@ -1571,6 +1571,20 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 }
 /*=============================================================*/
 
+/*===================diplay only two columns in one row=======================*/
+@media all and (max-width: 1365px) and (min-width: 981px) {
+  .hosting_price-table-webhosting_row .et_pb_column {
+    width: 47% !important;
+		margin-top: 30px;
+	}
+}
+/*============================================================================*/
+
+/*===================Remove right and left Padding of Accordion for mobile view=======================*/
+.hosting_price-table-webhosting_accordion .et_pb_toggle{
+  padding: 20px 0px 20px 0px;
+}
+/*====================================================================================================*/
 
 /*
  .d8b.  d8888b. d8888b.       .o88b.  .d8b.  d888888b  .d8b.  db       .d88b.   d888b
