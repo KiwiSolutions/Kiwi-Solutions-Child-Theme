@@ -2016,7 +2016,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*==================================================================*/
 
 /*===================make submit-button orange=======================*/
-.footer_contactform_orange {
+.footer_contactform_orange .wpcf7-submit {
   background-color: #FF6B00;
 }
 /*===================================================================*/
