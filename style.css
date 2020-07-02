@@ -1818,6 +1818,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*============================================================================*/
 
 /*===================Adjust styles of contact-button=======================*/
+.footer_contact-line-above-form_get-advice_orange,
 .footer_contact-line-above-form_get-advice_blue,
 .footer_contact-line-above-form_get-advice_red,
 .footer_contact-line-above-form_get-advice {
@@ -1828,6 +1829,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*==============================================================================*/
 
 /*===================Style the contact-button link=======================*/
+.footer_contact-line-above-form_get-advice_orange,
 .footer_contact-line-above-form_get-advice_blue,
 .footer_contact-line-above-form_get-advice_red,
 .footer_contact-line-above-form_get-advice {
@@ -1854,6 +1856,12 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 }
 /*=======================================================================*/
 
+/*===================make contact-button link orange=======================*/
+.footer_contact-line-above-form_get-advice_orange {
+  background-color: #FF6B00;
+}
+/*=========================================================================*/
+
 /*? ************************************************************************ */
 
 /*? ************************************************************************ */
@@ -1868,6 +1876,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
   /*===========================================================================*/
 
   /*===================Adjust styles of contact-button=======================*/
+  .footer_contact-line-above-form_get-advice_orange,
   .footer_contact-line-above-form_get-advice_blue,
   .footer_contact-line-above-form_get-advice_red,
   .footer_contact-line-above-form_get-advice {
@@ -1879,6 +1888,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
   /*==============================================================================*/
 
   /*===================Style the contact-button link=======================*/
+  .footer_contact-line-above-form_get-advice_orange a,
   .footer_contact-line-above-form_get-advice_blue a,
   .footer_contact-line-above-form_get-advice_red a,
   .footer_contact-line-above-form_get-advice a {
@@ -1904,6 +1914,12 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
     background-color: #123996;
   }
   /*=======================================================================*/
+
+  /*===================make contact-button link orange=======================*/
+  .footer_contact-line-above-form_get-advice_orange a {
+    background-color: #FF6B00;
+  }
+  /*=========================================================================*/
 }
 /*? ************************************************************************ */
 
@@ -1975,8 +1991,6 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*===================================================================================================*/
 
 /*===================Style of Submitbutton=======================*/
-.footer_contactform_red .wpcf7-submit,
-.footer_contactform_blue .wpcf7-submit,
 .footer_contactform .wpcf7-submit {
   font-size: 14px;
   font-weight: 700;
@@ -1995,9 +2009,17 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 }
 /*===================================================================*/
 
+/*===================make submit-button blue=======================*/
 .footer_contactform_blue .wpcf7-submit {
   background-color: #123996;
 }
+/*==================================================================*/
+
+/*===================make submit-button orange=======================*/
+.footer_contactform_orange {
+  background-color: #FF6B00;
+}
+/*===================================================================*/
 
 /*===================Make the button-text stay in the middle when hover is aktive=======================*/
 .footer_contactform .wpcf7-submit:hover {
