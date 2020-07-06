@@ -314,9 +314,14 @@ jQuery(document).ready(function ($) {
         ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀       ▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀
 
   */
+/* ******************************************************** */
+/*               switch translation pricetable              */
+/* ******************************************************** */
 
 jQuery(document).ready(function ($) {
-  
+  $(".texts_translation_price-table_technical-texts_row").hide();
+  $(".texts_translation_price-table_normal-texts_inactive-button").hide();
+  $(".texts_translation_price-table_normal-texts_active-button").hide();
 
   function TextsHideAll() {
     $(".texts_translation_price-table_normal-texts_row").hide();
@@ -331,6 +336,18 @@ jQuery(document).ready(function ($) {
   jQuery(".texts_translation_price-table_normal-texts_inactive-button").click(
     function (e) {
       TextsHideAll();
+      $(".texts_translation_price-table_normal-texts_inactive-button").show();
+      $(".texts_translation_price-table_technical-texts_active-button").show();
+      $(".texts_translation_price-table_normal-texts_row").show();
+    }
+  );
+
+  jQuery(".texts_translation_price-table_technical-texts_inactive-button").click(
+    function (e) {
+      TextsHideAll();
+      $(".texts_translation_price-table_technical-texts_row").show();
+      $(".texts_translation_price-table_normal-texts_inactive-button").show();
+      $(".texts_translation_price-table_normal-texts_active-button").show();
     }
   );
 });
