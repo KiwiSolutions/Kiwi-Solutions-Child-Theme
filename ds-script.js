@@ -255,184 +255,6 @@ jQuery(document).ready(function ($) {
 });
 //=======================
 
-
-
-/*
- ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄
-▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌
-▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌░▌     ▐░▌
-▐░▌       ▐░▌▐░▌          ▐░▌               ▐░▌     ▐░▌          ▐░▌▐░▌    ▐░▌
-▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄      ▐░▌     ▐░▌ ▄▄▄▄▄▄▄▄ ▐░▌ ▐░▌   ▐░▌
-▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░▌▐░░░░░░░░▌▐░▌  ▐░▌  ▐░▌
-▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀█░▌     ▐░▌     ▐░▌ ▀▀▀▀▀▀█░▌▐░▌   ▐░▌ ▐░▌
-▐░▌       ▐░▌▐░▌                    ▐░▌     ▐░▌     ▐░▌       ▐░▌▐░▌    ▐░▌▐░▌
-▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄█░▌ ▄▄▄▄█░█▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░▌     ▐░▐░▌
-▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌      ▐░░▌
- ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀
-
-*/
-
-/* Hide & Show Sections */
-
-jQuery(document).ready(function () {
-  //HIDE THINGS ON PAGE DESIGN
-  jQuery(".design_logo_standard_btn_inactive").hide();
-  jQuery(".design_logo_pro_btn_active").hide();
-  jQuery("#design_logo_pro_section").hide();
-  jQuery(".design_webdesign_inhouse_btn_inactive").hide();
-  jQuery(".design_webdesign_designnetzwerk_btn_active").hide();
-  jQuery("#design_webdesign_designnetzwerk_section").hide();
-  jQuery(".design_banner_inhouse_btn_inactive").hide();
-  jQuery(".design_banner_designnetzwerk_btn_active").hide();
-  jQuery("#design_banner_designnetzwerk_section").hide();
-  //==========================
-});
-
-//BUTTON FUNCTIONS ON PAGE DESIGN
-//Logo Standrad Active
-jQuery(".design_logo_standard_btn_active").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_logo_standard_btn_inactive").hide();
-  jQuery(".design_logo_pro_btn_active").hide();
-  jQuery("#design_logo_pro_section").hide();
-  jQuery(".design_logo_pro_btn_inactive").show();
-  jQuery(".design_logo_standard_btn_active").show();
-  jQuery("#design_logo_standard_section").show();
-});
-//====================
-//
-//Logo Standrad Inactive
-jQuery(".design_logo_standard_btn_inactive").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_logo_standard_btn_inactive").hide();
-  jQuery(".design_logo_pro_btn_active").hide();
-  jQuery("#design_logo_pro_section").hide();
-  jQuery(".design_logo_pro_btn_inactive").show();
-  jQuery(".design_logo_standard_btn_active").show();
-  jQuery("#design_logo_standard_section").show();
-});
-//======================
-//
-//Logo Pro Active
-jQuery(".design_logo_pro_btn_active").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_logo_standard_btn_inactive").show();
-  jQuery(".design_logo_pro_btn_active").show();
-  jQuery("#design_logo_pro_section").show();
-  jQuery(".design_logo_pro_btn_inactive").hide();
-  jQuery(".design_logo_standard_btn_active").hide();
-  jQuery("#design_logo_standard_section").hide();
-});
-//===============
-//
-//Design Logo Pro Inactive
-jQuery(".design_logo_pro_btn_inactive").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_logo_standard_btn_inactive").show();
-  jQuery(".design_logo_pro_btn_active").show();
-  jQuery("#design_logo_pro_section").show();
-  jQuery(".design_logo_pro_btn_inactive").hide();
-  jQuery(".design_logo_standard_btn_active").hide();
-  jQuery("#design_logo_standard_section").hide();
-});
-//=================
-//
-// Design Webdesign InHouse Button Inactive
-jQuery(".design_webdesign_inhouse_btn_inactive").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_webdesign_inhouse_btn_active").show();
-  jQuery("#design_webdesign_inhouse_section").show();
-  jQuery(".design_webdesign_designnetzwerk_btn_inactive").show();
-  jQuery(".design_webdesign_inhouse_btn_inactive").hide();
-  jQuery(".design_webdesign_designnetzwerk_btn_active").hide();
-  jQuery("#design_webdesign_designnetzwerk_section").hide();
-});
-// ========================================
-//
-// Design Webdesign InHouse Button Active
-jQuery(".design_webdesign_inhouse_btn_active").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_webdesign_inhouse_btn_active").show();
-  jQuery("#design_webdesign_inhouse_section").show();
-  jQuery(".design_webdesign_designnetzwerk_btn_inactive").show();
-  jQuery(".design_webdesign_inhouse_btn_inactive").hide();
-  jQuery(".design_webdesign_designnetzwerk_btn_active").hide();
-  jQuery("#design_webdesign_designnetzwerk_section").hide();
-});
-// ========================================
-//
-// Design Webdesign Designnetzwerk Button Inactive
-jQuery(".design_webdesign_designnetzwerk_btn_inactive").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_webdesign_designnetzwerk_btn_active").show();
-  jQuery("#design_webdesign_designnetzwerk_section").show();
-  jQuery(".design_webdesign_inhouse_btn_inactive").show();
-  jQuery(".design_webdesign_designnetzwerk_btn_inactive").hide();
-  jQuery(".design_webdesign_inhouse_btn_active").hide();
-  jQuery("#design_webdesign_inhouse_section").hide();
-});
-// ========================================
-//
-// Design Webdesign Designnetzwerk Button Active
-jQuery(".design_webdesign_designnetzwerk_btn_active").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_webdesign_designnetzwerk_btn_active").show();
-  jQuery("#design_webdesign_designnetzwerk_section").show();
-  jQuery(".design_webdesign_inhouse_btn_inactive").show();
-  jQuery(".design_webdesign_designnetzwerk_btn_inactive").hide();
-  jQuery(".design_webdesign_inhouse_btn_active").hide();
-  jQuery("#design_webdesign_inhouse_section").hide();
-});
-// ========================================
-//
-// Design Bannerdesign InHouse Button Inactive
-jQuery(".design_banner_inhouse_btn_inactive").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_banner_inhouse_btn_active").show();
-  jQuery("#design_banner_inhouse_section").show();
-  jQuery(".design_banner_designnetzwerk_btn_inactive").show();
-  jQuery(".design_banner_inhouse_btn_inactive").hide();
-  jQuery(".design_banner_designnetzwerk_btn_active").hide();
-  jQuery("#design_banner_designnetzwerk_section").hide();
-});
-// ========================================
-//
-// Design Bannerdesign InHouse Button Active
-jQuery(".design_banner_inhouse_btn_active").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_banner_inhouse_btn_active").show();
-  jQuery("#design_banner_inhouse_section").show();
-  jQuery(".design_banner_designnetzwerk_btn_inactive").show();
-  jQuery(".design_banner_inhouse_btn_inactive").hide();
-  jQuery(".design_banner_designnetzwerk_btn_active").hide();
-  jQuery("#design_banner_designnetzwerk_section").hide();
-});
-// ========================================
-//
-// Design Bannerdesign Designnetzwerk Button Inactive
-jQuery(".design_banner_designnetzwerk_btn_inactive").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_banner_designnetzwerk_btn_active").show();
-  jQuery("#design_banner_designnetzwerk_section").show();
-  jQuery(".design_banner_inhouse_btn_inactive").show();
-  jQuery(".design_banner_designnetzwerk_btn_inactive").hide();
-  jQuery(".design_banner_inhouse_btn_active").hide();
-  jQuery("#design_banner_inhouse_section").hide();
-});
-// ========================================
-//
-// Design Bannerdesign Designnetzwerk Button Active
-jQuery(".design_banner_designnetzwerk_btn_active").click(function (e) {
-  e.preventDefault();
-  jQuery(".design_banner_designnetzwerk_btn_active").show();
-  jQuery("#design_banner_designnetzwerk_section").show();
-  jQuery(".design_banner_inhouse_btn_inactive").show();
-  jQuery(".design_banner_designnetzwerk_btn_inactive").hide();
-  jQuery(".design_banner_inhouse_btn_active").hide();
-  jQuery("#design_banner_inhouse_section").hide();
-});
-// ========================================
-
 /*
  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄
 ▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌▐░░░░░░░░░░░▌
@@ -448,110 +270,68 @@ jQuery(".design_banner_designnetzwerk_btn_active").click(function (e) {
 
 */
 
-
 /* ************************************************* */
 /*               webhosting price table              */
 /* ************************************************* */
 
-
-
 jQuery(document).ready(function ($) {
-	// Switch button for the webhosting price table
-	$("#hosting_price-table-webhosting_switch-button_1-month").addClass(
-	  "aktive_slider-button"
-	);
-	$(".hosting_price-table-webhosting_1-year_row").hide();
-  
-	$("#hosting_price-table-webhosting_switch-button_1-month").click(function () {
-	  $(this).addClass("aktive_slider-button");
-	  $("#hosting_price-table-webhosting_switch-button_1-year").removeClass(
-		"aktive_slider-button"
-	  );
-	  $(".hosting_price-table-webhosting_1-year_row").hide();
-	  $(".hosting_price-table-webhosting_1-month_row").show();
-	});
-  
-	$("#hosting_price-table-webhosting_switch-button_1-year").click(function () {
-	  $(this).addClass("aktive_slider-button");
-	  $("#hosting_price-table-webhosting_switch-button_1-month").removeClass(
-		"aktive_slider-button"
-	  );
-	  $(".hosting_price-table-webhosting_1-month_row").hide();
-	  $(".hosting_price-table-webhosting_1-year_row").show();
-	});
+  // Switch button for the webhosting price table
+  $("#hosting_price-table-webhosting_switch-button_1-month").addClass(
+    "aktive_slider-button"
+  );
+  $(".hosting_price-table-webhosting_1-year_row").hide();
+
+  $("#hosting_price-table-webhosting_switch-button_1-month").click(function () {
+    $(this).addClass("aktive_slider-button");
+    $("#hosting_price-table-webhosting_switch-button_1-year").removeClass(
+      "aktive_slider-button"
+    );
+    $(".hosting_price-table-webhosting_1-year_row").hide();
+    $(".hosting_price-table-webhosting_1-month_row").show();
   });
 
+  $("#hosting_price-table-webhosting_switch-button_1-year").click(function () {
+    $(this).addClass("aktive_slider-button");
+    $("#hosting_price-table-webhosting_switch-button_1-month").removeClass(
+      "aktive_slider-button"
+    );
+    $(".hosting_price-table-webhosting_1-month_row").hide();
+    $(".hosting_price-table-webhosting_1-year_row").show();
+  });
+});
+
 /*
- ▄         ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄
-▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░▌      ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌
-▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀█░█▀▀▀▀  ▀▀▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░▌░▌     ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌░▌     ▐░▌
-▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌               ▐░▌               ▐░▌▐░▌       ▐░▌▐░▌▐░▌    ▐░▌▐░▌          ▐░▌          ▐░▌▐░▌    ▐░▌
-▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄      ▐░▌      ▄▄▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌▐░▌ ▐░▌   ▐░▌▐░▌ ▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌ ▐░▌   ▐░▌
-▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌  ▐░▌  ▐░▌▐░▌▐░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌  ▐░▌  ▐░▌
-▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀█░█▀▀  ▀▀▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀      ▐░▌     ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌       ▐░▌▐░▌   ▐░▌ ▐░▌▐░▌ ▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌   ▐░▌ ▐░▌
-▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌     ▐░▌            ▐░▌▐░▌               ▐░▌     ▐░▌          ▐░▌       ▐░▌▐░▌    ▐░▌▐░▌▐░▌       ▐░▌▐░▌          ▐░▌    ▐░▌▐░▌
-▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌      ▐░▌  ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄      ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░▌     ▐░▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌     ▐░▐░▌
-▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌      ▐░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌      ▐░░▌
- ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀        ▀▀
+   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄       ▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄
+  ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌     ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+   ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀  ▐░▌   ▐░▌  ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀
+       ▐░▌     ▐░▌            ▐░▌ ▐░▌       ▐░▌     ▐░▌
+       ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄    ▐░▐░▌        ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄
+       ▐░▌     ▐░░░░░░░░░░░▌    ▐░▌         ▐░▌     ▐░░░░░░░░░░░▌
+       ▐░▌     ▐░█▀▀▀▀▀▀▀▀▀    ▐░▌░▌        ▐░▌      ▀▀▀▀▀▀▀▀▀█░▌
+       ▐░▌     ▐░▌            ▐░▌ ▐░▌       ▐░▌               ▐░▌
+       ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄  ▐░▌   ▐░▌      ▐░▌      ▄▄▄▄▄▄▄▄▄█░▌
+       ▐░▌     ▐░░░░░░░░░░░▌▐░▌     ▐░▌     ▐░▌     ▐░░░░░░░░░░░▌
+        ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀       ▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀
 
-*/
+  */
 
-/* ************************************************* */
-/*              JS HIDE SHOW SECTIONS                */
-/* ************************************************* */
+jQuery(document).ready(function ($) {
+  
 
-jQuery(document).ready(function () {
-  //Hide Things on Page Uebersetzungen
-  jQuery("#uebersetzungen_preise_normale_texte_btn_inactive").hide();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_active").hide();
-  jQuery("#uebersetzungen_preise_fachtexte_section").hide();
-  //==================================
-});
+  function TextsHideAll() {
+    $(".texts_translation_price-table_normal-texts_row").hide();
+    $(".texts_translation_price-table_technical-texts_row").hide();
+    $(".texts_translation_price-table_technical-texts_active-button").hide();
+    $(".texts_translation_price-table_technical-texts_inactive-button").hide();
+    $(".texts_translation_price-table_normal-texts_inactive-button").hide();
+    $(".texts_translation_price-table_normal-texts_active-button").hide();
+  }
 
-//UEBERSETZUNGEN Preistabelle Normale Texte Button Inactive
-jQuery("#uebersetzungen_preise_normale_texte_btn_inactive").click(function (e) {
-  e.preventDefault();
-  jQuery("#uebersetzungen_preise_normale_texte_btn_active").show();
-  jQuery("#uebersetzungen_preise_normale_texte_section").show();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_inactive").show();
-  jQuery("#uebersetzungen_preise_normale_texte_btn_inactive").hide();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_active").hide();
-  jQuery("#uebersetzungen_preise_fachtexte_section").hide();
-});
-//=======================================================
-//
-//UEBERSETZUNGEN Preistabelle Normale Texte Button Active
-jQuery("#uebersetzungen_preise_normale_texte_btn_active").click(function (e) {
-  e.preventDefault();
-  jQuery("#uebersetzungen_preise_normale_texte_btn_active").show();
-  jQuery("#uebersetzungen_preise_normale_texte_section").show();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_inactive").show();
-  jQuery("#uebersetzungen_preise_normale_texte_btn_inactive").hide();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_active").hide();
-  jQuery("#uebersetzungen_preise_fachtexte_section").hide();
-});
-//=======================================================
-//
-//UEBERSETZUNGEN Preistabelle Fachtexte Button Inactive
-jQuery("#uebersetzungen_preise_fachtexte_btn_inactive").click(function (e) {
-  e.preventDefault();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_active").show();
-  jQuery("#uebersetzungen_preise_fachtexte_section").show();
-  jQuery("#uebersetzungen_preise_normale_texte_btn_inactive").show();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_inactive").hide();
-  jQuery("#uebersetzungen_preise_normale_texte_btn_active").hide();
-  jQuery("#uebersetzungen_preise_normale_texte_section").hide();
-});
-//=======================================================
-//
-//UEBERSETZUNGEN Preistabelle Fachtexte Button Active
-jQuery("#uebersetzungen_preise_fachtexte_btn_active").click(function (e) {
-  e.preventDefault();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_active").show();
-  jQuery("#uebersetzungen_preise_fachtexte_section").show();
-  jQuery("#uebersetzungen_preise_normale_texte_btn_inactive").show();
-  jQuery("#uebersetzungen_preise_fachtexte_btn_inactive").hide();
-  jQuery("#uebersetzungen_preise_normale_texte_btn_active").hide();
-  jQuery("#uebersetzungen_preise_normale_texte_section").hide();
+  //UEBERSETZUNGEN Preistabelle Fachtexte Button Active
+  jQuery(".texts_translation_price-table_normal-texts_inactive-button").click(
+    function (e) {
+      TextsHideAll();
+    }
+  );
 });
 //=======================================================
