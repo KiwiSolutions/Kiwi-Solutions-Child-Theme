@@ -1918,7 +1918,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*?                  CONTACTFORM                     */
 /*? ************************************************ */
 /*===================style error validation message above the contact form=======================*/
-.wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
   color: #d8000c;
   background-color: #ffbaba;
   border: 0;
@@ -1927,7 +1927,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*===============================================================================================*/
 
 /*===================style confirm message 'is sent' above the contact form=======================*/
-.wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+.wpcf7 form.sent .wpcf7-response-output {
   color: #4f8a10 !important;
   background-color: #dff2bf !important;
   border: 0;
