@@ -296,6 +296,14 @@ db   8D 88.     88 `88.  `8bd8'    .88.   Y8b  d8 88.     db   8D
   }
 }
 /*===================================================================*/
+
+/*===================make buttons of sub-services bigger in small desktop view=======================*/
+@media all and (min-width: 981px) and (max-width: 1365px) {
+  #home_weitere-leistungen_tablet-mobile {
+    width: 95%;
+  }
+}
+/*===================================================================================================*/
 /*? **************************************** */
 
 /*
@@ -1566,13 +1574,13 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 @media all and (max-width: 1365px) and (min-width: 981px) {
   .hosting_price-table-webhosting_row .et_pb_column {
     width: 47% !important;
-		margin-top: 30px;
-	}
+    margin-top: 30px;
+  }
 }
 /*============================================================================*/
 
 /*===================Remove right and left Padding of Accordion for mobile view=======================*/
-.hosting_price-table-webhosting_accordion .et_pb_toggle{
+.hosting_price-table-webhosting_accordion .et_pb_toggle {
   padding: 20px 0px 20px 0px;
 }
 /*====================================================================================================*/
@@ -1638,7 +1646,6 @@ YP   YP 88      88            `Y88P' YP   YP    YP    YP   YP Y88888P  `Y88P'   
   border-radius: 10px;
 }
 /*====================================================================================*/
-
 
 /*
 db   d8b   db db   db  .d88b.  d888888b .d8888.      d8888b. db      db    db  d888b  d888888b d8b   db
@@ -1849,7 +1856,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
 /*===================make contact-button link orange=======================*/
 .footer_contact-line-above-form_get-advice_orange {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
 }
 /*=========================================================================*/
 
@@ -1908,7 +1915,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
   /*===================make contact-button link orange=======================*/
   .footer_contact-line-above-form_get-advice_orange a {
-    background-color: #FF6B00;
+    background-color: #ff6b00;
   }
   /*=========================================================================*/
 }
@@ -1918,7 +1925,8 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 /*?                  CONTACTFORM                     */
 /*? ************************************************ */
 /*===================style error validation message above the contact form=======================*/
-.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
   color: #d8000c;
   background-color: #ffbaba;
   border: 0;
@@ -2008,7 +2016,7 @@ YP   YP Y8888D' Y8888D' Y888888P    YP    Y888888P  `Y88P'  VP   V8P YP   YP Y88
 
 /*===================make submit-button orange=======================*/
 .footer_contactform_orange .wpcf7-submit {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
 }
 /*===================================================================*/
 
