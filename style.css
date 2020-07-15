@@ -845,6 +845,195 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
 /*?                    Extended                      */
 /*? ************************************************ */
 
+/*===================style first row of both tables=======================*/
+#tablepress-3 thead th,
+#tablepress-4 thead th {
+  background-color: #d7e0d8;
+  height: 46px;
+}
+.tablepress-id-3.fixedHeader-floating thead th {
+  background-color: #d7e0d8;
+}
+/*========================================================================*/
+
+/*===================adjust the height of rows to compensate the differences in height=======================*/
+#tablepress-3 .row-2,
+#tablepress-4 .row-2 {
+  height: 228px;
+}
+
+#tablepress-3 .row-12,
+#tablepress-3 .row-18,
+#tablepress-3 .row-21,
+#tablepress-3 .row-26,
+#tablepress-3 .row-27,
+#tablepress-3 .row-28,
+#tablepress-3 .row-29,
+#tablepress-3 .row-35,
+#tablepress-3 .row-40,
+#tablepress-4 .row-12,
+#tablepress-4 .row-18,
+#tablepress-4 .row-21,
+#tablepress-4 .row-26,
+#tablepress-4 .row-27,
+#tablepress-4 .row-28,
+#tablepress-4 .row-29,
+#tablepress-4 .row-35,
+#tablepress-4 .row-40,
+#tablepress-3 .row-14,
+#tablepress-4 .row-14{
+  height: 65px;
+}
+
+#tablepress-3 .row-25,
+#tablepress-4 .row-25 {
+  height: 120px;
+}
+
+#tablepress-3 .row-37,
+#tablepress-3 .row-48,
+#tablepress-4 .row-37,
+#tablepress-4 .row-48 {
+  height: 93px;
+}
+
+#tablepress-4 .row-50,
+#tablepress-3 .row-50 {
+  height: 78px;
+}
+/*===========================================================================================================*/
+
+/*===================Styling font of the table=======================*/
+.tablepress-id-3,
+.tablepress-id-4 {
+  color: #17381b !important;
+  font-family: "Lato", sans-serif;
+}
+/*===================================================================*/
+
+/*===================styling the first two rows of the table=======================*/
+.tablepress-id-3 .row-1,
+.tablepress-id-4 .row-1 {
+  background-color: #d7e0d8 !important;
+  font-weight: 700;
+  text-align: left;
+}
+.tablepress-id-3 .row-2,
+.tablepress-id-4 .row-2 {
+  background-color: #d7e0d8 !important;
+}
+/*============================================================================*/
+
+
+/*===================add padding to the cells of the first row=======================*/
+.tablepress-id-3 .row-1 td {
+  padding-top: 23px;
+}
+/*===================================================================================*/
+
+/*===================added background color=======================*/
+.tablepress-id-3 tr:nth-child(odd),
+.tablepress-id-4 tr:nth-child(odd) {
+  background-color: #f7faf8;
+}
+
+.tablepress-id-3 tr:nth-child(even),
+.tablepress-id-4 tr:nth-child(even) {
+  background-color: white;
+}
+/*================================================================*/
+
+/*===================remove the borders of the table=======================*/
+.tablepress-id-3 table,
+.tablepress-id-3 th,
+.tablepress-id-3 td,
+.tablepress-id-4 table,
+.tablepress-id-4 th,
+.tablepress-id-4 td {
+  border: 0px solid transparent !important;
+}
+/*=========================================================================*/
+
+/*===================add right border to first column=======================*/
+.tablepress-id-4 .column-1 {
+  border-right: 1px solid #17381b !important;
+}
+
+.tablepress-id-4 .row-1 .column-1,
+.tablepress-id-4 .row-2 .column-1,
+.tablepress-id-4 .row-3 .column-1,
+.tablepress-id-4 .row-13 .column-1,
+.tablepress-id-4 .row-17 .column-1,
+.tablepress-id-4 .row-24 .column-1,
+.tablepress-id-4 .row-32 .column-1,
+.tablepress-id-4 .row-38 .column-1,
+.tablepress-id-4 .row-45 .column-1,
+.tablepress-id-4 .row-49 .column-1,
+.tablepress-id-4 .row-50 .column-1 {
+  border-right: none !important;
+}
+/*==========================================================================*/
+
+/*===================style the last two rows=======================*/
+.tablepress-id-3 .row-49,
+.tablepress-id-3 .row-50,
+.tablepress-id-4 .row-49,
+.tablepress-id-4 .row-50 {
+  background-color: #9aa49b !important;
+  font-weight: bold;
+}
+/*================================================================*/
+
+/*===================style the subheaders of the table=======================*/
+.tablepress-id-3 .row-3,
+.tablepress-id-3 .row-13,
+.tablepress-id-3 .row-17,
+.tablepress-id-3 .row-24,
+.tablepress-id-3 .row-32,
+.tablepress-id-3 .row-38,
+.tablepress-id-3 .row-45 {
+  height: 39px;
+}
+
+.tablepress-id-3 .row-3,
+.tablepress-id-3 .row-13,
+.tablepress-id-3 .row-17,
+.tablepress-id-3 .row-24,
+.tablepress-id-3 .row-32,
+.tablepress-id-3 .row-38,
+.tablepress-id-3 .row-45,
+.tablepress-id-4 .row-3,
+.tablepress-id-4 .row-13,
+.tablepress-id-4 .row-17,
+.tablepress-id-4 .row-24,
+.tablepress-id-4 .row-32,
+.tablepress-id-4 .row-38,
+.tablepress-id-4 .row-45 {
+  font-weight: bold;
+  background-color: #d3dbd4 !important;
+}
+/*===========================================================================*/
+
+/*===================styling the cells of Price row=======================*/
+.tablepress-id-3 .row-50 td,
+.tablepress-id-4 .row-50 td {
+  min-width: 215px;
+  padding: 25px 0px;
+}
+/*=====================================================================*/
+
+/*===================give the first column a min width=======================*/
+.tablepress-id-4 .column-1 {
+  min-width: 240px;
+  max-width: 240px;
+}
+/*===========================================================================*/
+
+/*===================set the display of the table=======================*/
+.tablepress-id-3 {
+  display: table !important;
+}
+/*======================================================================*/
 
 /*? ************************************************ */
 
