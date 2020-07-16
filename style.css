@@ -818,9 +818,10 @@ d8888b. d8888b. d888888b  .o88b. d88888b      d888888b  .d8b.  d8888b. db      d
   z-index: 2;
   top: 50%;
   left: 30%;
-  width: 200px;
+  width: 220px;
   padding: 5px;
   background-color: rgb(230, 230, 230, 0.8);
+  white-space: normal;
 }
 /*=====================================================================================*/
 
